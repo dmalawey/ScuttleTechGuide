@@ -2,6 +2,7 @@
 SCUTTLE Technical Guide
 
 View this page as a website [HERE](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true)
+View Github repository [HERE](https://github.com/dmalawey/ScuttleTechGuide)
 
 # Signal Cables
 To build the signal cables, they will look like this

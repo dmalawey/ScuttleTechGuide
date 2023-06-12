@@ -5,7 +5,7 @@ View this page as a website [HERE](https://docsify-this.net/?basePath=https://ra
 
 # Signal Cables
 To build the signal cables, they will look like this
-![dupont cables](image/wg_motor_leads.png)
+![dupont cables](image/wg_cables_dupont.png)
 _Figure: dupont cables_
 
 And also the encoder wires consist of dupont terminals and ribbon cables.

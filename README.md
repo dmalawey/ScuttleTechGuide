@@ -4,4 +4,6 @@ SCUTTLE Technical Guide
 # Wiring Guide
 
 ## Encoders
-![encoders](/image/encoders.png)
+Encoder wires consist of dupont terminals and ribbon cables.
+![encoders](/image/wg_cable_encoders.png)
+_Figure: encoder cables diagram_

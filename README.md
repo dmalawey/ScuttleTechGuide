@@ -2,6 +2,7 @@
 SCUTTLE Technical Guide
 
 View this page as a website [HERE](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true)
+
 View Github repository [HERE](https://github.com/dmalawey/ScuttleTechGuide)
 
 # Signal Cables
@@ -46,9 +47,16 @@ Encoder wires consist of dupont terminals and ribbon cables.
 ![encoders](image/wg_cable_encoder.png)
 _Figure: encoder cables diagram_
 
+
 # Wiring Addons
+> This section to include popular addons such as RPLIDAR, ultrasonic sensor, and more.
+
+---
 
 # CPU Options
+This section covers the differences in wiring for various SBCs (single board computers).
+
+---
 
 ## Raspberry PI 4
 

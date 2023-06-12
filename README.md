@@ -59,7 +59,7 @@ _Figure: Pi wiring overview_
 ## TI TDA4VM SK "Edge AI"
 
 Overview of wiring SCUTTLE with TDA4VM:
-![EDGE AI wiring overview](image/wg_overview_tda4vm.png)
+![EDGE AI wiring overview](image/wg_overview_TDA4VM.png)
 _Figure: Edge AI wiring overview_
 
 

@@ -1,6 +1,8 @@
 # ScuttleTechGuide
 SCUTTLE Technical Guide
 
+[this is my button](https://www.google.com/ ':class=button')
+
 View this page as a website [HERE](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true)
 
 View Github repository [HERE](https://github.com/dmalawey/ScuttleTechGuide)

@@ -7,7 +7,10 @@ View this page as a website [HERE](https://docsify-this.net/?basePath=https://ra
 
 View Github repository [HERE](https://github.com/dmalawey/ScuttleTechGuide)
 
-# Signal Cables
+
+# Wiring Guide
+
+## Signal Cables
 To build the signal cables, they will look like this
 ![dupont cables](image/wg_cables_dupont.png)
 _Figure: dupont cables_
@@ -15,8 +18,6 @@ _Figure: dupont cables_
 And also the encoder wires consist of dupont terminals and ribbon cables.
 ![encoders](image/wg_cable_encoder.png)
 _Figure: encoder cables diagram_
-
-# Wiring Guide
 
 ## Motors
 
@@ -96,3 +97,14 @@ _Edge AI Pinout_
 | I2S_FS    | 35  | 36 | GPIO |
 | GPIO      | 37  | 38 | I2S_DIN |
 | GND       | 39  | 40 | I2S_DOUT |
+
+---
+
+# 3D Printing
+
+---
+
+> Standard SCUTTLE v3.0 requires about 330g of 3D printed parts.  Everything is designed for manufacturing in FFF with no supports.
+
+![prints overview](image/print_full_set.png)
+_Figure: All 3D Printed Parts for a SCUTTLE kit_

@@ -1,12 +1,8 @@
 # ScuttleTechGuide
 SCUTTLE Technical Guide
 
-[this is my button](https://www.google.com/ ':class=button')
-
-View this page as a website [HERE](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true)
-
-View Github repository [HERE](https://github.com/dmalawey/ScuttleTechGuide)
-
+[Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button')
+[Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true ':class=button')
 
 # Wiring Guide
 
@@ -108,3 +104,23 @@ _Edge AI Pinout_
 
 ![prints overview](image/print_full_set.png)
 _Figure: All 3D Printed Parts for a SCUTTLE kit_
+
+# Benchmarking
+
+As an open source community, we aim to gather best practices from leading open projects.  The multidisciplinary nature of SCUTTLE means no existing model fits us, but many elements have been resolved by great communities with an ongoing development and outcomes.
+
+## Community Stars
+
+| Team              | Site                                                                                          | Feature to Aspire to:                                 |
+| ----------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| Voron 3D Printer  | [Voron Docs](https://docs.vorondesign.com/)                                                   | well-made multidisciplinary documentation             |
+| Thingiverse       | [Thingiverse Library](https://www.thingiverse.com/)                                           | attracted millions - easy to sign up, easy to use     |
+| GrabCAD           | [example user](https://grabcad.com/wander.linger-2)                                           | uses user ID, great SEO                               |
+| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | attracted high-effort contributions - peak modularity |
+| Leo Rover         | [Leo Dev Resources](https://www.leorover.tech/developers)                                     | Use github for software development                   |
+| Printables        | [Printables Library](https://www.printables.com/)                                             | Helps designers post designs with clear licensing     |
+| Hackaday          | [Hackaday.io](https://www.hackaday.io/)                                                       | Curating well-engineered designs                      |
+| Hackster.io       | [Hackster Contests](https://www.hackster.io/contests)                                         | Attracts all types of designers with nice contests    |
+| Leo Rover         | Leo 3D Models                                                                                 | Convenient in-browser viewing of 3D models            |
+| Viam              | viam discord                                                                                  | Refined Discord channel for asking questions          |
+| Texas Instruments | [TI Robotics Academy](https://dev.ti.com/tirex/global?id=com.ti.Jacinto%20Robotics%20Academy) | Research-grade tasks taught in Edge AI                |

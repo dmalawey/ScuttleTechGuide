@@ -111,16 +111,16 @@ As an open source community, we aim to gather best practices from leading open p
 
 ## Community Stars
 
-| Team              | Site                                                                                          | Feature to Aspire to:                                 |
-| ----------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| Voron 3D Printer  | [Voron Docs](https://docs.vorondesign.com/)                                                   | well-made multidisciplinary documentation             |
-| Thingiverse       | [Thingiverse Library](https://www.thingiverse.com/)                                           | attracted millions - easy to sign up, easy to use     |
-| GrabCAD           | [example user](https://grabcad.com/wander.linger-2)                                           | uses user ID, great SEO                               |
-| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | attracted high-effort contributions - peak modularity |
-| Leo Rover         | [Leo Dev Resources](https://www.leorover.tech/developers)                                     | Use github for software development                   |
-| Printables        | [Printables Library](https://www.printables.com/)                                             | Helps designers post designs with clear licensing     |
-| Hackaday          | [Hackaday.io](https://www.hackaday.io/)                                                       | Curating well-engineered designs                      |
-| Hackster.io       | [Hackster Contests](https://www.hackster.io/contests)                                         | Attracts all types of designers with nice contests    |
-| Leo Rover         | Leo 3D Models                                                                                 | Convenient in-browser viewing of 3D models            |
-| Viam              | viam discord                                                                                  | Refined Discord channel for asking questions          |
-| Texas Instruments | [TI Robotics Academy](https://dev.ti.com/tirex/global?id=com.ti.Jacinto%20Robotics%20Academy) | Research-grade tasks taught in Edge AI                |
+| Team              | Site                                                                                          | Feature to Aspire to:                                       |
+| ----------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Voron 3D Printer  | [Voron Docs](https://docs.vorondesign.com/)                                                   | well-made multidisciplinary documentation                   |
+| Thingiverse       | [Thingiverse Library](https://www.thingiverse.com/)                                           | attracted millions - easy to sign up, easy to use           |
+| GrabCAD           | [GrabCAD Library](https://grabcad.com/library)                                                | in-browser Visualization - great permalinks - great tagging |
+| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | attracted high-effort contributions - peak modularity       |
+| Leo Rover         | [Leo Dev Resources](https://www.leorover.tech/developers)                                     | Use github for software development                         |
+| Printables        | [Printables Library](https://www.printables.com/)                                             | Helps designers post designs with clear licensing           |
+| Hackaday          | [Hackaday.io](https://www.hackaday.io/)                                                       | Curating well-engineered designs                            |
+| Hackster.io       | [Hackster Contests](https://www.hackster.io/contests)                                         | Attracts all types of designers with nice contests          |
+| Leo Rover         | [Leo 3D Models](https://a360.co/378zqRp)                                                      | Convenient in-browser viewing of 3D models                  |
+| Viam              | [Viam Discord](https://discord.gg/viam)                                                       | Refined Discord channel for asking questions                |
+| Texas Instruments | [TI Robotics Academy](https://dev.ti.com/tirex/global?id=com.ti.Jacinto%20Robotics%20Academy) | Research-grade tasks taught in Edge AI                      |

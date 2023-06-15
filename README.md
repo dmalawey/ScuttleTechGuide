@@ -9,9 +9,7 @@ SCUTTLE Technical Guide
 :warning: This document is in draft form as of the latest update
 
 ---
-<html>
-'/diagram/myDiagram.html'
-</html>
+<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
 
 # Wiring Guide
 

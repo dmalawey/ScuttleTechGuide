@@ -111,12 +111,14 @@ As an open source community, we aim to gather best practices from leading open p
 
 ## Community Stars
 
-| Team              | Site                                                                                          | Feature to Aspire to:                                       |
+The organizations in this table have influenced SCUTTLE organization heavily and we continue seeking out best practices from groups like them
+
+| Team              | Site                                                                                          | A Leader in:                                                |
 | ----------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Voron 3D Printer  | [Voron Docs](https://docs.vorondesign.com/)                                                   | well-made multidisciplinary documentation                   |
 | Thingiverse       | [Thingiverse Library](https://www.thingiverse.com/)                                           | attracted millions - easy to sign up, easy to use           |
 | GrabCAD           | [GrabCAD Library](https://grabcad.com/library)                                                | in-browser Visualization - great permalinks - great tagging |
-| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | attracted high-effort contributions - peak modularity       |
+| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | Attracting high-effort contributions - peak modularity      |
 | Leo Rover         | [Leo Dev Resources](https://www.leorover.tech/developers)                                     | Use github for software development                         |
 | Printables        | [Printables Library](https://www.printables.com/)                                             | Helps designers post designs with clear licensing           |
 | Hackaday          | [Hackaday.io](https://www.hackaday.io/)                                                       | Curating well-engineered designs                            |
@@ -124,3 +126,9 @@ As an open source community, we aim to gather best practices from leading open p
 | Leo Rover         | [Leo 3D Models](https://a360.co/378zqRp)                                                      | Convenient in-browser viewing of 3D models                  |
 | Viam              | [Viam Discord](https://discord.gg/viam)                                                       | Refined Discord channel for asking questions                |
 | Texas Instruments | [TI Robotics Academy](https://dev.ti.com/tirex/global?id=com.ti.Jacinto%20Robotics%20Academy) | Research-grade tasks taught in Edge AI                      |
+
+## Community Thought Leadership
+
+* Linux is the largest open source project in history, and it's founders created [TheOpenSourceWay.org](https://www.theopensourceway.org) to guide other communities.  Their publication called [The Open Source Way](https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.html#_why_do_people_participate_in_open_source_communities) offers insights to how it all works.
+* The Open Source Hardware Foundation pushes to engage hardware development teams in open source.  They have regular releases of their [State of Open Source Hardware](https://qr.scuttlerobot.org/g/58a4R641DBp), and this one is from 2021.
+* 

@@ -4,6 +4,12 @@ SCUTTLE Technical Guide
 [Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button')
 [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true ':class=button')
 
+---
+
+:warning: This document is in draft form as of the latest update
+
+---
+
 # Wiring Guide
 
 ## Signal Cables

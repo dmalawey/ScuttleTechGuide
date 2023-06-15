@@ -8,8 +8,7 @@ SCUTTLE Technical Guide
 
 :warning: This document is in draft form as of the latest update
 
-<iframe frameborder="0" style="width:100%;height:387px;" src="https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main/diagram/myEmbed.html">
-</iframe>
+<iframe frameborder="0" style="width:100%;height:387px;" src="https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main/diagram/myEmbed.html"></iframe>
 
 
 ---

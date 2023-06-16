@@ -120,24 +120,54 @@ As an open source community, we aim to gather best practices from leading open p
 
 The organizations in this table have influenced SCUTTLE organization heavily and we continue seeking out best practices from groups like them
 
-| Team              | Site                                                                                          | Admirable Open Feature:                                     |
-| ----------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Voron 3D Printer  | [Voron Docs](https://docs.vorondesign.com/)                                                   | well-made multidisciplinary documentation                   |
-| Thingiverse       | [Thingiverse Library](https://www.thingiverse.com/)                                           | attracted millions - easy to sign up, inviting to noobs     |
-| GrabCAD           | [GrabCAD Library](https://grabcad.com/library)                                                | in-browser Visualization - great permalinks - great tagging |
-| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | Attracts high-effort contributions - peak modularity        |
-| Leo Rover         | [Leo Dev Resources](https://www.leorover.tech/developers)                                     | Use github for software development                         |
-| Printables        | [Printables Library](https://www.printables.com/)                                             | Helps designers post designs with clear licensing           |
-| Hackaday          | [Hackaday.io](https://www.hackaday.io/)                                                       | Curating well-engineered designs                            |
-| Hackster.io       | [Hackster Contests](https://www.hackster.io/contests)                                         | Attracts all types of designers with nice contests          |
-| Leo Rover         | [Leo 3D Models](https://a360.co/378zqRp)                                                      | Convenient in-browser viewing of 3D models                  |
-| Viam              | [Viam Discord](https://discord.gg/viam)                                                       | Refined Discord channel for asking questions                |
-| Texas Instruments | [TI Robotics Academy](https://dev.ti.com/tirex/global?id=com.ti.Jacinto%20Robotics%20Academy) | Research-grade tasks taught in Edge AI                      |
-| uStepper Arm      | [Build Guide](https://qr.page/g/1PZfPMFuz8x)                                                  | Build Guide with detailed graphics                          |
-| Moveo Arm         | [BCN3D Moveo](https://www.bcn3d.com/bcn3d-moveo-the-future-of-learning-robotic-arm/)          | Remaining 3D Printable post-commercialization               |
-| Instructables     | [Instructables Library](https://www.instructables.com/projects)                               | Access to PDF version of every project writeup              |
+| Team              | Site                                                                                          | Feature to Aspire to:                                       | Team No. |
+| ----------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | -------- |
+| Voron 3D Printer  | [Voron Docs](https://docs.vorondesign.com/)                                                   | well-made multidisciplinary documentation                   | 1        |
+| Thingiverse       | [Thingiverse Library](https://www.thingiverse.com/)                                           | attracted millions - easy to sign up, easy to use           | 2        |
+| GrabCAD           | [GrabCAD Library](https://grabcad.com/library)                                                | in-browser Visualization - great permalinks - great tagging | 3        |
+| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | attracted high-effort contributions - peak modularity       | 4        |
+| Leo Rover         | [Leo Dev Resources](https://www.leorover.tech/developers)                                     | Use github for software development                         | 5        |
+| Printables        | [Printables Library](https://www.printables.com/)                                             | Helps designers post designs with clear licensing           | 6        |
+| Hackaday          | [Hackaday.io](https://www.hackaday.io/)                                                       | Curating well-engineered designs                            | 7        |
+| Hackster.io       | [Hackster Contests](https://www.hackster.io/contests)                                         | Attracts all types of designers with nice contests          | 8        |
+| Leo Rover         | [Leo 3D Models](https://a360.co/378zqRp)                                                      | Convenient in-browser viewing of 3D models                  | 9        |
+| Viam              | [Viam Discord](https://discord.gg/viam)                                                       | Refined Discord channel for asking questions                | 10       |
+| Texas Instruments | [TI Robotics Academy](https://dev.ti.com/tirex/global?id=com.ti.Jacinto%20Robotics%20Academy) | Research-grade tasks taught in Edge AI                      | 11       |
+| uStepper Arm      | [Build Guide](https://qr.page/g/1PZfPMFuz8x)                                                  | Build Guide with detailed graphics                          | 12       |
+| Moveo Arm         | BCN3D Moveo                                                                                   | Remaining 3D Printable post-commercialization               | 13       |
+| Instructables     | [Instructables Library](https://www.instructables.com/projects)                               | Access to PDF version of every project writeup              | 14       |
+| Open Dynamic      | [Open Dynamic Robot Initiative](https://open-dynamic-robot-initiative.github.io/)             | Computations for Dynamics at Academic Level                 | 15       |
+| Arxive            | [Free Academic Pub - Cornell](https://arxiv.org/)                                             | Free distribution & open access to scholarly articles       | 16       |
 
+<div class="accordion">
 
+<details>
+  <summary>Wish List from Community Stars</summary>
+
+ Table: Wish List  
+  _Elements that would enhance these offerings - based on our experience, community, feedback, needs, and dreams._
+
+| Team No. | Wish                                                                                                                                                                                                                           |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1        | Give more clear metrics on performance - why should you build it?                                                                                                                                                              |
+| 2        | Better support for native CAD files                                                                                                                                                                                            |
+| 3        | Allow users to implement a license with each post, like printables.org                                                                                                                                                         |
+| 4        | Create a segway into robotic control, instead of only CNC control                                                                                                                                                              |
+| 5        | Reduce the custom parts & replace with OTS parts.  Make designs more print-friendly                                                                                                                                            |
+| 6        | Dial back the Printables Branding and help posts link to full projects.                                                                                                                                                        |
+| 7        | Grade submissions by an open standard, help projects recruit team members in some form                                                                                                                                         |
+| 8        | Offer PDF downloads for instruction - enhance tools for professional level developers.  Better classification of disciplines behind posts (mechanical, electronic, software).                                                  |
+| 9        | Become more inviting to community contributions - make a library of addons or changes.                                                                                                                                         |
+| 10       | Publish goals & core values that speak to community - help broader disciplines outside software answer "how will Viam enhance open robotics" in more disciplines.  Better express what is needed from community vs in-company. |
+| 11       | Improve navigation of content - help users (of various backgrounds) find answers ► students, researchers, makers, businesses, academic partners                                                                                |
+| 12       | Build a community of some sort.  Explain why the robot is open source.                                                                                                                                                         |
+| 13       | Better explanation of where to buy parts                                                                                                                                                                                       |
+| 14       | Better categorize projects by discipline, by key component, and/or others.  Make easier to find relevant projects for users.                                                                                                   |
+| 15       | Publish the source files for the robot components - particularly 3D printed parts.                                                                                                                                             |
+| 16       | Offer a category for mechanical engineering along with CS, EE, PHYS, etc.                                                                                                                                                      |
+
+  </details>
+  
 ## Community Thought Leadership
 
 * Linux is the largest open source project in history, and it's founders created [TheOpenSourceWay.org](https://www.theopensourceway.org) to guide other communities.  Their publication called [The Open Source Way](https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.html#_why_do_people_participate_in_open_source_communities) offers insights to how it all works.

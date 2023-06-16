@@ -10,11 +10,6 @@ SCUTTLE Technical Guide
 
 ---
 
-<iframe frameborder="0" style="width:100%;height:387px;" src="https://viewer.diagrams.net/?highlight=0000ff&nav=1&title=open%20source%20inverted%20pyramid.drawio#R7Zpbb%2BMoFIB%2FTR9rATa%2BPDZpsl2po6mmHW07LxWJicOUmAiT2%2F76BRvHdi6tm6TNjGZTyYUDHGzOdw4HJxdud7L8S5Lp%2BIuIKb9AIF5euNcXCEEPhvqfkawKSYisIJEsLkSgEtyzf6kdWUpnLKaZlRUiJQRXbNoUDkWa0qFqyIiUYtHsNhI8bgimJKFbgvsh4dvSf1isxlYK%2FahquKEsGZdT%2B9grWiak7G0fJRuTWCxqIrd34XalEKooTZZdys3qNRemv6d1fWeSpqrNANyJp%2FMfdx1%2FNE2eX76yp%2Fsv2aXVMid8Zp%2F4hsh4oZXam1arcimkmKUxNcrghdtZjJmi91MyNK0LbXwtG6sJt80JJ1lmy5mS4oV2BRcy1%2BSC%2FKNbRiJVfTJh3NBxQ%2FmcKjYktsHCAH1bLxXEdERmXBkp47ymtuebPy3XMCjCUirtDRDOklSXh3qljLAzp9JMxK9sw0AoJSa6gZMB5XciY4qJnSNuNzooYR7cLqLuQ5d7rQPXNtfeQsWEKrnSXewABCw31lGQFzm4kCwq8NzAysZ15kJQdiUW92Stfz3lN%2B0eJE20Nd85p%2B9vT4k25iNcL1NKFO0YSLI6h7pQe95KlNOZV79nVH4d%2FDTui0BugUJpj2uRFCkbFgoBZ%2BlL0TRWygSAKzML6i8WCycbzpTiVAptS0fIRIslzcRMakBRPw8jpieTLE0uy2ql9oHIhNqHex5woifK20rnIZPnYEqvw97sx%2Brx75ve4GkGLqFbW1%2FrbYc6TMMVbmdDFhOtrSvSTBh9m6zHIQCBu8u5rjAAHtjwGS0f5Z8N12wF7v7A8QrNgQPCCGONbBgCHPkN0CAATghxiF3fXraogxA6kQdQFGIQeD4qA26dQhc7CEYYri%2F7naBBY4Wertboe5XGfG87DsTMzG7VHM2edzb2CAJAB4Ad7Pn9WmA%2FH3uhUyMvAG4zyGEHRG4EkGcvvz56zS35CPjmOuyJHD5Xl3MlPpkYGsyuW9WUtj%2FGHXO51vIoOhJW%2F4SsNln0vcAPg10sutBzdS7WZG4fl295wIexCh2vjipsbsgYOxEEUYD9%2FAIPQhUjJ0QR8qvLKVjdSi93Gh5vZZE01vm1reqVY2r1jXJisqle1dLRufLU9LBpvbFXp4mJkGosEpHqlEyYHCwX%2FqRKrWzeSGZKNNGhS6Yea%2BUnXTaZU1G7NiYBZWVVVlK9Mo%2F1Sm2UqVbD8lo5LvfeDhm%2BJPltb%2BeuTV435eVZA7VNkjfhrhTSNL4yByGzmsYT2HDNs7HFATRrexZ51RsOr49qtWDxdgZVcw%2BZMzFv3t0rye2dYKmq3Aq60MGVU4R%2BM%2F2IgLOZwBZPZNW8J3lt5wfe7%2B4H%2F%2FPcjmfvz%2BAZHsjzmaN28FbY3qa16W0tOGuLlLuN1HsSiNZE7dnS29kZ%2FZ52%2FrXNvLNf9DFm3nekuO9%2Bf3i47R10ojjyMHC%2BlyYtDgsnO7i%2BnvfD5pnUK98R11P7UlbP5X3webl78KrvVx5e9%2Fvjc5OTefQh8eSEfh%2B1zRiOje%2B7MwbXxRsnSfdTE4TwLPCcdQs5BzzgY%2BDxNuFBJ4Jn33aUiZE6yRuuStGx21R9Q%2F5Ttym9MzVBQOgz96l9tNyydLY8CpXaV0IDmjB9uJbZyb4VAmcjBw4IpGgXOQD4vav%2B55HjoWaGg4OW5HgfSs7dSm8q6anQKYPNyciBZyPHJwDkHGzHnACAbvd85HifS46x9PonGcWGVv2yxe39Bw%3D%3D"></iframe>
-
-
----
-
 
 # Wiring Guide
 
@@ -125,12 +120,12 @@ As an open source community, we aim to gather best practices from leading open p
 
 The organizations in this table have influenced SCUTTLE organization heavily and we continue seeking out best practices from groups like them
 
-| Team              | Site                                                                                          | A Leader in:                                                |
+| Team              | Site                                                                                          | Admirable Open Feature:                                     |
 | ----------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Voron 3D Printer  | [Voron Docs](https://docs.vorondesign.com/)                                                   | well-made multidisciplinary documentation                   |
-| Thingiverse       | [Thingiverse Library](https://www.thingiverse.com/)                                           | attracted millions - easy to sign up, easy to use           |
+| Thingiverse       | [Thingiverse Library](https://www.thingiverse.com/)                                           | attracted millions - easy to sign up, inviting to noobs     |
 | GrabCAD           | [GrabCAD Library](https://grabcad.com/library)                                                | in-browser Visualization - great permalinks - great tagging |
-| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | Attracting high-effort contributions - peak modularity      |
+| OpenBuilds        | [openbuilds](https://openbuilds.com/?o=l)                                                     | Attracts high-effort contributions - peak modularity        |
 | Leo Rover         | [Leo Dev Resources](https://www.leorover.tech/developers)                                     | Use github for software development                         |
 | Printables        | [Printables Library](https://www.printables.com/)                                             | Helps designers post designs with clear licensing           |
 | Hackaday          | [Hackaday.io](https://www.hackaday.io/)                                                       | Curating well-engineered designs                            |
@@ -140,6 +135,7 @@ The organizations in this table have influenced SCUTTLE organization heavily and
 | Texas Instruments | [TI Robotics Academy](https://dev.ti.com/tirex/global?id=com.ti.Jacinto%20Robotics%20Academy) | Research-grade tasks taught in Edge AI                      |
 | uStepper Arm      | [Build Guide](https://qr.page/g/1PZfPMFuz8x)                                                  | Build Guide with detailed graphics                          |
 | Moveo Arm         | [BCN3D Moveo](https://www.bcn3d.com/bcn3d-moveo-the-future-of-learning-robotic-arm/)          | Remaining 3D Printable post-commercialization               |
+| Instructables     | [Instructables Library](https://www.instructables.com/projects)                               | Access to PDF version of every project writeup              |
 
 
 ## Community Thought Leadership

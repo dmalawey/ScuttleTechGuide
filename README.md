@@ -119,7 +119,7 @@ _Edge AI Pinout_
 
 > Standard SCUTTLE v3.0 requires about 330g of 3D printed parts.  Everything is designed for manufacturing in FFF with no supports.
 
-![prints overview](image/print_full_set.png)
+![prints overview](image/print_full_set.PNG)
 _Figure: All 3D Printed Parts for a SCUTTLE kit_
 
 ---

@@ -122,6 +122,10 @@ _Edge AI Pinout_
 ![prints overview](image/print_full_set.PNG)
 _Figure: All 3D Printed Parts for a SCUTTLE kit_
 
+<div class="sketchfab-embed-wrapper"> 
+ <iframe title="SCUTTLE Robot v3.0 Full Set of 3D Prints" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/60015facbc1147e49163d03dfa5c5334/embed"> 
+ </iframe> 
+ 
 ---
 
 # Documenting

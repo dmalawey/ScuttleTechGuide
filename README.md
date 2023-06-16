@@ -4,6 +4,7 @@ SCUTTLE Technical Guide
 [Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button')
 [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true ':class=button')
 
+
 ---
 
 :warning: This document is in draft form as of the latest update
@@ -111,6 +112,37 @@ _Edge AI Pinout_
 
 ![prints overview](image/print_full_set.png)
 _Figure: All 3D Printed Parts for a SCUTTLE kit_
+
+---
+
+# Documenting
+
+## Learning Documentation
+
+Resources for Documenting
+ * Docs, simplified with [Docsify-This](https://docsify-this.net/#/)
+ * Emoji - in markdown with [Github Emoji Picker](https://github-emoji-picker.rickstaa.dev/)
+ * Markdown [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+ * Diagrams, with draw.io also known as [Diagrams.net](https://diagrams.net)
+
+## Our Docs Goals
+
+1. Become the first multidisciplinary open project that addresses the 2020-era pain points for the community:
+  * Mechanical designs are locked into specific CAD software. 
+  * Manufacturing methods span broadly with poor repeatability by open community.
+  * Documentation for high-fidelity designs does not address novice experience level.
+  * Highly professional projects are scarce.  Designs that are robust enough to be repeated are usually expensive.
+  * It is hard to get help.  Well designed components don't have engineering-level customer service.
+  * Robot designs are tied to one embedded controller - availability and costs are limiting.
+  * Designs do not offer a curriculum to accompany them.
+  * Prerequisites for materials, knowledge, components, are not clear from the beginning.
+  * As a robot develops, it's software becomes specific to only that robot - unlike open 3D printing software, for example.
+2. Leverage the community for documentation
+  * Build standards to clearly outline documentation needs
+  * Offer training resources on how to document
+  * Make documentation friendly to each respective discipline & their typical applications
+  * Only use methods that have been shown successful by other communities.
+  * Keep documents and source files open & free as much as possible, and their tools thereof
 
 # Benchmarking
 

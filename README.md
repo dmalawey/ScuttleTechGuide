@@ -121,9 +121,10 @@ _Figure: All 3D Printed Parts for a SCUTTLE kit_
 
 Resources for Documenting
  * Docs, simplified with [Docsify-This](https://docsify-this.net/#/)
- * Emoji - in markdown with [Github Emoji Picker](https://github-emoji-picker.rickstaa.dev/)
+ * Emoji - in markdown with [Github Emoji Picker](https://github-emoji-picker.rickstaa.dev/) ► Use this for markdown compatibility.
  * Markdown [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
  * Diagrams, with draw.io also known as [Diagrams.net](https://diagrams.net)
+ * Altcodes, from [AltcodeUnicode](https://altcodeunicode.com/) ► use these for compatibility with all word processors.
 
 ## Our Docs Goals
 

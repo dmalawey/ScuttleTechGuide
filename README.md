@@ -1,6 +1,8 @@
 # ScuttleTechGuide
 SCUTTLE Technical Guide
 
+**| COMPONENTS | WIRING | SENSORS | POWER | 3D PRINTING |**
+
 [Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button')
 [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true ':class=button')
 

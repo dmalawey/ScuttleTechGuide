@@ -87,6 +87,10 @@ This section covers the differences in wiring for various SBCs (single board com
 
 ---
 
+| Pi | TI | Intel |
+| -- | -- | ----- |
+| ![sctl_pi](img/tg_scuttle_pi.png) | ![sctl_ti](img/tg_scuttle_ti.png) | ![sctl_intel](img/tg_scuttle_intel.png) |
+
 ## Raspberry PI 4
 
 Overview of wiring SCUTTLE with Pi:

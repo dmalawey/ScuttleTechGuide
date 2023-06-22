@@ -88,13 +88,16 @@ _Figure: encoder cables diagram_
 > This section details the power system onboard SCUTTLE.  With extensibility as a central goal for SCUTTLE, we aim to offer sufficient detail to let you engineer any new function or actuator you can dream of.
 
 This chart indicates the loads of each component on your power supply.
-![pwr_loads_chart](/image/pwr_chart_loads.png)
+
+![pwr_loads_chart](/image/pwr_chart_loads.png ':class=image-40')
 
 This table describes the estimated duty cycles for key components in a typical operating scenario.
-![Chart of Duty Cycles](/image/pwr_table_dutyCycles.png)
 
-The raspberry pi and any loads that source power from it, ultimately source power from the 5v DC adapter.  This adapter has an efficiency curve as shown:
-![DC adapter efficiency chart](pwr_dc5v_efficiency.png)
+![Chart of Duty Cycles](/image/pwr_table_dutyCycles.png ':class=image-30')
+
+The raspberry pi and any loads that source power from it, ultimately source power from the 5v DC adapter.  This adapter has an efficiency curve as shown.  Note that the adapter has a constant power draw when the 12v source (battery) is powered on and hooked up.
+
+![DC adapter efficiency chart](/image/pwr_dc5v_efficiency.png ':class=image-40')
 
 ---
 

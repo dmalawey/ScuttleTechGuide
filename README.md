@@ -79,8 +79,22 @@ Encoder wires consist of dupont terminals and ribbon cables.
 _Figure: encoder cables diagram_
 
 
-# Wiring Addons
+## Wiring Addons
 > This section to include popular addons such as RPLIDAR, ultrasonic sensor, and more.
+
+---
+
+# Power Budget
+> This section details the power system onboard SCUTTLE.  With extensibility as a central goal for SCUTTLE, we aim to offer sufficient detail to let you engineer any new function or actuator you can dream of.
+
+This chart indicates the loads of each component on your power supply.
+![pwr_loads_chart](/image/pwr_chart_loads.png)
+
+This table describes the estimated duty cycles for key components in a typical operating scenario.
+![Chart of Duty Cycles](/image/pwr_table_dutyCycles.png)
+
+The raspberry pi and any loads that source power from it, ultimately source power from the 5v DC adapter.  This adapter has an efficiency curve as shown:
+![DC adapter efficiency chart](pwr_dc5v_efficiency.png)
 
 ---
 

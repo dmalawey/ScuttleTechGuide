@@ -14,28 +14,6 @@ SCUTTLE Technical Guide
 ---
 
 
-<!-- <div class="sketchfab-embed-wrapper"> 
- 
- <iframe title="Drivetrain_L" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/6089b024280f4fadb31e674b08e08839/embed?autospin=1&ui_theme=dark"> 
- 
- </iframe> 
- 
- </div> -->
-
-
-<div class="video-container-16by9">
- 
- <div class="sketchfab-embed-wrapper">
- 
-  <iframe title="Drivetrain_L" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/6089b024280f4fadb31e674b08e08839/embed?autospin=1&ui_theme=dark%22%3E">
- 
-  </iframe>
-
- </div>
-
-</div>
-
-
 # Wiring Guide
 
 ## Signal Cables
@@ -109,6 +87,11 @@ This section covers the differences in wiring for various SBCs (single board com
 | Pi | TI | Intel |
 | -- | -- | ----- |
 | ![sctl_pi](image/tg_scuttle_pi.png) | ![sctl_ti](image/tg_scuttle_ti.png) | ![sctl_intel](image/tg_scuttle_intel.png) |
+| [Pi 4 Datasheet](https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf) | [TDA4VM Datasheet](https://www.ti.com/lit/pdf/spruj21) | [SBC Datasheet](https://www.axiomtek.com/Download/Spec/en-US/capa55r.pdf) |
+| [Pi 4 Home](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) | [TDA4VM SK Product Page](https://www.ti.com/tool/SK-TDA4VM) | [CAPA55R Product Page](https://www.axiomtek.com/Default.aspx?MenuId=Products&FunctionId=ProductView&ItemId=26529&upcat=270) |
+
+
+
 
 ## Raspberry PI 4
 
@@ -158,10 +141,33 @@ _Edge AI Pinout_
 ![prints overview](image/print_full_set.PNG)
 _Figure: All 3D Printed Parts for a SCUTTLE kit_
 
+<!---
 <div class="sketchfab-embed-wrapper"> 
  <iframe title="SCUTTLE Robot v3.0 Full Set of 3D Prints" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/60015facbc1147e49163d03dfa5c5334/embed"> 
  </iframe> 
+-->
+
+
+<div class="accordion">
+
+<details>
+  <summary>3D Model - Wheel Assembly</summary>
+
+  See our 3D model for the wheel assembly
+  
+  _We've uploaded the model to sketchfab to embed this viewer - let us know if this is helpful!_
+
+<div class="video-container-16by9"> 
+ <div class="sketchfab-embed-wrapper">
  
+  <iframe title="Drivetrain_L" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/6089b024280f4fadb31e674b08e08839/embed?autospin=1&ui_theme=dark%22%3E">
+ 
+  </iframe>
+ </div>
+</div>
+
+</details>
+</div>
 ---
 
 # Documenting

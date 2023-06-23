@@ -201,7 +201,7 @@ Okay, hear us out: diagrams may be the most important part of a multidisciplinar
 Starting with Draw.io, here's some technology magic:
 | Click a library component | Drop it in your Diagram | Edit Connection Points |
 | ------------------------- | ----------------------- | ---------------------- |
-| ![library img](image/tg_library_select.png) | ![library img](image/tg_library_add.png) | ![library img](image/tg_library_connect.png) |
+| ![library img](image/tg_library_select.png) | ![library img](image/tg_library_add.png) | ![library img](image/tg_library_add.png) |
 
 # Benchmarking
 

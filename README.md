@@ -194,6 +194,15 @@ Resources for Documenting
   * Only use methods that have been shown successful by other communities.
   * Keep documents and source files open & free as much as possible, and their tools thereof
 
+## Diagramming
+
+Okay, hear us out: diagrams may be the most important part of a multidisciplinary design.  Electrical circuits have established standards, hardware designs have them, but the crossover gets messy.  We are implementing new libraries starting in 2023 to help get your projects planned & documented for repeatability & collaboration.
+
+Starting with Draw.io, here's some technology magic:
+| Click a library component | Drop it in your Diagram | Edit Connection Points |
+| ------------------------- | ----------------------- | ---------------------- |
+| ![library img](image/tg_library_select.png) | ![library img](image/tg_library_add.png) | ![library img](image/tg_library_connect.png) |
+
 # Benchmarking
 
 As an open source community, we aim to gather best practices from leading open projects.  The multidisciplinary nature of SCUTTLE means no existing model fits us, but many elements have been resolved by great communities with an ongoing development and outcomes.

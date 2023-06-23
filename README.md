@@ -7,12 +7,10 @@ SCUTTLE Technical Guide
 [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true ':class=button')
 
 
----
 
-:warning: This document is in draft form as of the latest update
+> :warning: This document is in draft form as of 2023.06
 
----
-
+Now, diving in...
 
 # Wiring Guide
 

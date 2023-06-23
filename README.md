@@ -108,7 +108,8 @@ The raspberry pi and any loads that source power from it, ultimately source powe
 
 ---
 
-# CPU Options
+# Computing
+
 This section covers the differences in wiring for various SBCs (single board computers).
 
 ---
@@ -119,23 +120,29 @@ This section covers the differences in wiring for various SBCs (single board com
 | [Pi 4 Datasheet](https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf) | [TDA4VM Datasheet](https://www.ti.com/lit/pdf/spruj21) | [SBC Datasheet](https://www.axiomtek.com/Download/Spec/en-US/capa55r.pdf) |
 | [Pi 4 Home](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) | [TDA4VM SK Product Page](https://www.ti.com/tool/SK-TDA4VM) | [CAPA55R Product Page](https://www.axiomtek.com/Default.aspx?MenuId=Products&FunctionId=ProductView&ItemId=26529&upcat=270) |
 
+## Pi 4
 
-
-
-## Raspberry PI 4
+**Raspberry Pi 4B with Broadcom ARM processor**
 
 Overview of wiring SCUTTLE with Pi:
-![Pi wiring overview](image/wg_overview_pi.png)
+![Pi wiring overview](image/wg_overview_pi.png ':class=image-40')
+
 _Figure: Pi wiring overview_
 
-## TI TDA4VM SK "Edge AI"
+## TI
+
+**Texas Instruments "Edge AI" class single-board-computer with TDA4VM ARM processor**
 
 Overview of wiring SCUTTLE with TDA4VM:
-![EDGE AI wiring overview](image/wg_overview_TDA4VM.png)
+![EDGE AI wiring overview](image/wg_overview_TDA4VM.png ':class=image-40')
 _Figure: Edge AI wiring overview_
 
+<div class="accordion">
 
-_Edge AI Pinout_
+<details>
+  <summary>Edge AI Pinout</summary>
+
+ _Edge AI Pinout_
 | Function  | PIN |    |  Function |
 | --------- | --- | -- | ----- |
 | Power_3.3 | 1   | 2  | Power_5.0 |
@@ -159,6 +166,18 @@ _Edge AI Pinout_
 | GPIO      | 37  | 38 | I2S_DIN |
 | GND       | 39  | 40 | I2S_DOUT |
 
+</details>
+
+</div>
+
+## Intel
+
+**Axiomtek CAPA55R single-board industrial computer with Intel i7 X86 processor**
+
+Axiomtek's CAPA55R Intel-based computer for industrial robotics:
+![CAPA55R Image](https://www.axiomtek.com/Download/Photo/en-US/capa55r_4.jpg ':class=image-40')
+_Figure: Axiomtek / Intel CAPA55R SBC_
+
 ---
 
 # 3D Printing
@@ -169,12 +188,6 @@ _Edge AI Pinout_
 
 ![prints overview](image/print_full_set.PNG)
 _Figure: All 3D Printed Parts for a SCUTTLE kit_
-
-<!---
-<div class="sketchfab-embed-wrapper"> 
- <iframe title="SCUTTLE Robot v3.0 Full Set of 3D Prints" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/60015facbc1147e49163d03dfa5c5334/embed"> 
- </iframe> 
--->
 
 
 <div class="accordion">
@@ -201,7 +214,7 @@ _Figure: All 3D Printed Parts for a SCUTTLE kit_
 
 # Documenting
 
-## Learning Documentation
+## Learn Docs
 
 Resources for Documenting
  * Docs, simplified with [Docsify-This](https://docsify-this.net/#/)
@@ -210,7 +223,7 @@ Resources for Documenting
  * Diagrams, with draw.io also known as [Diagrams.net](https://diagrams.net)
  * Altcodes, from [AltcodeUnicode](https://altcodeunicode.com/) ► use these for compatibility with all word processors.
 
-## Our Docs Goals
+## Our Goals
 
 1. Become the first multidisciplinary open project that addresses the 2020-era pain points for the community:
   * Mechanical designs are locked into specific CAD software. 
@@ -302,7 +315,7 @@ The organizations in this table have influenced SCUTTLE organization heavily and
 
  ---
  
-## Community Thought Leadership
+## Thought Leadership
 
 * Linux is the largest open source project in history, and it's founders created [TheOpenSourceWay.org](https://www.theopensourceway.org) to guide other communities.  Their publication called [The Open Source Way](https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.html#_why_do_people_participate_in_open_source_communities) offers insights to how it all works.
 * The Open Source Hardware Foundation pushes to engage hardware development teams in open source.  They have regular releases of their [State of Open Source Hardware](https://qr.scuttlerobot.org/g/58a4R641DBp), and this one is from 2021.

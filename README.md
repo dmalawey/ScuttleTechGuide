@@ -24,56 +24,77 @@ Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the
 
 
 
-## Signal Cables
-To build the signal cables, they will look like this
-![dupont cables](image/wg_cables_dupont.png)
+## Signals
+
+### Cables
+
+To build signal cables, use these diagrams.
+
+![dupont cables](image/wg_cables_dupont.png ':class=image-40')
+
 _Figure: dupont cables_
 
 And also the encoder wires consist of dupont terminals and ribbon cables.
-![encoders](image/wg_cable_encoder.png)
+![encoders](image/wg_cable_encoder.png ':class=image-40')
+
 _Figure: encoder cables diagram_
 
-## Motors
+### Encoders
 
-Here are the cables to power the motors from the motor driver.
-![motor leads](image/wg_motor_leads.png)
-_Figure: motor leads_
+Encoder wires consist of dupont terminals and ribbon cables.
 
-## Motor Driver
+![encoders](image/wg_cable_encoder.png ':class=image-40')
 
-The cables to power the motor driver from 12v.
-![motor driver](image/wg_motor_driver.png)
-_Figure: motor driver wiring_
+_Figure: encoder cables diagram_
 
-The motor wires to communicate from CPU to the motor driver.
-![motor leads](image/wg_cable_motor_signal.png)
-_Figure: motor signal cable_
-
-## Battery
-![encoders](image/wg_battery.png)
-_Figure: battery components_
 
 ## Power
 
+### Power Routing
+
 The overview for power cables on SCUTTLE v3
-![power overview](image/wg_overview_power.png)
+
+![power overview](image/wg_overview_power.png ':class=image-40')
+
 _Figure: power overview_
 
-## Encoders
-Encoder wires consist of dupont terminals and ribbon cables.
-![encoders](image/wg_cable_encoder.png)
-_Figure: encoder cables diagram_
+Here are the cables to power the motors from the motor driver.
 
+![motor leads](image/wg_motor_leads.pngv':class=image-40')
 
-## Wiring Addons
+_Figure: motor leads_
+
+### Actuator: Motor Driver
+
+The cables to power the motor driver from 12v.
+
+![motor driver](image/wg_motor_driver.png ':class=image-40')
+
+_Figure: motor driver wiring_
+
+The motor wires to communicate from CPU to the motor driver.
+
+![motor leads](image/wg_cable_motor_signal.png ':class=image-40')
+
+_Figure: motor signal cable_
+
+### Source: Battery
+
+![battery image](image/wg_battery.png ':class=image-40')
+
+_Figure: battery components_
+
+## Addons
+
 > This section to include popular addons such as RPLIDAR, ultrasonic sensor, and more.
+> It will contain circuitry-related information for planning power and signals to your actuators.
 
 ---
 
 # Power Budget
-> This section details the power system onboard SCUTTLE.  With extensibility as a central goal for SCUTTLE, we aim to offer sufficient detail to let you engineer any new function or actuator you can dream of.
+> A dedicated section for budgeting power. This contains details the power system onboard SCUTTLE.  With extensibility as a central goal for SCUTTLE, we aim to offer sufficient detail to let you engineer any new function or actuator you can dream of.
 
-This chart indicates the loads of each component on your power supply.
+This chart indicates the power loads of each component on your power supply.
 
 ![pwr_loads_chart](/image/pwr_chart_loads.png ':class=image-40')
 

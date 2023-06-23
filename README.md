@@ -16,6 +16,16 @@ SCUTTLE Technical Guide
 
 # Wiring Guide
 
+> **This section covers the wiring of signals and power.**
+
+Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the subsections for details.
+
+| Pi Wiring Thumbnail | TI wiring thumbnail |
+| ------------------- | ------------------- | 
+| ![img](image/wg_overview_pi.png) | ![img](image/wg_overview_TDA4VM.png) |
+
+
+
 ## Signal Cables
 To build the signal cables, they will look like this
 ![dupont cables](image/wg_cables_dupont.png)

@@ -34,15 +34,15 @@ All signals on SCUTTLE can be made with regular off-the-shelf Dupont-style termi
 
 > Colors Selection
 
-We chose the colors to make good use of any pack of wires.
+We chose the colors to make good use of any pack of wires.  When you add sensors and actuators, try to stay consistent.
 
-| Color | Commonly used for |
+| Function | Preferred Color |
 | ------ | ----------------- |
-| Black, Brown | Ground |
-| Red, Purple | Power, 3.3v |
-| Orange, Yellow | PWM signals |
-| Gray | CLOCK |
-| White | SIGNAL (I2C) |
+| Ground | Black, Brown, Green |
+| Power, 3.3v | Red, Purple |
+| PWM signals | Orange, Yellow |
+| CLOCK (i2C | Gray |
+| SIGNAL (i2C) | White |
 
 ### Cables
 

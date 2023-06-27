@@ -26,6 +26,24 @@ Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the
 
 ## Signals
 
+All signals on SCUTTLE can be made with regular off-the-shelf Dupont-style terminals, all female.  Lengths are 10cm and 20cm as shown.
+
+> ⚠️Please do not peel the wires apart! Keep them connected for strong connections.
+
+![dupont cables photo](https://i.imgur.com/YN3LAEp.jpg ':class=image-40')
+
+> Colors Selection
+
+We chose the colors to make good use of any pack of wires.
+
+| Color | Commonly used for |
+| ------ | ----------------- |
+| Black, Brown | Ground |
+| Red, Purple | Power, 3.3v |
+| Orange, Yellow | PWM signals |
+| Gray | CLOCK |
+| White | SIGNAL (I2C) |
+
 ### Cables
 
 To build signal cables, use these diagrams.

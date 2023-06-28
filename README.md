@@ -65,6 +65,12 @@ _Figure: cables for left encoder_
 
 _Figure: cables for right encoder_
 
+<br/><br/>
+
+![cable-motor](image/wg_cable_motor.png ':class=image-40')
+
+_Figure: cables for motor
+
 </details>
 
 </div>

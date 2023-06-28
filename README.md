@@ -55,7 +55,7 @@ This section shows the cables you can DIY.
 
 To build signal cables, use these diagrams.
 
-![cable-encoder-l](image/wg_cable_encoder_l.png ':class=image-40')
+![cable-encoder-l](image/wg_cable_encoder_lh.png ':class=image-40')
 
 _Figure: cables for encoder_
 

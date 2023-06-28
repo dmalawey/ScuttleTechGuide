@@ -67,9 +67,15 @@ _Figure: cables for right encoder_
 
 <br/><br/>
 
-![cable-motor](image/wd_cable_motor.png ':class=image-40')
+![cable-motor](image/wg_cable_motor.png ':class=image-40')
 
 _Figure: cables for motor
+
+<br/><br/>
+
+![cable-i2c](image/wg_cable_i2c.png ':class=image-40')
+
+_Figure: cables for i2c
 
 </details>
 

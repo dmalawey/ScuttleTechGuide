@@ -46,24 +46,27 @@ We chose the colors to make good use of any pack of wires.  When you add sensors
 
 ### Cables
 
+This section shows the cables you can DIY.
+
+<div class="accordion">
+
+<details>
+  <summary>Cable Diagrams</summary>
+
 To build signal cables, use these diagrams.
 
-![dupont cables](image/wg_cables_dupont.png ':class=image-40')
+![cable-encoder-l](image/wg_cable_encoder_l.png ':class=image-40')
 
-_Figure: dupont cables_
+_Figure: cables for encoder_
 
-And also the encoder wires consist of dupont terminals and ribbon cables.
-![encoders](image/wg_cable_encoder.png ':class=image-40')
 
-_Figure: encoder cables diagram_
 
-### Encoders
+</details>
 
-Encoder wires consist of dupont terminals and ribbon cables.
+</div>
 
-![encoders](image/wg_cable_encoder.png ':class=image-40')
 
-_Figure: encoder cables diagram_
+
 
 
 ## Power
@@ -229,6 +232,14 @@ _Figure: All 3D Printed Parts for a SCUTTLE kit_
 </details>
 </div>
 ---
+
+# Glossary
+
+| Abbreviation or Term | Definition |
+| -------------------- | ---------- |
+| LH, RH | left-hand, right-hand |
+| OTS | off-the-shelf |
+| DFM | design for manufacturing |
 
 # Documenting
 

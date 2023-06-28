@@ -60,6 +60,8 @@ To build signal cables, use these diagrams.
 _Figure: cables for left encoder_
 
 
+
+
 ![cable-encoder-R](image/wg_cable_encoder_rh.png ':class=image-40')
 
 _Figure: cables for right encoder_

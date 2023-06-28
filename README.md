@@ -1,4 +1,4 @@
-# ScuttleTechGuide
+# SCUTTLE Tech Guide
 SCUTTLE Technical Guide
 
 **| COMPONENTS | WIRING | SENSORS | POWER | 3D PRINTING |**

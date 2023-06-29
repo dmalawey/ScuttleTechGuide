@@ -30,7 +30,7 @@ All signals on SCUTTLE can be made with regular off-the-shelf Dupont-style termi
 
 > ⚠️Please do not peel the wires apart! Keep them connected for strong connections.
 
-![dupont cables photo](https://i.imgur.com/YN3LAEp.jpg ':class=image-40')
+![dupont cables photo](https://i.imgur.com/YN3LAEp.jpg ':class=image-25')
 
 > Colors Selection
 
@@ -55,25 +55,25 @@ This section shows the cables you can DIY.
 
 To build signal cables, use these diagrams.
 
-![cable-encoder-l](image/wg_cable_encoder_lh.png ':class=image-40')
+![cable-encoder-l](image/wg_cable_encoder_lh.png ':class=image-25')
 
 _Figure: cables for left encoder_
 
 <br/><br/>
 
-![cable-encoder-R](image/wg_cable_encoder_rh.png ':class=image-40')
+![cable-encoder-R](image/wg_cable_encoder_rh.png ':class=image-25')
 
 _Figure: cables for right encoder_
 
 <br/><br/>
 
-![cable-motor](image/wg_cable_motor.png ':class=image-40')
+![cable-motor](image/wg_cable_motor.png ':class=image-25')
 
 _Figure: cables for motor_
 
 <br/><br/>
 
-![cable-i2c](image/wg_cable_i2c.png ':class=image-40')
+![cable-i2c](image/wg_cable_i2c.png ':class=image-25')
 
 _Figure: cables for i2c_
 
@@ -91,13 +91,13 @@ _Figure: cables for i2c_
 
 The overview for power cables on SCUTTLE v3
 
-![power overview](image/wg_overview_power.png ':class=image-40')
+![power overview](image/wg_overview_power.png ':class=image-25')
 
 _Figure: power overview_
 
 Here are the cables to power the motors from the motor driver.
 
-![motor leads](image/wg_motor_leads.pngv':class=image-40')
+![motor leads](image/wg_motor_leads.pngv':class=image-25')
 
 _Figure: motor leads_
 
@@ -105,19 +105,19 @@ _Figure: motor leads_
 
 The cables to power the motor driver from 12v.
 
-![motor driver](image/wg_motor_driver.png ':class=image-40')
+![motor driver](image/wg_motor_driver.png ':class=image-25')
 
 _Figure: motor driver wiring_
 
 The motor wires to communicate from CPU to the motor driver.
 
-![motor leads](image/wg_cable_motor_signal.png ':class=image-40')
+![motor leads](image/wg_cable_motor_signal.png ':class=image-25')
 
 _Figure: motor signal cable_
 
 ### Source: Battery
 
-![battery image](image/wg_battery.png ':class=image-40')
+![battery image](image/wg_battery.png ':class=image-25')
 
 _Figure: battery components_
 
@@ -133,7 +133,7 @@ _Figure: battery components_
 
 This chart indicates the power loads of each component on your power supply.
 
-![pwr_loads_chart](/image/pwr_chart_loads.png ':class=image-40')
+![pwr_loads_chart](/image/pwr_chart_loads.png ':class=image-25')
 
 This table describes the estimated duty cycles for key components in a typical operating scenario.
 
@@ -141,7 +141,7 @@ This table describes the estimated duty cycles for key components in a typical o
 
 The raspberry pi and any loads that source power from it, ultimately source power from the 5v DC adapter.  This adapter has an efficiency curve as shown.  Note that the adapter has a constant power draw when the 12v source (battery) is powered on and hooked up.
 
-![DC adapter efficiency chart](/image/pwr_dc5v_efficiency.png ':class=image-40')
+![DC adapter efficiency chart](/image/pwr_dc5v_efficiency.png ':class=image-25')
 
 ---
 
@@ -162,7 +162,7 @@ This section covers the differences in wiring for various SBCs (single board com
 **Raspberry Pi 4B with Broadcom ARM processor**
 
 Overview of wiring SCUTTLE with Pi:
-![Pi wiring overview](image/wg_overview_pi.png ':class=image-40')
+![Pi wiring overview](image/wg_overview_pi.png ':class=image-25')
 
 _Figure: Pi wiring overview_
 
@@ -171,7 +171,7 @@ _Figure: Pi wiring overview_
 **Texas Instruments "Edge AI" class single-board-computer with TDA4VM ARM processor**
 
 Overview of wiring SCUTTLE with TDA4VM:
-![EDGE AI wiring overview](image/wg_overview_TDA4VM.png ':class=image-40')
+![EDGE AI wiring overview](image/wg_overview_TDA4VM.png ':class=image-25')
 _Figure: Edge AI wiring overview_
 
 <div class="accordion">
@@ -212,7 +212,7 @@ _Figure: Edge AI wiring overview_
 **Axiomtek CAPA55R single-board industrial computer with Intel i7 X86 processor**
 
 Axiomtek's CAPA55R Intel-based computer for industrial robotics:
-![CAPA55R Image](https://www.axiomtek.com/Download/Photo/en-US/capa55r_4.jpg ':class=image-40')
+![CAPA55R Image](https://www.axiomtek.com/Download/Photo/en-US/capa55r_4.jpg ':class=image-25')
 _Figure: Axiomtek / Intel CAPA55R SBC_
 
 ---

@@ -256,6 +256,7 @@ _Figure: All 3D Printed Parts for a SCUTTLE kit_
 | LH, RH | left-hand, right-hand |
 | OTS | off-the-shelf |
 | DFM | design for manufacturing |
+| SBC | single-board computer |
 
 # Documenting
 

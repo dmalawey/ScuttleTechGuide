@@ -268,6 +268,10 @@ Resources for Documenting
  * Diagrams, with draw.io also known as [Diagrams.net](https://diagrams.net)
  * Altcodes, from [AltcodeUnicode](https://altcodeunicode.com/) ► use these for compatibility with all word processors.
 
+> **GET LATEST**
+> * Draw.io Library [version 06.29](diagram/lib_sctl_v0629.xml)
+> * Draw.io Diagram [draft version 06.29](diagram/diagram_wiring_v0629.xml)
+
 ## Our Goals
 
 1. Become the first multidisciplinary open project that addresses the 2020-era pain points for the community:

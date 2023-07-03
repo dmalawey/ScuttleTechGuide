@@ -1,18 +1,13 @@
 ![banner image](image/banner.jpg ':class=banner-image')
 
 # SCUTTLE Tech Guide
-SCUTTLE Technical Guide
+An open door to building and developing with the SCUTTLE multidisciplinary ecosystem.
 
 **| COMPONENTS | WIRING | SENSORS | POWER | 3D PRINTING |**
 
 [Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button')
 [Website](https://qr.scuttlerobot.org/g/12J5i2t3bp4 ':class=button')
 
-
-
-> :warning: This document is in draft form as of 2023.06
-
-Now, diving in...
 
 # Wiring Guide
 

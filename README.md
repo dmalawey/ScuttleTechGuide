@@ -1,3 +1,5 @@
+![banner image](image/banner.jpg ':class=banner-image')
+
 # SCUTTLE Tech Guide
 SCUTTLE Technical Guide
 

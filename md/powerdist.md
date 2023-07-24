@@ -1,5 +1,6 @@
 ## Quick guide steps to distribute power.
 
+View this as a web page [here](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/md/powerdist.md&sidebar=true&loadFavicon=/image/icon.png&browser-tab-title=SCUTTLE%20TechGuide)
 1. Use a simple DIN bracket to secure a terminal.  Drill out the center hole to 4mm.
 2. Use an M2.5x12mm screw and M2.5 heat-set insert.
 3. If you have a deburring tool, deburr your hole for a cleaner insertion.

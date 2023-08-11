@@ -5,8 +5,10 @@ An open door to building and developing with the SCUTTLE multidisciplinary ecosy
 
 **| COMPONENTS | WIRING | SENSORS | POWER | 3D PRINTING |**
 
-[Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button')
-[Website](https://qr.scuttlerobot.org/g/12J5i2t3bp4 ':class=button')
+
+| [Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button') 
+| [Website](https://qr.scuttlerobot.org/g/12J5i2t3bp4 ':class=button') 
+| [Change Log](https://github.com/dmalawey/ScuttleTechGuide/commits/main ':class=button') |
 
 
 # Wiring Guide
@@ -25,7 +27,7 @@ Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the
 
 All signals on SCUTTLE can be made with regular off-the-shelf Dupont-style terminals, all female.  Lengths are 10cm and 20cm as shown.
 
-> ⚠️Please do not peel the wires apart! Keep them connected for strong connections.
+> ⚠️Please do not peel the wires apart! Keep them bonded for strong connections.
 
 ![dupont cables photo](https://i.imgur.com/YN3LAEp.jpg ':class=image-25')
 
@@ -43,7 +45,7 @@ We chose the colors to make good use of any pack of wires.  When you add sensors
 
 ### Cables
 
-This section shows the cables you can DIY.
+This section covers cables you can DIY.
 
 <div class="accordion">
 
@@ -293,10 +295,12 @@ Resources for Documenting
 
 Okay, hear us out: diagrams may be the most important part of a multidisciplinary design.  Electrical circuits have established standards, hardware designs have them, but the crossover gets messy.  We are implementing new libraries starting in 2023 to help get your projects planned & documented for repeatability & collaboration.
 
-Starting with Draw.io, here's some technology magic:
+Starting with [Draw.io](https://app.diagrams.net/), here's some technology magic:
 | Click a library component | Drop it in your Diagram | Edit Connection Points |
 | ------------------------- | ----------------------- | ---------------------- |
 | ![library img](image/tg_library_select.png) | ![library img](image/tg_library_add.png) | ![library img](image/tg_library_add.png) |
+
+As we build a library of the most common components, we will release open draw.io libraries so you can grab preconfigured, labeled images with connection points already set.  The images are high quality, lightweight, and easily pulled into other softwares like Visio and Powerpoint.
 
 # Benchmarking
 

@@ -250,7 +250,7 @@ _Figure: All 3D Printed Parts for a SCUTTLE kit_
 
 # Reference
 
-# Glossary
+## Glossary
 
 | Abbreviation or Term | Definition |
 | -------------------- | ---------- |
@@ -259,7 +259,7 @@ _Figure: All 3D Printed Parts for a SCUTTLE kit_
 | DFM | design for manufacturing |
 | SBC | single-board computer |
 
-# Key Standards
+## Key Standards
 
 If you learn about these standards, you can benefit in your project. A) you may find affordable off-the-shelf solutions to integrate. B) you may find a cluster of design knowledge to dive deeper in your favorite area as a maker C) you can invent a project that segways into commercialization more smoothly. 
 

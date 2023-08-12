@@ -248,6 +248,8 @@ _Figure: All 3D Printed Parts for a SCUTTLE kit_
 </div>
 ---
 
+# Reference
+
 # Glossary
 
 | Abbreviation or Term | Definition |
@@ -256,6 +258,30 @@ _Figure: All 3D Printed Parts for a SCUTTLE kit_
 | OTS | off-the-shelf |
 | DFM | design for manufacturing |
 | SBC | single-board computer |
+
+# Key Standards
+
+If you learn about these standards, you can benefit in your project. A) you may find affordable off-the-shelf solutions to integrate. B) you may find a cluster of design knowledge to dive deeper in your favorite area as a maker C) you can invent a project that segways into commercialization more smoothly. 
+
+Learn (Why Standards are your best friend)[https://www.scuttlerobot.org/updates/blog/standards-inventions/]
+
+A quick list of standards we integrate:
+* 18650 battery cells [specifications](https://www.fenixlighting.com/blogs/news/the-ultimate-guide-to-the-18650-battery)
+* MQTT [protocol for IoT](https://info.hivemq.com/mqtt-essentials)
+* USB-PD, or Power delivery (integration in progress)
+* DIN rail, 35mm, mechanical geometry
+* Aluminum Extrusion, 30-series or 30x30mm.
+* Camera fastener thread, 1/4-20 (integration in progress)
+* Toyota's 5S methods
+* Toyota's Lean Manufacturing practices
+* Toyota's Kaizen practices
+* Toyota's 5-why root cause analysis
+* Wheel bearings, 608 spec, the ABEC scale (used worldwide from skateboards to fidget spinners)
+* Metric System of Units
+* Markdown programming language for documentation (in progress)
+* Embedded Linux Shell scripting
+* Creative Commons Open Source License [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* Water & dust intrusion [IP rating scale](https://en.wikipedia.org/wiki/IP_code)
 
 # Documenting
 

@@ -210,6 +210,10 @@ _Figure: Edge AI wiring overview_
 
 **Axiomtek CAPA55R single-board industrial computer with Intel i7 X86 processor**
 
+Overview of wiring SCUTTLE with Intel-based CAPA55R:
+![Intel wiring overview](image/wg_overview_intel.png ':class=image-25')
+_Figure: Intel wiring overview_
+
 Axiomtek's CAPA55R Intel-based computer for industrial robotics:
 ![CAPA55R Image](https://www.axiomtek.com/Download/Photo/en-US/capa55r_4.jpg ':class=image-25')
 _Figure: Axiomtek / Intel CAPA55R SBC_

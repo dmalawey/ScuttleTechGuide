@@ -159,6 +159,7 @@ This section covers the differences in wiring for various SBCs (single board com
 ## Pi 4
 
 **Raspberry Pi 4B with Broadcom ARM processor**
+
 [DOWNLOAD](https://lobfile.com/file/DIq7.drawio) editable design
 
 Overview of wiring SCUTTLE with Pi:
@@ -169,6 +170,7 @@ _Figure: Pi wiring overview_
 ## TI
 
 **Texas Instruments "Edge AI" class single-board-computer with TDA4VM ARM processor**
+
 [DOWNLOAD](https://lobfile.com/file/DIq7.drawio) editable design
 
 Overview of wiring SCUTTLE with TDA4VM:
@@ -211,6 +213,7 @@ _Figure: Edge AI wiring overview_
 ## Intel
 
 **Axiomtek CAPA55R single-board industrial computer with Intel i7 X86 processor**
+
 [DOWNLOAD](https://lobfile.com/file/DIq7.drawio) editable design
 
 Overview of wiring SCUTTLE with Intel-based CAPA55R:

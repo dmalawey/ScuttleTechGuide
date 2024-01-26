@@ -417,3 +417,4 @@ The organizations in this table have influenced SCUTTLE organization heavily and
 
 [Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button')
 [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true ':class=button')
+[SCUTTLE Africa](https://qr.page/g/leQK0r6g6q)

@@ -96,7 +96,7 @@ _Figure: power overview_
 
 Here are the cables to power the motors from the motor driver.
 
-![motor leads](image/wg_motor_leads.pngv':class=image-25')
+![motor leads](image/wg_motor_leads.png ':class=image-25')
 
 _Figure: motor leads_
 

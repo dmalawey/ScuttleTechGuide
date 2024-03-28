@@ -265,6 +265,7 @@ A section for teminology, footnotes, and sources cited within the tech guide.
 ## Quick Links
 
 > | [SCUTTLE Resources](https://scuttlerobot.org/resources ':class=button') | [CAD Models](https://www.scuttlerobot.org/resources/models ':class=button') | [Videos](https://www.scuttlerobot.org/resources/videos/ ':class=button') |
+> | [Applications Guide](https://qr.page/g/15vgHvaHTAe ':class=button') | 
 
 ## Glossary
 

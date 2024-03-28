@@ -2,9 +2,11 @@
 
 [view as WEB PAGE](https://qr.page/g/15vgHvaHTAe ':class=button')
 
-*This page is intended to serve the same function as the SCUTTLE Applications Guide (PDF) but to become more dynamic, open, and easily navigable.
+*This page is intended to serve the same function as the SCUTTLE [Applications Guide](https://www.scuttlerobot.org/resource/guide/applications-guide/) (in PDF) but to become more dynamic, open, and easily navigable.
 
 # Section 1: Hardware-focused Applications
+
+Robotic projects, listed by their application, which focus a project on a mechanical design.
 
 ## Example 1.17 Pole-mounted Maintenance
 

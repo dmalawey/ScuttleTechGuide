@@ -67,6 +67,7 @@ _Figure: cables for right encoder_
 <br/><br/>
 
 ![cable-motor](image/wg_cable_motor.png ':class=image-25')
+[grab diagram](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagram1.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1yAXCKNeVdJE7FfkX81iIosMF-5VFMIfJ%26export%3Ddownload)
 
 _Figure: cables for motor_
 

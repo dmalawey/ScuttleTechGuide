@@ -1,6 +1,6 @@
-## Quick guide steps to distribute power.
+## Steps
 
-View this as a web page [here](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/md/powerdist.md&sidebar=true)
+Quick guide steps to distribute power.
 
 1. Use a simple DIN bracket to secure a terminal.  Drill out the center hole to 4mm.
 2. Use an M2.5x12mm screw and M2.5 heat-set insert.
@@ -12,6 +12,9 @@ View this as a web page [here](https://docsify-this.net/?basePath=https://raw.gi
 Now your power source is ready for quick plugging!
 
 ### Images
+
+Images for general power distribution components & examples.
+
 ![drill bit](https://i.imgur.com/D3sDUlU.jpg)
 
 ![fasteners](https://i.imgur.com/UkaOBIx.jpg)

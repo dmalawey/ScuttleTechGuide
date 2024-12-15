@@ -1,20 +1,33 @@
 ![banner image](image/banner.jpg ':class=banner-image')
 
-# SCUTTLE Tech Guide
-An open door to building and developing with the SCUTTLE multidisciplinary ecosystem.
+## About
+Welcome to ScuttleTechGuide! An open door to building and developing with the SCUTTLE multidisciplinary ecosystem.  For several years we hosted all of the documentation for SCUTTLE Robotics on our website, [scuttlerobot.org](https://scuttlerobot.org). But, since mid 2024 we found new ways to make the documentation more flexible & easily updated.  This repository will feature items such as wiring diagrams so that customers can view while contributors can edit.  Also, students can download source files for our diagrams and use them to kickstart documentation for their project.  This repo will expand until we have a solid, fully open, set of docs for the standard SCUTTLE robot and we will trim back the website (scuttlerobot.org) to focus on business interactionss such as ordering robots.
 
-**| COMPONENTS | WIRING | SENSORS | POWER | 3D PRINTING |**
+## More Projects
 
-# Reference
+More Open Source designs initiated by DM & SCUTTLE team:
 
-A section for teminology, footnotes, and sources cited within the tech guide.
+* [Mechatronics Resources](https://bit.ly/openmechatronics)
+* [OpenArm](https://bit.ly/openarm)
+* [OpenJar](https://bit.ly/openjarproject_v1)
+* [OpenBox](https://bit.ly/openboxproject)
+* [OpenSpin](https:/bit.ly/openspinproject)
+* [OpenAir](https://bit.ly/openairproject)
+* [OpenLab](https://bit.ly/openlabproject)
+* [OpenME](https://bit.ly/openMEproject)
+* [ScuttleTechGuide](https://bit.ly/scuttletechguide_v1)
+* [SCUTTLE Nigeria](https://bit.ly/scuttleNigeria1)
 
-## Quick Links
+## Reference
+
+A section for terminology, footnotes, and sources cited within the tech guide.
+
+### Quick Links
 
 > | [SCUTTLE Resources](https://scuttlerobot.org/resources ':class=button') | [CAD Models](https://www.scuttlerobot.org/resources/models ':class=button') | [Videos](https://www.scuttlerobot.org/resources/videos/ ':class=button') |
 > | [Applications Guide](https://qr.page/g/15vgHvaHTAe ':class=button') | 
 
-## Glossary
+### Glossary
 
 | Abbreviation or Term | Definition |
 | -------------------- | ---------- |
@@ -23,7 +36,7 @@ A section for teminology, footnotes, and sources cited within the tech guide.
 | DFM | design for manufacturing |
 | SBC | single-board computer |
 
-## Key Standards
+### Key Standards
 
 If you learn about these standards, you can benefit in your project. A) you may find affordable off-the-shelf solutions to integrate. B) you may find a cluster of design knowledge to dive deeper in your favorite area as a maker C) you can invent a project that segways into commercialization more smoothly. 
 
@@ -47,9 +60,9 @@ A quick list of standards we integrate:
 * Creative Commons Open Source License [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 * Water & dust intrusion [IP rating scale](https://en.wikipedia.org/wiki/IP_code)
 
-# Documenting
+## Documenting
 
-## Learn Docs
+### Learn Docs
 
 Resources for Documenting
  * Docs, simplified with [Docsify-This](https://docsify-this.net/#/)
@@ -62,7 +75,7 @@ Resources for Documenting
 > * Draw.io Library [version 06.29](diagram/lib_sctl_v0629.xml)
 > * Draw.io Diagram [draft version 06.29](diagram/diagram_wiring_v0629.xml)
 
-## Our Goals
+### Our Goals
 
 1. Become the first multidisciplinary open project that addresses the 2020-era pain points for the community:
   * Mechanical designs are locked into specific CAD software. 
@@ -81,7 +94,7 @@ Resources for Documenting
   * Only use methods that have been shown successful by other communities.
   * Keep documents and source files open & free as much as possible, and their tools thereof
 
-## Diagramming
+### Diagramming
 
 Okay, hear us out: diagrams may be the most important part of a multidisciplinary design.  Electrical circuits have established standards, hardware designs have them, but the crossover gets messy.  We are implementing new libraries starting in 2023 to help get your projects planned & documented for repeatability & collaboration.
 
@@ -92,7 +105,7 @@ Starting with [Draw.io](https://app.diagrams.net/), here's some technology magic
 
 As we build a library of the most common components, we will release open draw.io libraries so you can grab preconfigured, labeled images with connection points already set.  The images are high quality, lightweight, and easily pulled into other softwares like Visio and Powerpoint.
 
-# Benchmarking
+## Benchmarking
 
 As an open source community, we aim to gather best practices from leading open projects.  The multidisciplinary nature of SCUTTLE means no existing model fits us, but many elements have been resolved by great communities with an ongoing development and outcomes.
 

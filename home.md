@@ -5,12 +5,6 @@ An open door to building and developing with the SCUTTLE multidisciplinary ecosy
 
 **| COMPONENTS | WIRING | SENSORS | POWER | 3D PRINTING |**
 
-
-| [Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button') 
-| [Website](https://qr.scuttlerobot.org/g/12J5i2t3bp4 ':class=button') 
-| [Change Log](https://github.com/dmalawey/ScuttleTechGuide/commits/main ':class=button') |
-
-
 # Reference
 
 A section for teminology, footnotes, and sources cited within the tech guide.

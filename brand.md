@@ -9,6 +9,8 @@ Preferred means it's the most commonly used as of right now (they get adjusted s
 ### Logo Packet
 Download this zip file to grab the set of logos with various backgrounds and sizes, including ico filetype for icons.  However, we mostly use .png filetype even for icons since 2024, because it became more accepted by docsify-this, wordpress, etc.
 
+* Download [Brand Packet, 2MB zip](docs/2025.01_branding.zip)
+
 ![branding packet](image/img_branding.jpg)
 
 ## Copyright

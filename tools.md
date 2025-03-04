@@ -2,7 +2,17 @@
 
 Tools for SCUTTLE Robot learning & development
 
+## OpenLab
+
+2025 March update:  The tools for a basic SCUTTLE build, a robot lab, and a mechatronics workshop are all equivalent.  Please visit OpenLab webpage for lots of recommended tools for robotics work. 
+
+>
+> [Go to OpenLab Project](https://qr.net/openlabproject)
+>
+
 ## Manuals
+
+_The info below will be relocated to OpenLab, along with lots more._
 
 You can learn a great deal from reading these manuals - not only how to use a tool, but better techniques, compatible materials, safety wisdom, and available mods that you didn't know existed.
 

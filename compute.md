@@ -21,7 +21,7 @@ Overview of wiring SCUTTLE with Pi:
 
 _Figure: Pi wiring overview_
 
-## Beagle
+## Beaglebone
 
 **BeagleY-AI, released 2024 March**
 
@@ -29,12 +29,12 @@ _Figure: Pi wiring overview_
 * Pinout diagram here: [pinout.beagley.ai](https://pinout.beagley.ai/)
 * Expert user review: [docs.beagle.cc](https://community.element14.com/products/devtools/single-board-computers/next-genbeaglebone/b/blog/posts/beagley-ai-review)
 
-![beaglebone pinout](image/img_beaglePinout.jpg)
+![beaglebone pinout](img/img_beaglePinout.jpg)
 _Figure: Beagleboard Pinout diagram_
 
 ## TI_Edge_AI
 
-**Texas Instruments "Edge AI" class single-board-computer with TDA4VM ARM processor**
+**Texas Instruments "Edge AI" sbc with TDA4VM ARM processor**
 
 [DOWNLOAD](https://lobfile.com/file/DIq7.drawio) editable design
 

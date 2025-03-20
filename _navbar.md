@@ -1,3 +1,3 @@
-* [home](home)
-* [github](https://github.com/dmalawey/ScuttleTechGuide)
-* [SCUTTLE](https://www.scuttlerobot.org)
+* [Home](home)
+* [Github](https://github.com/dmalawey/ScuttleTechGuide)
+* [SCUTTLErobot.org](https://www.scuttlerobot.org)

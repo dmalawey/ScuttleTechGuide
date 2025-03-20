@@ -1,9 +1,7 @@
-# ScuttleTechGuide
-
-* [home](home)
-* [power](power)
-* [computing](compute)
-* [tools](tools)
-* [wiring](wiring)
-* [parts](parts)
-* [brand](brand)
+* [Home](home)
+* [Power](power)
+* [Computing](compute)
+* [Tools](tools)
+* [Wiring](wiring)
+* [Parts](parts)
+* [Brand](brand)

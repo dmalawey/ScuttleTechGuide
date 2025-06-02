@@ -45,7 +45,7 @@ A section for terminology, footnotes, and sources cited within the tech guide.
 
 If you learn about these standards, you can benefit in your project. A) you may find affordable off-the-shelf solutions to integrate. B) you may find a cluster of design knowledge to dive deeper in your favorite area as a maker C) you can invent a project that segways into commercialization more smoothly. 
 
-Learn (Why Standards are your best friend)[https://www.scuttlerobot.org/updates/blog/standards-inventions/]
+Learn [Why Standards are your best friend](https://www.scuttlerobot.org/updates/blog/standards-inventions/)
 
 A quick list of standards we integrate:
 * 18650 battery cells [specifications](https://www.fenixlighting.com/blogs/news/the-ultimate-guide-to-the-18650-battery)

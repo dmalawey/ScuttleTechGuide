@@ -5,3 +5,4 @@
 * [Wiring](wiring)
 * [Parts](parts)
 * [Brand](brand)
+* [BeagleY-AI](beagley-ai)

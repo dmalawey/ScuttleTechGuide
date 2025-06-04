@@ -13,3 +13,4 @@ As of 2025, we are moving towards rebuilding the content so that all elements ar
 * [tools guide](https://github.com/dmalawey/ScuttleTechGuide/blob/bb81e11bb65fcde2d295c7be2b192554ee326f36/docs/SCTL_ToolsGuide.pdf)
 * [Kinematics Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/c8e50dc6ebf7e51be8d5fc9b00a747eeffef6401/docs/SCTL_KinematicsGuide.pdf)
 * [Brochure Version 3.0](https://github.com/dmalawey/ScuttleTechGuide/blob/87159519749f1c26796e31aba2aa04de925d15d9/docs/SCTL_Brochure_V3.pdf)
+* [Software Functionality Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/29d3c63564c6950a1fd17cfe49efedebac6c4006/docs/SCTL_SoftwareFunctionalityGuide.pdf)

@@ -17,3 +17,4 @@ As of 2025, we are moving towards rebuilding the content so that all elements ar
 * [IoT Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/68b96d1abf113f4788b408c9ff95eca8e614704d/docs/SCTL_IotGuide.pdf)
 * [Project Example](https://github.com/dmalawey/ScuttleTechGuide/blob/09c197385ad02302e470336e317a1dcff9f09e24/docs/SCTL_ProjectExample.pdf)
 * [Designer Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/f548e63118579fbc95579865da31575e4b750d71/docs/SCTL_DesignerGuide.pdf)
+* [Rendering Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/ab3b99e0fd0c5df324c3b00a351138fd7387e6af/docs/SCTL_RenderingGuide.pdf)

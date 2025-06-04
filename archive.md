@@ -34,12 +34,12 @@ As of 2025, we are moving towards rebuilding the content so that all elements ar
   * The most common tools necessary in a basic laboratory space for building robotics with SCUTTLE.  Our preferred selections of the hand-tools for crimping and soldering, etc.  Brands and models for some specific tools that are widely available, affordable, and long-standing sales such that they are recommended for setting up new labs.
 * [Applications Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/643f7fbc4c0f8253074cd48dd5d1d4b2281914e8/docs/SCTL_ApplicationsGuide.pdf)
   * Brainstorming for projects & applications for SCUTTLE robot and developers.  Assists in considering feasibility of projects, integrates consideration of common and available sensors, robust software functions, and available resources for learners.  This is a list of project ideas or application ideas broken down by software projects, sensors projects, and actuators projects. 
-* [Assembly Guide]
+* [Assembly Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/eba5baf4dea715fe56dcea01990130568a86a470/docs/SCTL_AssemblyGuide.pdf)
   * Tutorial of all details for assembly of a standard SCUTTLE robot, including parts subassemblies, sequence of proper construction, and details to give attention to while building your machine. 
-* [Software Guide]
+* [Software Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/eba5baf4dea715fe56dcea01990130568a86a470/docs/SCTL_SoftwareGuide.pdf)
   * A map of the software modules for the standard SCUTTLE included in the university curriculum at Texas A&M.  Information on how to run and test each software that independently tests each sensor.  Good resource for studying the robot by parts when you are troubleshooting your software, or you want to build new functions on top of multiple fundamental functions.
-* [Wiring Guide]
+* [Wiring Guide](https://github.com/dmalawey/ScuttleTechGuide/blob/7a4cbbadf78644c8ce394c07ba6f436c8ab1c285/docs/SCTL_WiringGuide.pdf)
   * Detailed tutorial for hookup of the wires for all signals and all power cables for the robot.  Notes about selection of colors, mapping of pins from the CPU to the sensors, and proper grounding between each electronic device on the robot.
-* [Wiring_Addons]
+* Wiring_Addons - TO BE POSTED
   * Several examples of sensors and actuators that have been integrated on SCUTTLE and verified.  These OTS sensors and actuators are highly common among electronics projects globally, so we have integrated many familiar devices on SCUTTLE so you can copy our design plans.  Selecting connections that match our wiring addons guide will enhance your alignment with our other tutorials and instructions online.
 

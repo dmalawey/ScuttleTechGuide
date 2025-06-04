@@ -17,8 +17,6 @@
     * Devices without built-in Ethernet ports or SD card slots may use [USB dongles](https://www.amazon.com/Anker-Ethernet-PowerExpand-Aluminum-Portable/dp/B08CK9X9Z8)
 
 ### 1. Cooling
-#### Raspberry Pi Active Cooler
-If you are using the Raspberry Pi Active Cooler, follow BeagleBone's guide for [attaching it](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#attach-cooling-fan).
 
 #### Generic heat sink and fan
 If you have a generic fan that is rated for 5V or more, connect the power wire to pins 2 or 4 on the BeagleY and the ground wire to pin 6. Refer to the [pinout diagram](https://pinout.beagleboard.io/).
@@ -30,6 +28,15 @@ The fan can be mounted in various ways, including [this joint](https://grabcad.c
 
 ![Fan joint v1 mounted on a DIN rail for a BeagleY-AI](img/mg_beagley_fanJoint.jpg)
 
+#### Raspberry Pi Active Cooler
+You could also connect the fan using the 4-pin JST cable to the board's PWM fan connector located right below the GPIO pins. Connector's pinout is identical to the Rasperry Pi 5 one.
+
+Top-side view (USB and Ethernet connectors on the bottom) \
+Pins from left to right: \
+1 - 5V; 2 - PWM; 3 - GND; 4 - TACH.
+
+This option would provide the dynamic fan cooling which is better because the board can manipulate the fan for better cooling (e.g. turn the fan slower or faster). 
+More info about active cooling on [Beagle Docs](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#attach-cooling-fan). 
 ### 2. Installing an OS
 The BeagleY-AI is designed to run Debian Linux, an open-source operating system common among embedded systems and servers.
 

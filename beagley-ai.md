@@ -59,3 +59,28 @@ The BeagleY-AI is designed to run Debian Linux, an open-source operating system 
 1. **Connect to the board:** Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi, but on first startup it doesn't know how to connect to your Wi-Fi network.
     1. Plug one end of an Ethernet cable into your computer and the other end into the Beagle.
     1. WIP
+
+
+### Num. Connecting Beagle to encoders
+![I2C Connection](image/byai_i2c_upd.png)
+
+**1. Locate and mount**
+
+On the 40-pin expansion header:
+
+| Header Pin | Signal |
+|:----------:|:------:|
+| Pin 1       | 3.3 V   |
+| Pin 3       | SDA     |
+| Pin 5       | SCL     |
+| Pin 9       | GND     |
+
+**2. Verify the Scuttle Pin-Outs**
+ ```
+From both sides (top → bottom):
+  GND
+  3.3 V
+  SDA
+  SCL
+  3.3 V
+  GND

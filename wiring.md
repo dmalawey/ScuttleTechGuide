@@ -7,9 +7,9 @@
 
 Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the subsections for details.
 
-| Pi Wiring Thumbnail | TI wiring thumbnail |
-| ------------------- | ------------------- | 
-| ![img](image/wg_overview_pi.png) | ![img](image/wg_overview_TDA4VM.png) |
+| Pi Wiring Thumbnail | TI wiring thumbnail | BeagleY-AI Thumbnail |
+| ------------------- | ------------------- | -------------------- |
+| ![img](image/wg_overview_pi.png) | ![img](image/wg_overview_TDA4VM.png) | ![img](image/wg_overview_byai.png) |
 
 
 

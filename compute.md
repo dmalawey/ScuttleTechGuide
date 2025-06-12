@@ -25,13 +25,13 @@ _Figure: Pi wiring overview_
 
 **BeagleY-AI, released 2024 March**
 
-[DOWNLOAD](docs/Beagle_wiring.drawio) editable design
+[DOWNLOAD](https://gofile.io/d/h81H31) editable design
 
 * Official documentation [docs.beagle.cc](https://docs.beagle.cc/)
 * Pinout diagram here: [pinout.beagley.ai](https://pinout.beagley.ai/)
 * Expert user review: [docs.beagle.cc](https://community.element14.com/products/devtools/single-board-computers/next-genbeaglebone/b/blog/posts/beagley-ai-review)
 
-![beaglebone pinout](image/Beagle_wiring_overview.png ':class=image-25')
+![Beaglebone pinout](image/Beagle_wiring_overview.png ':class=image-25')
 _Figure: Beagleboard Pinout diagram_
 
 ## TI_Edge_AI

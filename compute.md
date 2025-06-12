@@ -31,7 +31,7 @@ _Figure: Pi wiring overview_
 * Pinout diagram here: [pinout.beagley.ai](https://pinout.beagley.ai/)
 * Expert user review: [docs.beagle.cc](https://community.element14.com/products/devtools/single-board-computers/next-genbeaglebone/b/blog/posts/beagley-ai-review)
 
-![beaglebone pinout](Image/Beagle_wiring_overview.png)
+![beaglebone pinout](image/Beagle_wiring_overview.png)
 _Figure: Beagleboard Pinout diagram_
 
 ## TI_Edge_AI

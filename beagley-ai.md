@@ -43,7 +43,7 @@ The BeagleY-AI is designed to run Debian Linux, an open-source operating system 
 1. **Locate the OS images:** Go to [beagleboard.org/boards/beagley-ai](https://www.beagleboard.org/boards/beagley-ai) and click the orange "Software Images" button.
     * There are three pieces of information to note for each image: the Debian version, the environment, and the Linux kernel version. For example, "BeagleY-AI Debian 12.11 2025-05-21 XFCE (v6.6.x-ti)" is Debian 12.11, with the XFCE desktop environment, and Linux kernel 6.6.
 
-1. **Download an image:** The environment determines how you will interact with the board. Once you've selected a configuration that is suitable for your setup, click on the name to download it.
+2. **Download an image:** The environment determines how you will interact with the board. Once you've selected a configuration that is suitable for your setup, click on the name to download it.
     * [XFCE](https://xfce.org/about/screenshots) is a desktop environment, meaning you will have an interface similar to Windows or MacOS. Note that you'll need a micro HDMI cable and an external monitor to make use of it.
     * The minimal environment contains only a text-based command line. If you intend on running the board headless (meaning, without a dedicated display), this is the recommended configuration.
 
@@ -54,17 +54,51 @@ The BeagleY-AI is designed to run Debian Linux, an open-source operating system 
     1. Click "Select target" and pick the SD card. Make sure you select the correct device-- any content on it will be deleted.
     1. Click "Flash!" and wait for it to copy and verify the install.
 
-### 3. Software setup
+### 3. Network setup
 
-1. **Connect to the board:** Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi, but on first startup it doesn't know how to connect to your Wi-Fi network.
-    1. Plug one end of an Ethernet cable into your computer and the other end into the Beagle.
-    1. WIP
+Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi, but on first startup it doesn't know how to connect to your Wi-Fi network.
 
+1. Plug one end of an Ethernet cable into your computer and the other end into the Beagle.
+2. Boot your BeagleY-AI and run 'sudo systemctl start NetworkManager' allowing the board connect to networks.
+3. There are two ways now to connect to Wi-Fi networks. \
+    - Connecting through NetworkManager TUI (more friendly to first-time users) \
+    -> Run **sudo nmtui** and navigating with arrow keys through opened menu click **Activate a connection** \
+    ![nmtui-1](img/nmtui-1.png) \
+    -> scroll down and select desired network connect to \
+    ![nmtui-2](img/nmtui-2.png) \
+    -> on the right side click **Activate** \
+    -> In case network is protected, in the popped up window type password \
+    ![nmtui-3](img/nmtui-3.png)
 
-### Num. Connecting Beagle to encoders
-![I2C Connection](image/byai_i2c_upd.png)
+    - Using nmcli (for advanced users) \
+    -> Type **sudo systemctl enable NetworkManager** tu turn on NetworkManager every time you boot the board automatically \
+    -> Type **sudo nmcli dev status** to confirm if the dedicated network can be seen by the board \
+    -> Type **sudo nmcli device wifi connect 'Your_SSID' password 'Password'** to connect \
+    -> Type **sudo nmcli connection modify 'Your_SSID' connection.autoconnect yes** to connect automatically to the same network each boot \
+    -> To check if there is internet access type **ping www.google.com**. The resulting output must be this: \
+    $ ping www.google.com \
+    PING www.google.com (142.250.190.14) 56(84) bytes of data. \
+    64 bytes from lhr25s10-in-f14.1e100.net (142.250.190.14): icmp_seq=1 ttl=116 time=10.5 ms
 
-**1. Locate and mount**
+## Environment setup
+### 1. Pre-installation
+***Recommended***: After successfully connecting to internet type **sudo apt update**. 
+- Your system just grabs the newest lists of available software from all its repositories and stores them in /var/lib/apt/lists/. 
+- It simply makes sure that whenever you do an install or upgrade next, you’re working with the freshest info.
+
+***Proceed with caution!***: You could also type **sudo apt upgrade** but be careful as:
+- On some boards (e.g. BeagleBone Black with the Debian image), running apt upgrade can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded **apt upgrade**. [-->Source](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030?utm_source=chatgpt.com)
+- Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via **apt full-upgrade** is **NOT** recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. [-->Upgrade rather than reinstall -](https://forums.raspberrypi.com/viewtopic.php?t=337992&utm_source=chatgpt.com) [ Upgrade from 'Buster' to Raspberry Pi OS<--](https://forums.raspberrypi.com/viewtopic.php?t=288172&utm_source=chatgpt.com)
+
+### 2. Software setup
+(WIP)
+
+### 3. Hardware setup
+
+1. Connecting Beagle to encoders
+![I2C Connection](image/byai-i2c.png)
+
+**Locate and mount**
 
 On the 40-pin expansion header:
 
@@ -75,12 +109,16 @@ On the 40-pin expansion header:
 | Pin 5       | SCL     |
 | Pin 9       | GND     |
 
-**2. Verify the Scuttle Pin-Outs**
+**Verify the Scuttle Pin-Outs**
  ```
 From both sides (top → bottom):
-  GND
-  3.3 V
-  SDA
-  SCL
-  3.3 V
-  GND
+***Right encoder***
+i2c board       encoder
+  GND ---->     GND
+  3.3 V ---->   3.3 V
+  SDA ---->     SDA/SCn
+  SCL ---->     SCL/SCK
+  3.3 V ---->   A1/MOSI
+  GND ---->     A2/MISO
+```
+(WIP)

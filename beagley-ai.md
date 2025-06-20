@@ -81,21 +81,14 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
     64 bytes from lhr25s10-in-f14.1e100.net (142.250.190.14): icmp_seq=1 ttl=116 time=10.5 ms
 
 ## Environment setup
-### 1. Pre-installation
-***Recommended***: After successfully connecting to internet type **sudo apt update**. 
-- Your system just grabs the newest lists of available software from all its repositories and stores them in /var/lib/apt/lists/. 
-- It simply makes sure that whenever you do an install or upgrade next, you’re working with the freshest info.
 
-***Proceed with caution!***: You could also type **sudo apt upgrade** but be careful as:
-- On some boards (e.g. BeagleBone Black with the Debian image), running apt upgrade can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded **apt upgrade**. [-->Source](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030?utm_source=chatgpt.com)
-- Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via **apt full-upgrade** is **NOT** recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. [-->Upgrade rather than reinstall -](https://forums.raspberrypi.com/viewtopic.php?t=337992&utm_source=chatgpt.com) [ Upgrade from 'Buster' to Raspberry Pi OS<--](https://forums.raspberrypi.com/viewtopic.php?t=288172&utm_source=chatgpt.com)
+### 1. Connecting to encoders
 
-### 2. Software setup
-(WIP)
+1. Connecting the motors
 
-### 3. Hardware setup
 
-1. Connecting Beagle to encoders
+
+2. Connecting Beagle to encoders
 ![I2C Connection](image/byai-i2c.png)
 
 **Locate and mount**
@@ -121,4 +114,58 @@ i2c board       encoder
   3.3 V ---->   A1/MOSI
   GND ---->     A2/MISO
 ```
-(WIP)
+
+### 3. Connecting to Motor Driver
+![Motor Driver](image/Beagle_wiring_whitebg.png)
+To allow Beagle communicate with motors the board must be connected to HW-231 Motor Driver using a 5 pin header. Check with the wiring diagram:
+
+**---Right Motor---**
+| Channel | Wire | Pin | GPIO |
+|:-----:|:------:|:---:|:----:|
+| A | Orange | 33 | 13 |
+| B | Yellow | 32 | 12 |
+
+**---Left Motor---**
+| Channel | Wire | Pin | GPIO |
+|:-----:|:------:|:---:|:----:|
+| A | Brown | 29 | 5 |
+| B | Red | 31 | 6 |
+
+The 5th wire, the black one, is ground. Must be connected to pin 34. 
+
+## 3. Software setup
+
+### 1. Pre-Installation
+***Recommended***: After successfully connecting to internet type **sudo apt update**. 
+- Your system just grabs the newest lists of available software from all its repositories and stores them in /var/lib/apt/lists/. 
+- It simply makes sure that whenever you do an install or upgrade next, you’re working with the freshest info.
+
+***Proceed with caution!***: You could also type **sudo apt upgrade** but be careful as:
+- On some boards (e.g. BeagleBone Black with the Debian image), running apt upgrade can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded **apt upgrade**. [-->Source](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030?utm_source=chatgpt.com)
+- Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via **apt full-upgrade** is **NOT** recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. [-->Upgrade rather than reinstall -](https://forums.raspberrypi.com/viewtopic.php?t=337992&utm_source=chatgpt.com) [ Upgrade from 'Buster' to Raspberry Pi OS<--](https://forums.raspberrypi.com/viewtopic.php?t=288172&utm_source=chatgpt.com)
+
+### 2. Installing Required libraries
+Since it's impossible to install required libraries through pip in core environment on BeagleY-AI, users are required to create an external one. \
+- To do so type: **python3 -m venv ~/<>>** \
+- To activate the newly created environment: **source ~/i2c-env/bin/activate** \
+- In case user wants to go back to the core environment: **deactivate**
+
+Once user activated the environment, these libraries must be installed: \
+**pip install numpy** \
+**pip install python-periphery**
+
+### 3. Installing program files
+1. To start operating SCUTTLE with BeagleY-AI download these files: \
+<a href="docs/L1_encoder.py" download="L1_encoder.py">
+  ⬇️ L1_encoder.py
+</a>
+<!--L1_encoder.py](docs/L1_encoder.py) \ -->
+[L1_motor.py](docs/L1_motor.py) \
+[L1_gamepad.py]() \
+[L1_log.py]() \
+[L2_speed_control.py]() \
+[L2_kinematics.py]() \
+[L2_inverse_kinematics.py]() \
+[L3_gpDemo.py]() \
+
+

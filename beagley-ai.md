@@ -133,7 +133,7 @@ To allow Beagle communicate with motors the board must be connected to HW-231 Mo
 
 The 5th wire, the black one, is ground. Must be connected to pin 34. 
 
-## 3. Software setup
+## Software setup
 
 ### 1. Pre-Installation
 ***Recommended***: After successfully connecting to internet type **sudo apt update**. 
@@ -156,10 +156,7 @@ Once user activated the environment, these libraries must be installed: \
 
 ### 3. Installing program files
 1. To start operating SCUTTLE with BeagleY-AI download these files: \
-<a href="docs/L1_encoder.py" download="L1_encoder.py">
-  ⬇️ L1_encoder.py
-</a>
-<!--L1_encoder.py](docs/L1_encoder.py) \ -->
+[L1_encoder.py](docs/L1_encoder.py) \
 [L1_motor.py](docs/L1_motor.py) \
 [L1_gamepad.py]() \
 [L1_log.py]() \
@@ -168,4 +165,4 @@ Once user activated the environment, these libraries must be installed: \
 [L2_inverse_kinematics.py]() \
 [L3_gpDemo.py]() \
 
-
+(WIP)

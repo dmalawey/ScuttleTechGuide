@@ -156,13 +156,11 @@ Once user activated the environment, these libraries must be installed: \
 
 ### 3. Installing program files
 1. To start operating SCUTTLE with BeagleY-AI download these files: \
-[L1_encoder.py](docs/L1_encoder.py) \
-[L1_motor.py](docs/L1_motor.py) \
-[L1_gamepad.py]() \
-[L1_log.py]() \
-[L2_speed_control.py]() \
-[L2_kinematics.py]() \
-[L2_inverse_kinematics.py]() \
-[L3_gpDemo.py]() \
-
-(WIP)
+[L1_encoder.py](https://www.mediafire.com/file/okivhm6k8538pmm/L1_encoder.py/file) \
+[L1_motor.py](https://www.mediafire.com/file/pbtqgwtd8ptlqk8/L1_motor.py/file) \
+[L1_gamepad.py] (WIP) \
+[L1_log.py] (WIP) \
+[L2_speed_control.py] (WIP) \
+[L2_kinematics.py] (WIP) \
+[L2_inverse_kinematics.py] (WIP) \
+[L3_gpDemo.py] (WIP) \

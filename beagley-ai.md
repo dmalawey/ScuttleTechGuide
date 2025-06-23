@@ -146,13 +146,15 @@ The 5th wire, the black one, is ground. Must be connected to pin 34.
 
 ### 2. Installing Required libraries
 Since it's impossible to install required libraries through pip in core environment on BeagleY-AI, users are required to create an external one. \
-- To do so type: **python3 -m venv ~/<>>** \
-- To activate the newly created environment: **source ~/i2c-env/bin/activate** \
+- To do so type: **python3 -m venv ~/YOUR_ENV**
+- To activate the newly created environment: **source ~/YOUR_ENV/bin/activate**
 - In case user wants to go back to the core environment: **deactivate**
 
 Once user activated the environment, these libraries must be installed: \
 **pip install numpy** \
-**pip install python-periphery**
+**pip install python-periphery** \
+**pip install smbus2** \
+**pip install inputs**
 
 ### 3. Installing program files
 1. To start operating SCUTTLE with BeagleY-AI download these files: \
@@ -164,3 +166,4 @@ Once user activated the environment, these libraries must be installed: \
 [L2_kinematics.py] (WIP) \
 [L2_inverse_kinematics.py] (WIP) \
 [L3_gpDemo.py] (WIP) \
+

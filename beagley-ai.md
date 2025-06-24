@@ -145,7 +145,7 @@ The 5th wire, the black one, is ground. Must be connected to pin 34.
 - Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via **apt full-upgrade** is **NOT** recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. [-->Upgrade rather than reinstall -](https://forums.raspberrypi.com/viewtopic.php?t=337992&utm_source=chatgpt.com) [ Upgrade from 'Buster' to Raspberry Pi OS<--](https://forums.raspberrypi.com/viewtopic.php?t=288172&utm_source=chatgpt.com)
 
 ### 2. Installing Required libraries
-Since it's impossible to install required libraries through pip in core environment on BeagleY-AI, users are required to create an external one. \
+Since it's impossible to install required libraries through pip in core environment on BeagleY-AI, users are required to create an external one.
 - To do so type: **python3 -m venv ~/YOUR_ENV**
 - To activate the newly created environment: **source ~/YOUR_ENV/bin/activate**
 - In case user wants to go back to the core environment: **deactivate**

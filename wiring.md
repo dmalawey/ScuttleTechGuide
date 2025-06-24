@@ -103,7 +103,7 @@ _Figure: motor driver wiring_
 
 |The motor wires to communicate from CPU to the motor driver| BeagleY-AI Connectivity|
 |--------------| -------------- |
-|![motor leads](image/wg_cable_motor_signal.png)| ![Beagle_motor_leads](image/Beagle_wiring_whitebg.png)|
+|![motor leads](image/wg_cable_motor_signal.png)| ![Beagle motor leads](image/Beagle_wiring_whitebg.png)|
 
 _Figure: motor signal cable_
 

@@ -116,7 +116,7 @@ i2c board       encoder
 ```
 
 ### 3. Connecting to Motor Driver
-![Motor Driver](image/Beagle_wiring_whitebg.jpg)
+![Motor Driver](image/Beagle_wiring_whitebg.png)
 To allow Beagle communicate with motors the board must be connected to HW-231 Motor Driver using a 5 pin header. Check with the wiring diagram:
 
 **---Right Motor---**

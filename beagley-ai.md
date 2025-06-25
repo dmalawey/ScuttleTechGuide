@@ -56,39 +56,46 @@ The BeagleY-AI is designed to run Debian Linux, an open-source operating system 
 
 ### 3. Network setup
 
-Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi, but on first startup it doesn't know how to connect to your Wi-Fi network.
+Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi, but on first startup it won't know how to connect to your Wi-Fi network.
 
 1. Plug one end of an Ethernet cable into your computer and the other end into the Beagle.
-2. Boot your BeagleY-AI and run 'sudo systemctl start NetworkManager' allowing the board connect to networks.
-3. There are two ways now to connect to Wi-Fi networks. \
-    - Connecting through NetworkManager TUI (more friendly to first-time users) \
-    -> Run **sudo nmtui** and navigating with arrow keys through opened menu click **Activate a connection** \
-    ![nmtui-1](img/nmtui-1.png) \
-    -> scroll down and select desired network connect to \
-    ![nmtui-2](img/nmtui-2.png) \
-    -> on the right side click **Activate** \
-    -> In case network is protected, in the popped up window type password \
+1. Plug your BeagleY-AI into a suitable USB-C power adapter.
+1. In a terminal on your computer, run `ssh debian@beaglebone.local`. If this succeeds, you will now be running commands on the Beagle.
+1. Run `sudo systemctl start NetworkManager`.
+1. Connect to your Wi-Fi network via NetworkManager TUI:
+    1. Run `sudo nmtui` and select **Activate a connection**. \
+    ![nmtui-1](img/nmtui-1.png)
+    1. Select desired network connect to. \
+    ![nmtui-2](img/nmtui-2.png)
+    1. On the right, click **Activate**.
+    1. If necessary, type the network password in the pop-up window. \
     ![nmtui-3](img/nmtui-3.png)
 
-    - Using nmcli (for advanced users) \
-    -> Type **sudo systemctl enable NetworkManager** tu turn on NetworkManager every time you boot the board automatically \
-    -> Type **sudo nmcli dev status** to confirm if the dedicated network can be seen by the board \
-    -> Type **sudo nmcli device wifi connect 'Your_SSID' password 'Password'** to connect \
-    -> Type **sudo nmcli connection modify 'Your_SSID' connection.autoconnect yes** to connect automatically to the same network each boot \
-    -> To check if there is internet access type **ping www.google.com**. The resulting output must be this: \
-    $ ping www.google.com \
-    PING www.google.com (142.250.190.14) 56(84) bytes of data. \
-    64 bytes from lhr25s10-in-f14.1e100.net (142.250.190.14): icmp_seq=1 ttl=116 time=10.5 ms
+## Electrical setup
 
-## Environment setup
+### 1. Motors to Motor Driver
+See [Wiring § Power](wiring.md#actuator-motor-driver) or [[Wiring#Actuator: Motor Driver]] for how to wire the motors to the motor driver.
 
-### 1. Connecting to encoders
+### 2. Motor Driver to Beagle
+The BeagleY-AI controls the motors via the HW-231 Motor Driver.
 
-1. Connecting the motors
+![Motor Driver](image/Beagle_wiring_whitebg.png)
 
+**---Right Motor---**
+| Channel | Wire | Pin | GPIO |
+|:-----:|:------:|:---:|:----:|
+| A | Orange | 33 | 13 |
+| B | Yellow | 32 | 12 |
 
+**---Left Motor---**
+| Channel | Wire | Pin | GPIO |
+|:-----:|:------:|:---:|:----:|
+| A | Brown | 29 | 5 |
+| B | Red | 31 | 6 |
 
-2. Connecting Beagle to encoders
+The 5th wire, the black one, is ground. Must be connected to pin 34. 
+
+### 3. Encoders to Beagle
 ![I2C Connection](image/byai-i2c.png)
 
 **Locate and mount**
@@ -115,34 +122,18 @@ i2c board       encoder
   GND ---->     A2/MISO
 ```
 
-### 3. Connecting to Motor Driver
-![Motor Driver](image/Beagle_wiring_whitebg.png)
-To allow Beagle communicate with motors the board must be connected to HW-231 Motor Driver using a 5 pin header. Check with the wiring diagram:
-
-**---Right Motor---**
-| Channel | Wire | Pin | GPIO |
-|:-----:|:------:|:---:|:----:|
-| A | Orange | 33 | 13 |
-| B | Yellow | 32 | 12 |
-
-**---Left Motor---**
-| Channel | Wire | Pin | GPIO |
-|:-----:|:------:|:---:|:----:|
-| A | Brown | 29 | 5 |
-| B | Red | 31 | 6 |
-
-The 5th wire, the black one, is ground. Must be connected to pin 34. 
-
 ## Software setup
 
 ### 1. Pre-Installation
 ***Recommended***: After successfully connecting to internet type **sudo apt update**. 
-- Your system just grabs the newest lists of available software from all its repositories and stores them in /var/lib/apt/lists/. 
+- Your system just grabs the newest lists of available software from all its repositories and stores them in `/var/lib/apt/lists/`. 
 - It simply makes sure that whenever you do an install or upgrade next, you’re working with the freshest info.
 
-***Proceed with caution!***: You could also type **sudo apt upgrade** but be careful as:
-- On some boards (e.g. BeagleBone Black with the Debian image), running apt upgrade can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded **apt upgrade**. [-->Source](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030?utm_source=chatgpt.com)
-- Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via **apt full-upgrade** is **NOT** recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. [-->Upgrade rather than reinstall -](https://forums.raspberrypi.com/viewtopic.php?t=337992&utm_source=chatgpt.com) [ Upgrade from 'Buster' to Raspberry Pi OS<--](https://forums.raspberrypi.com/viewtopic.php?t=288172&utm_source=chatgpt.com)
+> [!WARNING]
+> You could also type `sudo apt upgrade` but be careful as on some boards (e.g. BeagleBone Black with the Debian image), running `apt upgrade` can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded `apt upgrade`. [More info ▶](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030)
+
+> ⚠️ **Warning** \
+Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via `apt full-upgrade` is *not* recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. See [Upgrade rather than reinstall ↗](https://forums.raspberrypi.com/viewtopic.php?t=337992) or [Upgrade from 'Buster' to Raspberry Pi OS ↗](https://forums.raspberrypi.com/viewtopic.php?t=288172).
 
 ### 2. Installing Required libraries
 Since it's impossible to install required libraries through pip in core environment on BeagleY-AI, users are required to create an external one.

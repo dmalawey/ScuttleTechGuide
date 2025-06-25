@@ -33,6 +33,9 @@ You could also connect the fan using the 4-pin JST cable to the board's PWM fan 
 
 Top-side view (USB and Ethernet connectors on the bottom) \
 Pins from left to right: \
+
+![JST](image/BeagleY-AI%20Fan%20connector.png)
+
 1 - 5V; 2 - PWM; 3 - GND; 4 - TACH.
 
 This option would provide the dynamic fan cooling which is better because the board can manipulate the fan for better cooling (e.g. turn the fan slower or faster). 

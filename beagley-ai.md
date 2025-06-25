@@ -74,7 +74,7 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
 ## Electrical setup
 
 ### 1. Motors to Motor Driver
-See [Wiring § Power](wiring.md#actuator-motor-driver) or [[Wiring#Actuator: Motor Driver]] for how to wire the motors to the motor driver.
+See [Wiring § Power](wiring.md#actuator-motor-driver) for how to wire the motors to the motor driver.
 
 ### 2. Motor Driver to Beagle
 The BeagleY-AI controls the motors via the HW-231 Motor Driver.
@@ -131,9 +131,7 @@ i2c board       encoder
 
 > [!WARNING]
 > You could also type `sudo apt upgrade` but be careful as on some boards (e.g. BeagleBone Black with the Debian image), running `apt upgrade` can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded `apt upgrade`. [More info ▶](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030)
-
-> ⚠️ **Warning** \
-Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via `apt full-upgrade` is *not* recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. See [Upgrade rather than reinstall ↗](https://forums.raspberrypi.com/viewtopic.php?t=337992) or [Upgrade from 'Buster' to Raspberry Pi OS ↗](https://forums.raspberrypi.com/viewtopic.php?t=288172).
+> Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via `apt full-upgrade` is *not* recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. See [Upgrade rather than reinstall ↗](https://forums.raspberrypi.com/viewtopic.php?t=337992) or [Upgrade from 'Buster' to Raspberry Pi OS ↗](https://forums.raspberrypi.com/viewtopic.php?t=288172).
 
 ### 2. Installing Required libraries
 Since it's impossible to install required libraries through pip in core environment on BeagleY-AI, users are required to create an external one.

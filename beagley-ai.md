@@ -32,11 +32,9 @@ The fan can be mounted in various ways, including [this joint](https://grabcad.c
 You could also connect the fan using the 4-pin JST cable to the board's PWM fan connector located right below the GPIO pins. Connector's pinout is identical to the Rasperry Pi 5 one.
 
 Top-side view (USB and Ethernet connectors on the bottom) \
-Pins from left to right: \
+Pins from left to right:
 
 ![JST](image/BeagleY-AI%20Fan%20connector.png)
-
-1 - 5V; 2 - PWM; 3 - GND; 4 - TACH.
 
 This option would provide the dynamic fan cooling which is better because the board can manipulate the fan for better cooling (e.g. turn the fan slower or faster). 
 More info about active cooling on [Beagle Docs](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#attach-cooling-fan). 

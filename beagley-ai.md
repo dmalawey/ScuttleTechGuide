@@ -86,18 +86,9 @@ The BeagleY-AI controls the motors via the HW-231 Motor Driver.
 ![Motor Driver](image/Beagle_wiring_whitebg.png)
 
 ### 3. Encoders to Beagle
-![I2C Connection](image/byai-i2c.png)
+The encoders are used to determine the rotational position of each wheel. They are connected to the Beagle using the I2C protocol. The SCUTTLE design uses a simple I2C bus board to combine the I2C connections for both encoders into a single set of wires.
 
-**Locate and mount**
-
-On the 40-pin expansion header:
-
-| Header Pin | Signal |
-|:----------:|:------:|
-| Pin 1       | 3.3 V   |
-| Pin 3       | SDA     |
-| Pin 5       | SCL     |
-| Pin 9       | GND     |
+![I2C Connection](img/wg_byai_encoder.png)
 
 **Verify the Scuttle Pin-Outs**
  ```

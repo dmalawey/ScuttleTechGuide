@@ -78,7 +78,7 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
 ## Electrical setup
 
 ### 1. Motors to Motor Driver
-See [Wiring § Power](wiring.md#actuator-motor-driver) for how to wire the motors to the motor driver.
+See [Wiring § Motor Driver](wiring.md#actuator-motor-driver) for how to wire the motors to the motor driver.
 
 ### 2. Motor Driver to Beagle
 The BeagleY-AI controls the motors via the HW-231 Motor Driver.
@@ -88,20 +88,9 @@ The BeagleY-AI controls the motors via the HW-231 Motor Driver.
 ### 3. Encoders to Beagle
 The encoders are used to determine the rotational position of each wheel. They are connected to the Beagle using the I2C protocol. The SCUTTLE design uses a simple I2C bus board to combine the I2C connections for both encoders into a single set of wires.
 
-![I2C Connection](img/wg_byai_encoder.png)
+See [Wiring § Encoder](wiring.md#sensor-encoder)
 
-**Verify the Scuttle Pin-Outs**
- ```
-From both sides (top → bottom):
-***Right encoder***
-i2c board       encoder
-  GND ---->     GND
-  3.3 V ---->   3.3 V
-  SDA ---->     SDA/SCn
-  SCL ---->     SCL/SCK
-  3.3 V ---->   A1/MOSI
-  GND ---->     A2/MISO
-```
+![I2C Connection](img/wg_byai_encoder.png)
 
 ## Software setup
 
@@ -112,6 +101,7 @@ After successfully connecting to internet, run `sudo apt update`.
 
 > [!WARNING]
 > You could also `sudo apt upgrade` but be careful as on some boards (e.g. BeagleBone Black with the Debian image), running `apt upgrade` can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded `apt upgrade`. [More info ↗](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030)
+> 
 > Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via `apt full-upgrade` is *not* recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. See [Upgrade rather than reinstall ↗](https://forums.raspberrypi.com/viewtopic.php?t=337992) or [Upgrade from 'Buster' to Raspberry Pi OS ↗](https://forums.raspberrypi.com/viewtopic.php?t=288172).
 
 ### 2. Installing Python

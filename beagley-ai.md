@@ -73,6 +73,10 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
     1. If necessary, type the network password in the pop-up window. \
     ![nmtui-3](img/nmtui-3.png)
 
+
+> [!NOTE]
+> If you are SSH'ed into the Beagle over Ethernet, the connection may drop out after a few minutes. A common workaround is to SSH into the board and run `sudo nmcli c m "Wired connection 1" ipv4.method link-local`.
+
 ## Electrical setup
 
 ### 1. Motors to Motor Driver

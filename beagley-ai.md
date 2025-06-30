@@ -106,7 +106,30 @@ After successfully connecting to internet, run `sudo apt update`.
 > 
 > Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via `apt full-upgrade` is *not* recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. See [Upgrade rather than reinstall ↗](https://forums.raspberrypi.com/viewtopic.php?t=337992) or [Upgrade from 'Buster' to Raspberry Pi OS ↗](https://forums.raspberrypi.com/viewtopic.php?t=288172).
 
-### 2. Installing Python
+### 2. Enabling PWM
+The BeagleY-AI has hardware PWM, but to use it you'll need to import the appropriate overlays on boot.
+
+1. Open `/boot/firmware/extlinux/extlinux.conf` in a text editor. For example, `sudo nano /boot/firmware/extlinux/extlinux.conf`.
+1. Locate the "microSD (default)" section at the end of the file.
+1. Replace the commented `fdtoverlays` line with the following:
+
+    ```
+    fdtoverlays /overlays/k3-am67a-beagley-ai-pwm-epwm0-gpio12.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm1-gpio13.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm0-gpio5.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm1-gpio6.dtbo
+    ```
+
+1. The full section should look like this:
+    ```
+    label microSD (default)
+        kernel /Image
+        append console=ttyS2,115200n8 root=/dev/mmcblk1p2 ro rootfstype=ext4 rootwait net.ifnames=0 quiet
+        fdtdir /
+        fdt /ti/k3-am67a-beagley-ai.dtb
+        fdtoverlays /overlays/k3-am67a-beagley-ai-pwm-epwm0-gpio5-gpio12.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm1-gpio6-gpio13.dtbo
+        #initrd /initrd.img
+    ```
+1. Save the file. For Nano, hit `Ctrl-X` and then `Enter`.
+
+### 3. Installing Python
 The `pip` command available from the BeagleY-AI's core environment is locked, so you'll need to use a Python virtual environment.
 - To create a new virtual enviornment: `python3 -m venv ~/YOUR_ENV`
 - To activate an environment: `source ~/YOUR_ENV/bin/activate`
@@ -120,7 +143,7 @@ Within the virtual environment, install the required libraries:
 pip install numpy python-periphery smbus2 inputs
 ```
 
-### 3. Downloading code
+### 4. Downloading code
 1. To start operating a SCUTTLE with BeagleY-AI download these files:
     - [L1_encoder.py](https://www.mediafire.com/file/okivhm6k8538pmm/L1_encoder.py/file)
     - [L1_motor.py](https://www.mediafire.com/file/pbtqgwtd8ptlqk8/L1_motor.py/file)

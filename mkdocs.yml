@@ -1,0 +1,24 @@
+site_name: SCUTTLE Tech Guide
+site_url: http://scuttletechguide.github.io
+repo_url: https://github.com/dmalawey/SCUTTLETechGuide/
+edit_uri: blob/main/docs
+
+extra_css:
+  - style.css
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - callouts
+  - pagetree
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

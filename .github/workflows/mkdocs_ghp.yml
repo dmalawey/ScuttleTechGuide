@@ -3,7 +3,7 @@ name: mkdocs_ghp
 on:
   push:
     branches:
-      - mkdocs
+      - main
 permissions:
   contents: write
 jobs:

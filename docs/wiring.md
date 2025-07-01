@@ -18,7 +18,8 @@ Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the
 Signal wires perform the communication on your robot, between sensors, CPU, and actuators.  Several wires make up a cable, and the cables get plugged in when you build your robot.
 All signals on SCUTTLE can be made with regular off-the-shelf Dupont-style terminals, all female.  Lengths are 10cm and 20cm as shown.
 
-> ⚠️Please do not peel the wires apart! Keep them bonded for strong connections.
+> [!NOTE]
+> Do not peel the wires apart. Keep them bonded for strong and organized connections.
 
 ![dupont cables photo](https://i.imgur.com/YN3LAEp.jpg ':class=image-25')
 
@@ -31,8 +32,8 @@ We chose the colors to make good use of any pack of wires.  When you add sensors
 | Ground | Black, Brown, Green |
 | Power, 3.3v | Red, Purple |
 | PWM signals | Orange, Yellow |
-| CLOCK (i2C | Gray |
-| SIGNAL (i2C) | White |
+| CLOCK (I2C) | Gray |
+| SIGNAL (I2C) | White |
 
 ### Cables
 

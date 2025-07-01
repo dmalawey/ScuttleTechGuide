@@ -1,7 +1,12 @@
 site_name: SCUTTLE Tech Guide
-site_url: http://scuttletechguide.github.io
-repo_url: https://github.com/dmalawey/SCUTTLETechGuide/
+site_url: http://yoshiask.github.io/ScuttleTechGuide
+repo_url: https://github.com/yoshiask/ScuttleTechGuide/
 edit_uri: blob/main/docs
+
+exclude_docs: |
+  readme.md
+  /_navbar.md
+  /_sidebar.md
 
 extra_css:
   - style.css

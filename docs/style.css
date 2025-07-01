@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Share+Tech&display=swap');
+
+:root {
+    /* --bs-body-font-family: "Roboto Serif", var(--bs-font-sans-serif); */
+    --bs-primary: #0556A3;
+    --bs-primary-rgb: 5, 86, 163;
+    --bs-nav-link-color: var(--bs-primary);
+}
+
+.navbar.bg-primary {
+    background-image: linear-gradient(#2295FF, var(--bs-primary));
+}

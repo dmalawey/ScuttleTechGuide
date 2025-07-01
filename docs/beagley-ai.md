@@ -2,17 +2,17 @@
 
 **You'll need:**
 
-* [BeagleY-AI board](https://www.beagleboard.org/boards/beagley-ai)
-* microSD card (32GB+)
-* USB-C power supply
-    * Minimum: Rated for 15W (5V 3A)
-    * Recommended: [Official Raspberry Pi power supply](https://www.raspberrypi.com/products/27w-power-supply/) or other USB PD-capable power supply
-* Ethernet cable
-* Active cooler is highly recommended
-    * Minimum: Adhesive heat sink and small 5V fan
-    * Recommended: [Offcial Raspberry Pi active cooler](https://www.raspberrypi.com/products/active-cooler/)
-* Computer with Ethernet port and SD card reader
-    * Devices without built-in Ethernet ports or SD card slots may use [USB dongles](https://www.amazon.com/Anker-Ethernet-PowerExpand-Aluminum-Portable/dp/B08CK9X9Z8)
+- [BeagleY-AI board](https://www.beagleboard.org/boards/beagley-ai)
+- microSD card (32GB+)
+- USB-C power supply
+    - Minimum: Rated for 15W (5V 3A)
+    - Recommended: [Official Raspberry Pi power supply](https://www.raspberrypi.com/products/27w-power-supply/) or other USB PD-capable power supply
+- Ethernet cable
+- Active cooler is highly recommended
+    - Minimum: Adhesive heat sink and small 5V fan
+    - Recommended: [Official Raspberry Pi active cooler](https://www.raspberrypi.com/products/active-cooler/)
+- Computer with Ethernet port and SD card reader
+    - Devices without built-in Ethernet ports or SD card slots may use [USB dongles](https://www.amazon.com/Anker-Ethernet-PowerExpand-Aluminum-Portable/dp/B08CK9X9Z8)
 
 ## Hardware setup
 
@@ -32,7 +32,7 @@ The fan can be mounted in various ways, including [this joint](https://grabcad.c
 #### Raspberry Pi Active Cooler
 You could also connect the fan using the 4-pin JST cable to the board's PWM fan connector located right below the GPIO pins. Connector's pinout is identical to the Rasperry Pi 5 one.
 
-Top-side view (USB and Ethernet connectors on the bottom) \
+Top-side view (USB and Ethernet connectors on the bottom)
 Pins from left to right:
 
 ![JST](image/BeagleY-AI%20Fan%20connector.png)
@@ -65,12 +65,12 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
 1. **Power on the board:** Plug your BeagleY-AI into a suitable USB-C power adapter.
 1. **Connect to the board:** In a terminal on your computer, run `ssh debian@beaglebone.local`. If this succeeds, you will now be running commands on the Beagle.
 1. **Connect to Wi-Fi:** Run `sudo systemctl start NetworkManager` and connect to your Wi-Fi network via NetworkManager TUI:
-    1. Run `sudo nmtui` and select **Activate a connection**. \
+    1. Run `sudo nmtui` and select **Activate a connection**.
     ![nmtui-1](img/nmtui-1.png)
-    1. Select desired network connect to. \
+    1. Select desired network connect to.
     ![nmtui-2](img/nmtui-2.png)
     1. On the right, click **Activate**.
-    1. If necessary, type the network password in the pop-up window. \
+    1. If necessary, type the network password in the pop-up window.
     ![nmtui-3](img/nmtui-3.png)
 
 
@@ -98,6 +98,7 @@ See [Wiring § Encoder](wiring.md#sensor-encoder)
 
 ### 1. Pre-requisites
 After successfully connecting to internet, run `sudo apt update`. 
+
 - Your system just grabs the newest lists of available software from all its repositories and stores them in `/var/lib/apt/lists/`. 
 - It simply makes sure that whenever you do an install or upgrade next, you’re working with the freshest info.
 
@@ -131,6 +132,7 @@ The BeagleY-AI has hardware PWM, but to use it you'll need to import the appropr
 
 ### 3. Installing Python
 The `pip` command available from the BeagleY-AI's core environment is locked, so you'll need to use a Python virtual environment.
+
 - To create a new virtual enviornment: `python3 -m venv ~/YOUR_ENV`
 - To activate an environment: `source ~/YOUR_ENV/bin/activate`
 - To deactivate an environment: `deactivate`

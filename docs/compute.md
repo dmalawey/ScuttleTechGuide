@@ -10,7 +10,7 @@ This section covers the various computer options for your SCUTTLE CPU.  It start
 | [Pi 4 Datasheet](https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf) | [Y-AI Datasheet](https://openbeagle.org/beagley-ai/beagley-ai/) | [TDA4VM Datasheet](https://www.ti.com/lit/pdf/spruj21) | [SBC Datasheet](https://www.axiomtek.com/Download/Spec/en-US/capa55r.pdf) |
 | [Pi 4 Home](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) | [Y-AI Home](https://www.beagleboard.org/boards/beagley-ai) | [TDA4VM SK Product Page](https://www.ti.com/tool/SK-TDA4VM) | [CAPA55R Product Page](https://www.axiomtek.com/Default.aspx?MenuId=Products&FunctionId=ProductView&ItemId=26529&upcat=270) |
 
-## Pi_4
+## Pi 4
 
 **Raspberry Pi 4B with Broadcom ARM processor**
 

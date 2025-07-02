@@ -30,4 +30,5 @@ jobs:
       - run: pip install mkdocs-callouts
       - run: pip install mkdocs-pagetree-plugin
       - run: pip install mkdocs-material
+      - run: pip install mkdocs-awesome-nav
       - run: mkdocs gh-deploy --force

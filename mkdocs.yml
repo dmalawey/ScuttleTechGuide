@@ -35,6 +35,7 @@ plugins:
   - search
   - callouts
   - pagetree
+  - awesome-nav
 
 extra_javascript:
   - javascripts/mathjax.js

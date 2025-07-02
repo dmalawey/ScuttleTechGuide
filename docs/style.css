@@ -11,6 +11,14 @@
     --md-primary-fg-color--dark: var(--bs-primary-dark);
 }
 
+[dir="ltr"] .md-header__title {
+    margin-left: 0;
+}
+
+[dir="rtl"] .md-header__title {
+    margin-right: 0;
+}
+
 .navbar.bg-primary {
     background-image: linear-gradient(var(--bs-primary-light), var(--bs-primary));
 }

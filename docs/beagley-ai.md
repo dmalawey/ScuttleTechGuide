@@ -128,7 +128,7 @@ The BeagleY-AI has hardware PWM, but to use it you'll need to import the appropr
         fdtoverlays /overlays/k3-am67a-beagley-ai-pwm-epwm0-gpio5-gpio12.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm1-gpio6-gpio13.dtbo
         #initrd /initrd.img
     ```
-1. Save the file. For Nano, hit `Ctrl-X` and then `Enter`.
+1. Save the file. For Nano, hit ++control+x++ and then ++enter++.
 
 ### 3. Installing Python
 The `pip` command available from the BeagleY-AI's core environment is locked, so you'll need to use a Python virtual environment.

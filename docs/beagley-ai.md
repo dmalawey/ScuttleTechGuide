@@ -38,20 +38,20 @@ Pins from left to right:
 ![JST](image/BeagleY-AI%20Fan%20connector.png)
 
 This option would provide the dynamic fan cooling which is better because the board can manipulate the fan for better cooling (e.g. turn the fan slower or faster). 
-More info about active cooling on [Beagle Docs ↗](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#attach-cooling-fan).
+More info about active cooling on [Beagle Docs:material-arrow-top-right:](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#attach-cooling-fan).
 
 ### 2. Installing an OS
 The BeagleY-AI is designed to run Debian Linux, an open-source operating system common among embedded systems and servers.
 
-1. **Locate the OS images:** Go to [beagleboard.org/boards/beagley-ai ↗](https://www.beagleboard.org/boards/beagley-ai) and click the orange "Software Images" button.
+1. **Locate the OS images:** Go to [beagleboard.org/boards/beagley-ai:material-arrow-top-right:](https://www.beagleboard.org/boards/beagley-ai) and click the orange "Software Images" button.
     * There are three pieces of information to note for each image: the Debian version, the environment, and the Linux kernel version. For example, "BeagleY-AI Debian 12.11 2025-05-21 XFCE (v6.6.x-ti)" is Debian 12.11, with the XFCE desktop environment, and Linux kernel 6.6.
 
 1. **Download an image:** The environment determines how you will interact with the board. Once you've selected a configuration that is suitable for your setup, click on the name to download it.
-    * [XFCE ↗](https://xfce.org/about/screenshots) is a desktop environment, meaning you will have an interface similar to Windows or MacOS. Note that you'll need a micro HDMI cable and an external monitor to make use of it.
+    * [XFCE:material-arrow-top-right:](https://xfce.org/about/screenshots) is a desktop environment, meaning you will have an interface similar to Windows or MacOS. Note that you'll need a micro HDMI cable and an external monitor to make use of it.
     * The minimal environment contains only a text-based command line. If you intend on running the board headless (meaning, without a dedicated display), this is the recommended configuration.
 
 1. **Flash the image**
-    1. Download and install [Balena Etcher ↗](https://etcher.balena.io/).
+    1. Download and install [Balena Etcher:material-arrow-top-right:](https://etcher.balena.io/).
     1. Insert the micro SD card into your computer, either via a built-in slot or an adapter.
     1. Click "Flash from file" and pick the image from Step 2.
     1. Click "Select target" and pick the SD card. Make sure you select the correct device-- any content on it will be deleted.
@@ -103,9 +103,9 @@ After successfully connecting to internet, run `sudo apt update`.
 - It simply makes sure that whenever you do an install or upgrade next, you’re working with the freshest info.
 
 > [!WARNING]
-> You could also `sudo apt upgrade` but be careful as on some boards (e.g. BeagleBone Black with the Debian image), running `apt upgrade` can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded `apt upgrade`. [More info ↗](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030)
+> You could also `sudo apt upgrade` but be careful as on some boards (e.g. BeagleBone Black with the Debian image), running `apt upgrade` can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded `apt upgrade`. [More info:material-arrow-top-right:](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030)
 > 
-> Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via `apt full-upgrade` is *not* recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. See [Upgrade rather than reinstall ↗](https://forums.raspberrypi.com/viewtopic.php?t=337992) or [Upgrade from 'Buster' to Raspberry Pi OS ↗](https://forums.raspberrypi.com/viewtopic.php?t=288172).
+> Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via `apt full-upgrade` is *not* recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. See [Upgrade rather than reinstall:material-arrow-top-right:](https://forums.raspberrypi.com/viewtopic.php?t=337992) or [Upgrade from 'Buster' to Raspberry Pi OS:material-arrow-top-right:](https://forums.raspberrypi.com/viewtopic.php?t=288172).
 
 ### 2. Enabling PWM
 The BeagleY-AI has hardware PWM, but to use it you'll need to import the appropriate overlays on boot.

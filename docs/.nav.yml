@@ -1,10 +1,10 @@
 nav:
-  - home.md
-  - power.md
-  - computing.md
-  - tools.md
-  - wiring.md
-  - parts.md
-  - brand.md
-  - boards
-  - archive.md
+  - Home: index.md
+  - Power: power.md
+  - Computing: computing.md
+  - Tools: tools.md
+  - Wiring: wiring.md
+  - Parts: parts.md
+  - Boards: boards
+  - Brand: brand.md
+  - Archive: archive.md

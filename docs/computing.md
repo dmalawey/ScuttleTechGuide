@@ -21,7 +21,7 @@ Overview of wiring SCUTTLE with Pi:
 
 _Figure: Pi wiring overview_
 
-## Beaglebone
+## Beagle
 
 **BeagleY-AI, released 2024 March**
 
@@ -35,7 +35,7 @@ _Figure: Pi wiring overview_
 ![Beaglebone pinout](image/Beagle_wiring_overview.png ':class=image-25')
 _Figure: Beagleboard Pinout diagram_
 
-## TI_Edge_AI
+## TI Edge AI
 
 **Texas Instruments "Edge AI" sbc with TDA4VM ARM processor**
 
@@ -45,40 +45,31 @@ Overview of wiring SCUTTLE with TDA4VM:
 ![EDGE AI wiring overview](image/wg_overview_TDA4VM.png ':class=image-25')
 _Figure: Edge AI wiring overview_
 
-<div class="accordion">
+??? "Edge AI Pinout"
+    | Function  | PIN |    |  Function |
+    | --------- | --- | -- | ----- |
+    | Power_3.3 | 1   | 2  | Power_5.0 |
+    | I2C_SDA   | 3   | 4  | Power |
+    | I2C_SCL   | 5   | 6  | GND |
+    | GPIO      | 7   | 8  | UART_TXD |
+    | GND       | 9   | 10 | UART_RXD |
+    | GPIO      | 11  | 12 | I2S_SCLK |
+    | GPIO      | 13  | 14 | GND |
+    | GPIO      | 15  | 16 | GPIO |
+    | Power_3.3 | 17  | 18 | GPIO |
+    | SPI_MOSI  | 19  | 20 | GND |
+    | SPI_MISO  | 21  | 22 | GPIO |
+    | SPI_SCLK  | 23  | 24 | SPI_CS0 |
+    | GND       | 25  | 26 | SPI_CS1 |
+    | ID_SDA    | 27  | 28 | ID_SCL |
+    | GPIO      | 29  | 30 | GND |
+    | GPIO      | 31  | 32 | PWM0 |
+    | PWM1      | 33  | 34 | GND |
+    | I2S_FS    | 35  | 36 | GPIO |
+    | GPIO      | 37  | 38 | I2S_DIN |
+    | GND       | 39  | 40 | I2S_DOUT |
 
-<details>
-  <summary>Edge AI Pinout</summary>
-
- _Edge AI Pinout_
-| Function  | PIN |    |  Function |
-| --------- | --- | -- | ----- |
-| Power_3.3 | 1   | 2  | Power_5.0 |
-| I2C_SDA   | 3   | 4  | Power |
-| I2C_SCL   | 5   | 6  | GND |
-| GPIO      | 7   | 8  | UART_TXD |
-| GND       | 9   | 10 | UART_RXD |
-| GPIO      | 11  | 12 | I2S_SCLK |
-| GPIO      | 13  | 14 | GND |
-| GPIO      | 15  | 16 | GPIO |
-| Power_3.3 | 17  | 18 | GPIO |
-| SPI_MOSI  | 19  | 20 | GND |
-| SPI_MISO  | 21  | 22 | GPIO |
-| SPI_SCLK  | 23  | 24 | SPI_CS0 |
-| GND       | 25  | 26 | SPI_CS1 |
-| ID_SDA    | 27  | 28 | ID_SCL |
-| GPIO      | 29  | 30 | GND |
-| GPIO      | 31  | 32 | PWM0 |
-| PWM1      | 33  | 34 | GND |
-| I2S_FS    | 35  | 36 | GPIO |
-| GPIO      | 37  | 38 | I2S_DIN |
-| GND       | 39  | 40 | I2S_DOUT |
-
-</details>
-
-</div>
-
-## Intel_CAPA55R
+## Intel CAPA55R
 
 **Axiomtek CAPA55R single-board industrial computer with Intel i7 X86 processor**
 
@@ -91,5 +82,3 @@ _Figure: Intel wiring overview_
 Axiomtek's CAPA55R Intel-based computer for industrial robotics:
 ![CAPA55R Image](https://www.axiomtek.com/Download/Photo/en-US/capa55r_4.jpg ':class=image-25')
 _Figure: Axiomtek / Intel CAPA55R SBC_
-
----

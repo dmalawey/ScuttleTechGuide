@@ -10,3 +10,21 @@
 .navbar.bg-primary {
     background-image: linear-gradient(#2295FF, var(--bs-primary));
 }
+
+.md-button {
+    cursor: pointer;
+    color: var(--bs-body-bg);
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+    line-height: 1.2rem;
+    background-color: var(--bs-nav-link-color);
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+a.md-button {
+    cursor: pointer;
+    text-decoration: none !important;
+}

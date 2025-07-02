@@ -8,6 +8,11 @@ exclude_docs: |
   /_navbar.md
   /_sidebar.md
 
+theme:
+  name: material
+  palette:
+    scheme: scuttle
+
 extra_css:
   - style.css
 

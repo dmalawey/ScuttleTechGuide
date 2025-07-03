@@ -121,12 +121,15 @@ pip install numpy python-periphery smbus2 inputs
 ```
 
 ### 3. Downloading code
-1. To start operating a SCUTTLE with BeagleY-AI download these files:
-    - [L1_encoder.py](https://www.mediafire.com/file/okivhm6k8538pmm/L1_encoder.py/file)
-    - [L1_motor.py](https://www.mediafire.com/file/pbtqgwtd8ptlqk8/L1_motor.py/file)
-    - [L1_gamepad.py] (WIP)
-    - [L1_log.py] (WIP)
-    - [L2_speed_control.py] (WIP)
-    - [L2_kinematics.py] (WIP)
-    - [L2_inverse_kinematics.py] (WIP)
-    - [L3_gpDemo.py] (WIP)
+To install the repo type:
+```bash
+git clone https://github.com/yoshiask/SCUTTLE-BeagleY-AI-Demo
+```
+Navigate to the directory:
+```bash
+cd SCUTTLE-BeagleY-AI-Demo
+```
+To start operating SCUTTLE with the gamepad type:
+```bash
+python L3_gpDemo.py
+```

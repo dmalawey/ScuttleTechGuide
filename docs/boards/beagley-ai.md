@@ -37,7 +37,8 @@ Pins from left to right:
 
 ![JST](../image/BeagleY-AI%20Fan%20connector.png)
 
-This option would provide the dynamic fan cooling which is better because the board can manipulate the fan for better cooling (e.g. turn the fan slower or faster). 
+This option would provide active cooling that the board can control. For example, the OS can decide to spin the fans slower to make the device quieter when it is already running cool.
+
 More info about active cooling on [Beagle Docs:material-arrow-top-right:](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#attach-cooling-fan).
 
 ### 2. Installing an OS
@@ -166,3 +167,10 @@ There are three pieces of information to note for each image: the Debian version
 
 * [XFCE:material-arrow-top-right:](https://xfce.org/about/screenshots) is a desktop environment, meaning you will have an interface similar to Windows or MacOS. Note that you'll need a micro HDMI cable and an external monitor to make use of it.
 * The minimal environment contains only a text-based command line. If you intend on running the board headless (meaning, without a dedicated display), this is the recommended configuration.
+
+### What's a kernel?
+In a few words, an operating system kernel is a piece of low-level software whose primary job is to schedule tasks on the CPU.
+
+In more words: The main processor of a computer can really only do one thing at a time. Early operating systems such as DOS didn't have a kernel, and as such code had to be executed in sequence. However, as computers got more powerful, it made sense to want to multitask on them. To accomplish this, kernels were created to manage all tasks running on the system. The kernel is then responsible for deciding when to let a task run and when to give control of execution to another task.
+
+Modern kernels like the Linux kernel and Windows NT also include a hardware abstraction layer (HAL) which allows software to talk to hardware without knowing exactly how the hardware works or who makes it.

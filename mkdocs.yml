@@ -14,17 +14,21 @@ theme:
     scheme: scuttle
   logo: img/scuttle_logo_white.svg
   favicon: img/favicon.png
+  icon:
+    annotation: octicons/question-24
 
 extra_css:
   - style.css
 
 markdown_extensions:
-  - nl2br
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
   - attr_list
+  - md_in_html
+  - nl2br
+  - pymdownx.details
   - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.emoji:

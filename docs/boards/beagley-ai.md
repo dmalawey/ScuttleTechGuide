@@ -43,12 +43,12 @@ More info about active cooling on [Beagle Docs:material-arrow-top-right:](https:
 ### 2. Installing an OS
 The BeagleY-AI is designed to run Debian Linux, an open-source operating system common among embedded systems and servers.
 
-1. **Locate the OS images:** Go to [beagleboard.org/boards/beagley-ai:material-arrow-top-right:](https://www.beagleboard.org/boards/beagley-ai) and click the orange "Software Images" button.
-    * There are three pieces of information to note for each image: the Debian version, the environment, and the Linux kernel version. For example, "BeagleY-AI Debian 12.11 2025-05-21 XFCE (v6.6.x-ti)" is Debian 12.11, with the XFCE desktop environment, and Linux kernel 6.6.
+1. **Locate the OS images:** Go to [beagleboard.org/boards/beagley-ai:material-arrow-top-right:](https://www.beagleboard.org/boards/beagley-ai) and click the orange "Software Images" button. (1)
+{ .annotate }
 
-1. **Download an image:** The environment determines how you will interact with the board. Once you've selected a configuration that is suitable for your setup, click on the name to download it.
-    * [XFCE:material-arrow-top-right:](https://xfce.org/about/screenshots) is a desktop environment, meaning you will have an interface similar to Windows or MacOS. Note that you'll need a micro HDMI cable and an external monitor to make use of it.
-    * The minimal environment contains only a text-based command line. If you intend on running the board headless (meaning, without a dedicated display), this is the recommended configuration.
+    1.  [What's the difference between these OS images?](#whats-the-difference-between-these-os-images)
+
+1. **Download an image:** The environment determines how you will interact with the board. Once you've selected a configuration that is suitable for your setup, click on the name to download it. If you're not sure what to pick, choose an XFCE image with the highest OS and kernel versions (currently 12.11 and 6.6, respectively).
 
 1. **Flash the image**
     1. Download and install [Balena Etcher:material-arrow-top-right:](https://etcher.balena.io/).
@@ -158,3 +158,11 @@ To start operating SCUTTLE with the gamepad type:
 ```bash
 python L3_gpDemo.py
 ```
+
+## Appendix
+
+### What's the difference between these OS images?
+There are three pieces of information to note for each image: the Debian version, the environment, and the Linux kernel version. For example, "BeagleY-AI Debian 12.11 2025-05-21 XFCE (v6.6.x-ti)" is Debian 12.11, with the XFCE desktop environment, and Linux kernel 6.6.
+
+* [XFCE:material-arrow-top-right:](https://xfce.org/about/screenshots) is a desktop environment, meaning you will have an interface similar to Windows or MacOS. Note that you'll need a micro HDMI cable and an external monitor to make use of it.
+* The minimal environment contains only a text-based command line. If you intend on running the board headless (meaning, without a dedicated display), this is the recommended configuration.

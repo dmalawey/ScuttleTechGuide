@@ -65,6 +65,7 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
 1. **Power on the board:** Plug your BeagleY-AI into a suitable USB-C power adapter.
 1. **Connect to the board:** In a terminal on your computer, run `ssh debian@beaglebone.local`. If this succeeds, you will now be running commands on the Beagle.
 1. **Connect to Wi-Fi:** Run `sudo systemctl start NetworkManager` and connect to your Wi-Fi network via NetworkManager TUI:
+    1. Enable the Wi-Fi interface by running `sudo ifconfig wlan0 up`.
     1. Run `sudo nmtui` and select **Activate a connection**.
     ![nmtui-1](../img/nmtui-1.png)
     1. Select desired network connect to.
@@ -72,7 +73,6 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
     1. On the right, click **Activate**.
     1. If necessary, type the network password in the pop-up window.
     ![nmtui-3](../img/nmtui-3.png)
-
 
 > [!NOTE]
 > If you are SSH'ed into the Beagle over Ethernet, the connection may drop out after a few minutes. A common workaround is to SSH into the board and run `sudo nmcli c m "Wired connection 1" ipv4.method link-local`.

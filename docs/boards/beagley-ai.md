@@ -14,6 +14,23 @@
 - Computer with Ethernet port and SD card reader
     - Devices without built-in Ethernet ports or SD card slots may use [USB dongles](https://www.amazon.com/Anker-Ethernet-PowerExpand-Aluminum-Portable/dp/B08CK9X9Z8)
 
+## Electrical setup
+
+### 1. Motors to Motor Driver
+See [Wiring § Motor Driver](../wiring.md#actuator-motor-driver) for how to wire the motors to the motor driver.
+
+### 2. Motor Driver to Beagle
+The BeagleY-AI controls the motors via the HW-231 Motor Driver.
+
+![Motor Driver](../image/Beagle_wiring_whitebg.png)
+
+### 3. Encoders to Beagle
+Encoders are used to determine the rotational position of each wheel. They are connected to the Beagle using the I2C protocol. The SCUTTLE design uses a simple I2C bus board to combine the I2C connections for both encoders into a single set of wires.
+
+See [Wiring § Encoder](../wiring.md#sensor-encoder)
+
+![I2C Connection](../img/wg_byai_encoder.png)
+
 ## Hardware setup
 
 ### 1. Cooling
@@ -78,23 +95,6 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
 > [!NOTE]
 > If you are SSH'ed into the Beagle over Ethernet, the connection may drop out after a few minutes. A common workaround is to SSH into the board and run `sudo nmcli c m "Wired connection 1" ipv4.method link-local`.
 
-## Electrical setup
-
-### 1. Motors to Motor Driver
-See [Wiring § Motor Driver](../wiring.md#actuator-motor-driver) for how to wire the motors to the motor driver.
-
-### 2. Motor Driver to Beagle
-The BeagleY-AI controls the motors via the HW-231 Motor Driver.
-
-![Motor Driver](../image/Beagle_wiring_whitebg.png)
-
-### 3. Encoders to Beagle
-The encoders are used to determine the rotational position of each wheel. They are connected to the Beagle using the I2C protocol. The SCUTTLE design uses a simple I2C bus board to combine the I2C connections for both encoders into a single set of wires.
-
-See [Wiring § Encoder](../wiring.md#sensor-encoder)
-
-![I2C Connection](../img/wg_byai_encoder.png)
-
 ## Software setup
 
 ### 1. Pre-requisites
@@ -131,11 +131,21 @@ The BeagleY-AI has hardware PWM, but to use it you'll need to import the appropr
     ```
 1. Save the file. For Nano, hit ++control+x++ and then ++enter++.
 
-### 3. Installing Python
+### 3. Downloading code
+To install the repo type:
+```bash
+git clone https://github.com/yoshiask/SCUTTLE-BeagleY-AI-Demo
+```
+Navigate to the directory:
+```bash
+cd SCUTTLE-BeagleY-AI-Demo
+```
+
+### 4. Installing Python
 The `pip` command available from the BeagleY-AI's core environment is locked, so you'll need to use a Python virtual environment.
 
-- To create a new virtual enviornment: `python3 -m venv ~/YOUR_ENV`
-- To activate an environment: `source ~/YOUR_ENV/bin/activate`
+- To create a new virtual enviornment: `python3 -m venv ./venv`
+- To activate an environment: `source venv/bin/activate`
 - To deactivate an environment: `deactivate`
 
 > [!NOTE]
@@ -146,16 +156,8 @@ Within the virtual environment, install the required libraries:
 pip install numpy python-periphery smbus2 inputs
 ```
 
-### 4. Downloading code
-To install the repo type:
-```bash
-git clone https://github.com/yoshiask/SCUTTLE-BeagleY-AI-Demo
-```
-Navigate to the directory:
-```bash
-cd SCUTTLE-BeagleY-AI-Demo
-```
-To start operating SCUTTLE with the gamepad type:
+### 5. Running the demo
+With the robot on the ground, run `L3_gpDemo.py` to drive the SCUTTLE with a wired gamepad:
 ```bash
 python L3_gpDemo.py
 ```

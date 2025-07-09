@@ -16,7 +16,7 @@ All signals on SCUTTLE can be made with regular off-the-shelf Dupont-style termi
 > [!NOTE]
 > Do not peel the wires apart. Keep them bonded for strong and organized connections.
 
-![dupont cables photo](https://i.imgur.com/YN3LAEp.jpg ':class=image-25')
+![dupont cables photo](https://i.imgur.com/YN3LAEp.jpg)
 
 > Colors Selection
 
@@ -34,43 +34,26 @@ We chose the colors to make good use of any pack of wires.  When you add sensors
 
 This section covers cables you can DIY.
 
-<div class="accordion">
+??? "Cable Diagrams"
+    To build signal cables, use these diagrams.
 
-<details>
-  <summary>Cable Diagrams</summary>
+    ![cable-encoder-l](image/wg_cable_encoder_lh.png ':class=image-25')
 
-To build signal cables, use these diagrams.
+    _Figure: cables for left encoder_
 
-![cable-encoder-l](image/wg_cable_encoder_lh.png ':class=image-25')
+    ![cable-encoder-R](image/wg_cable_encoder_rh.png ':class=image-25')
 
-_Figure: cables for left encoder_
+    _Figure: cables for right encoder_
 
-<br/><br/>
+    ![cable-motor](image/wg_cable_motor.png ':class=image-25')
 
-![cable-encoder-R](image/wg_cable_encoder_rh.png ':class=image-25')
+    [grab the diagram](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagram1.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1yAXCKNeVdJE7FfkX81iIosMF-5VFMIfJ%26export%3Ddownload)
 
-_Figure: cables for right encoder_
+    _Figure: cables for motor_
 
-<br/><br/>
+    ![cable-i2c](image/wg_cable_i2c.png ':class=image-25')
 
-![cable-motor](image/wg_cable_motor.png ':class=image-25')
-
-[grab the diagram](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagram1.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1yAXCKNeVdJE7FfkX81iIosMF-5VFMIfJ%26export%3Ddownload)
-
-_Figure: cables for motor_
-
-<br/><br/>
-
-![cable-i2c](image/wg_cable_i2c.png ':class=image-25')
-
-_Figure: cables for i2c_
-
-</details>
-
-</div>
-
-
-
+    _Figure: cables for i2c_
 
 
 ## Power

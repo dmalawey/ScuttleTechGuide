@@ -5,6 +5,9 @@ nav:
   - Tools: tools.md
   - Wiring: wiring.md
   - Parts: parts.md
-  - Boards: boards
+  - Boards:
+    - BeagleY-AI: boards/beagley-ai
+    - Raspberry Pi: boards/raspberry-pi
+    - TI TDA4VM: boards/tda4vm
   - Brand: brand.md
   - Archive: archive.md

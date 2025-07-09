@@ -1,17 +1,12 @@
 # Wiring Guide
+All about the wiring of electronics for your robot. This page is divided into signal wires & power wires.
 
->
-> All about the wiring of electronics for your robot.
-> This page is divided into signal wires & power wires.
->
+Wiring may depend on the compute board you select. The following boards have variations in their wiring:
 
-Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the subsections for details.
-
-| Pi Wiring Thumbnail | TI wiring thumbnail | BeagleY-AI Thumbnail |
-| ------------------- | ------------------- | -------------------- |
-| ![img](image/wg_overview_pi.png) | ![img](image/wg_overview_TDA4VM.png) | ![img](image/wg_overview_byai.png) |
-
-
+* [Raspberry Pi 3/4/5](boards/raspberry-pi/wiring-guide.md)
+* [TI SK-TDA4VM](boards/tda4vm/wiring-guide.md)
+* [BeagleY-AI](boards/beagley-ai/wiring-guide.md)
+* [Axiomtek Intel-based CAPA55R](boards/capa55r/wiring-guide.md)
 
 ## Signals
 
@@ -102,11 +97,10 @@ The cables to power the motor driver from 12v.
 
 _Figure: motor driver wiring_
 
-|The motor wires to communicate from CPU to the motor driver| BeagleY-AI Connectivity|
-|--------------| -------------- |
-|![motor leads](image/wg_cable_motor_signal.png)| ![Beagle motor leads](image/Beagle_wiring_whitebg.png)|
+The connections from SBC to the motor driver may depend on which compute board you're using:
 
-_Figure: motor signal cable_
+* [Raspberry Pi 3/4/5](boards/raspberry-pi/wiring-guide.md#motors)
+* [BeagleY-AI](boards/beagley-ai/wiring-guide.md#motors)
 
 ### Source: Battery
 

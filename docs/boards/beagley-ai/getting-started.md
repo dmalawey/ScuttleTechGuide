@@ -1,4 +1,4 @@
-# BeagleY-AI
+# Getting Started
 
 **You'll need:**
 
@@ -17,19 +17,17 @@
 ## Electrical setup
 
 ### 1. Motors to Motor Driver
-See [Wiring § Motor Driver](../wiring.md#actuator-motor-driver) for how to wire the motors to the motor driver.
+See [Wiring § Motor Driver](../../wiring.md#actuator-motor-driver) for how to wire the motors to the motor driver.
 
 ### 2. Motor Driver to Beagle
-The BeagleY-AI controls the motors via the HW-231 Motor Driver.
-
-![Motor Driver](../image/Beagle_wiring_whitebg.png)
+See [BeagleY-AI § Motors](./wiring-guide.md#motors) for how to wire the motor driver to the Beagle.
 
 ### 3. Encoders to Beagle
 Encoders are used to determine the rotational position of each wheel. They are connected to the Beagle using the I2C protocol. The SCUTTLE design uses a simple I2C bus board to combine the I2C connections for both encoders into a single set of wires.
 
-See [Wiring § Encoder](../wiring.md#sensor-encoder)
+See [Wiring § Cables](../../wiring.md#cables) for how to create the wires connecting the bus board and the encoders.
 
-![I2C Connection](../img/wg_byai_encoder.png)
+See [BeagleY-AI Wiring § Encoders](./wiring-guide.md#encoders) for how to wire the bus board to the Beagle.
 
 ## Hardware setup
 
@@ -44,7 +42,7 @@ Ensure the fan is oriented such that air is being blown through the fins of the 
 
 The fan can be mounted in various ways, including [this joint](https://grabcad.com/library/fan_joint-1) for mounting on a DIN rail.
 
-![Fan joint v1 mounted on a DIN rail for a BeagleY-AI](../img/mg_beagley_fanJoint.jpg)
+![Fan joint v1 mounted on a DIN rail for a BeagleY-AI](../../img/mg_beagley_fanJoint.jpg)
 
 #### Raspberry Pi Active Cooler
 You could also connect the fan using the 4-pin JST cable to the board's PWM fan connector located right below the GPIO pins. Connector's pinout is identical to the Rasperry Pi 5 one.
@@ -52,7 +50,7 @@ You could also connect the fan using the 4-pin JST cable to the board's PWM fan 
 Top-side view (USB and Ethernet connectors on the bottom)
 Pins from left to right:
 
-![JST](../image/BeagleY-AI%20Fan%20connector.png)
+![JST](../../image/BeagleY-AI%20Fan%20connector.png)
 
 This option would provide active cooling that the board can control. For example, the OS can decide to spin the fans slower to make the device quieter when it is already running cool.
 
@@ -85,12 +83,12 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
 1. **Connect to Wi-Fi:** Run `sudo systemctl start NetworkManager` and connect to your Wi-Fi network via NetworkManager TUI:
     1. Enable the Wi-Fi interface by running `sudo ifconfig wlan0 up`.
     1. Run `sudo nmtui` and select **Activate a connection**.
-    ![nmtui-1](../img/nmtui-1.png)
+    ![nmtui-1](../../img/nmtui-1.png)
     1. Select desired network connect to.
-    ![nmtui-2](../img/nmtui-2.png)
+    ![nmtui-2](../../img/nmtui-2.png)
     1. On the right, click **Activate**.
     1. If necessary, type the network password in the pop-up window.
-    ![nmtui-3](../img/nmtui-3.png)
+    ![nmtui-3](../../img/nmtui-3.png)
 
 > [!NOTE]
 > If you are SSH'ed into the Beagle over Ethernet, the connection may drop out after a few minutes. A common workaround is to SSH into the board and run `sudo nmcli c m "Wired connection 1" ipv4.method link-local`.

@@ -144,7 +144,7 @@ The `pip` command available from the BeagleY-AI's core environment is locked, so
 
 Within the virtual environment, install the required libraries:
 ```bash
-pip install numpy python-periphery smbus2 inputs
+pip install -r requirements.txt
 ```
 
 ### 5. Running the demo

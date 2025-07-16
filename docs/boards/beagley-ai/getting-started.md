@@ -59,23 +59,16 @@ More info about active cooling on [Beagle Docs:material-arrow-top-right:](https:
 ### 2. Installing an OS
 The BeagleY-AI is designed to run Debian Linux, an open-source operating system common among embedded systems and servers.
 
-1. **Locate the OS images:** Go to [beagleboard.org/boards/beagley-ai:material-arrow-top-right:](https://www.beagleboard.org/boards/beagley-ai) and click the orange "Software Images" button. (1)
+Follow the [official Quick Start guide](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#bb-imager) for `bb-imager` to install an appropriate OS on the SD card. (1)
 { .annotate }
 
     1.  [What's the difference between these OS images?](#whats-the-difference-between-these-os-images)
 
-1. **Download an image:** The environment determines how you will interact with the board. Once you've selected a configuration that is suitable for your setup, click on the name to download it. If you're not sure what to pick, choose an XFCE image with the highest OS and kernel versions (currently 12.11 and 6.6, respectively).
-
-1. **Flash the image**
-    1. Download and install [Balena Etcher:material-arrow-top-right:](https://etcher.balena.io/).
-    1. Insert the micro SD card into your computer, either via a built-in slot or an adapter.
-    1. Click "Flash from file" and pick the image from Step 2.
-    1. Click "Select target" and pick the SD card. Make sure you select the correct device-- any content on it will be deleted.
-    1. Click "Flash!" and wait for it to copy and verify the install.
-
 ### 3. Network setup
 
-Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi, but on first startup it won't know how to connect to your Wi-Fi network.
+Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi. Depending on how you configured Wi-Fi when you flashed the SD card, it may not know how to connect to your Wi-Fi network out-of-the-box.
+
+Follow the steps below if you are unable to connect to the Beagle from your computer using `ssh debian@beaglebone.local`.
 
 1. **Establish a wired connection:** Plug one end of an Ethernet cable into your computer and the other end into the Beagle.
 1. **Power on the board:** Plug your BeagleY-AI into a suitable USB-C power adapter.
@@ -99,7 +92,7 @@ Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi,
 After successfully connecting to internet, run `sudo apt update`. 
 
 - Your system just grabs the newest lists of available software from all its repositories and stores them in `/var/lib/apt/lists/`. 
-- It simply makes sure that whenever you do an install or upgrade next, you’re working with the freshest info.
+- It simply makes sure that whenever you do an install or upgrade next, you’re working with the most recent info.
 
 > [!WARNING]
 > You could also `sudo apt upgrade` but be careful as on some boards (e.g. BeagleBone Black with the Debian image), running `apt upgrade` can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded `apt upgrade`. [More info:material-arrow-top-right:](https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030)

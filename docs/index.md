@@ -5,23 +5,21 @@ Welcome to ScuttleTechGuide! An open door to building and developing with the SC
 
 ## More Projects
 
->
-> More open-source designs:
->
-> | Project | Link | Purpose | 
-> | --------------- | ---------------------- | -------------------------------------------------------- | 
-> | OpenAir | [qr.net/openairproject](https://qr.net/openairproject) | take control of air, pressure, & flow with open elements | 
-> | OpenArm | [qr.net/openarmproject](https://qr.net/openarmproject) | revolutionize robotic arms, a 10-year goal | 
-> | OpenBox | [qr.net/openboxproject](https://qr.net/openboxproject) | array of open designs beginning with a steel box | 
-> | OpenGrow | [qr.net/opengrowproject](https://qr.net/opengrowproject) | open designs for hydroponics & aquaponics systems | 
-> | OpenJar | [qr.net/openjarproject](https://qr.net/openjarproject) | array of designs for standard jars, threads, & seals | 
-> | OpenLab | [qr.net/openlabproject](https://qr.net/openlabproject) | build a laboratory to design & fabricate anything. |
-> | openME | [qr.net/openmeproject](https://qr.net/openmeproject) | a Mechanical Engineering degree, comprehensive & free, in-progress | 
-> | OpenSpin | [qr.net/openspinproject](https://qr.net/openspinproject) | array of designs based on parametric bearings | 
-> | SCUTTLE_Nigeria | [qr.net/scuttleafrica](https://qr.net/scuttleafrica) | university-level robotics lab in Lagos, Nigeria |
-> | SCUTTLE_tech | [qr.net/scuttleproject](https://qr.net/scuttleproject) | engineering design guide for scuttle robot |
-> | SCUTTLE_Mini | [qr.net/scuttlemini](https://qr.net/scuttlemini) | miniature mobile robot, 10kg payload, designs |
->
+More open-source designs:
+
+| Project | Link | Purpose | 
+| --------------- | ---------------------- | -------------------------------------------------------- | 
+| OpenAir | [qr.net/openairproject](https://qr.net/openairproject) | take control of air, pressure, & flow with open elements | 
+| OpenArm | [qr.net/openarmproject](https://qr.net/openarmproject) | revolutionize robotic arms, a 10-year goal | 
+| OpenBox | [qr.net/openboxproject](https://qr.net/openboxproject) | array of open designs beginning with a steel box | 
+| OpenGrow | [qr.net/opengrowproject](https://qr.net/opengrowproject) | open designs for hydroponics & aquaponics systems | 
+| OpenJar | [qr.net/openjarproject](https://qr.net/openjarproject) | array of designs for standard jars, threads, & seals | 
+| OpenLab | [qr.net/openlabproject](https://qr.net/openlabproject) | build a laboratory to design & fabricate anything. |
+| openME | [qr.net/openmeproject](https://qr.net/openmeproject) | a Mechanical Engineering degree, comprehensive & free, in-progress | 
+| OpenSpin | [qr.net/openspinproject](https://qr.net/openspinproject) | array of designs based on parametric bearings | 
+| SCUTTLE_Nigeria | [qr.net/scuttleafrica](https://qr.net/scuttleafrica) | university-level robotics lab in Lagos, Nigeria |
+| SCUTTLE_tech | [qr.net/scuttleproject](https://qr.net/scuttleproject) | engineering design guide for scuttle robot |
+| SCUTTLE_Mini | [qr.net/scuttlemini](https://qr.net/scuttlemini) | miniature mobile robot, 10kg payload, designs |
 
 ## Reference
 
@@ -29,8 +27,7 @@ A section for terminology, footnotes, and sources cited within the tech guide.
 
 ### Quick Links
 
-> | [SCUTTLE Resources](https://scuttlerobot.org/resources ':class=button') | [CAD Models](https://www.scuttlerobot.org/resources/models ':class=button') | [Videos](https://www.scuttlerobot.org/resources/videos/ ':class=button') |
-> | [Applications Guide](https://qr.page/g/15vgHvaHTAe ':class=button') | 
+[SCUTTLE Resources](https://scuttlerobot.org/resources){ .md-button } [CAD Models](https://www.scuttlerobot.org/resources/models){ .md-button } [Videos](https://www.scuttlerobot.org/resources/videos/){ .md-button } [Applications Guide](https://qr.page/g/15vgHvaHTAe){ .md-button }
 
 ### Glossary
 
@@ -48,6 +45,7 @@ If you learn about these standards, you can benefit in your project. A) you may 
 Learn [Why Standards are your best friend](https://www.scuttlerobot.org/updates/blog/standards-inventions/)
 
 A quick list of standards we integrate:
+
 * 18650 battery cells [specifications](https://www.fenixlighting.com/blogs/news/the-ultimate-guide-to-the-18650-battery)
 * MQTT [protocol for IoT](https://info.hivemq.com/mqtt-essentials)
 * USB-PD, or Power delivery (integration in progress)
@@ -70,6 +68,7 @@ A quick list of standards we integrate:
 ### Learn Docs
 
 Resources for Documenting
+
  * Docs, simplified with [Docsify-This](https://docsify-this.net/#/)
  * Emoji - in markdown with [Github Emoji Picker](https://github-emoji-picker.rickstaa.dev/) ► Use this for markdown compatibility.
  * Markdown [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
@@ -77,33 +76,35 @@ Resources for Documenting
  * Altcodes, from [AltcodeUnicode](https://altcodeunicode.com/) ► use these for compatibility with all word processors.
 
 > **GET LATEST**
+
 > * Draw.io Library [version 06.29](diagram/lib_sctl_v0629.xml)
 > * Draw.io Diagram [draft version 06.29](diagram/diagram_wiring_v0629.xml)
 
 ### Our Goals
 
 1. Become the first multidisciplinary open project that addresses the 2020-era pain points for the community:
-  * Mechanical designs are locked into specific CAD software. 
-  * Manufacturing methods span broadly with poor repeatability by open community.
-  * Documentation for high-fidelity designs does not address novice experience level.
-  * Highly professional projects are scarce.  Designs that are robust enough to be repeated are usually expensive.
-  * It is hard to get help.  Well designed components don't have engineering-level customer service.
-  * Robot designs are tied to one embedded controller - availability and costs are limiting.
-  * Designs do not offer a curriculum to accompany them.
-  * Prerequisites for materials, knowledge, components, are not clear from the beginning.
-  * As a robot develops, it's software becomes specific to only that robot - unlike open 3D printing software, for example.
+    * Mechanical designs are locked into specific CAD software. 
+    * Manufacturing methods span broadly with poor repeatability by open community.
+    * Documentation for high-fidelity designs does not address novice experience level.
+    * Highly professional projects are scarce.  Designs that are robust enough to be repeated are usually expensive.
+    * It is hard to get help.  Well designed components don't have engineering-level customer service.
+    * Robot designs are tied to one embedded controller - availability and costs are limiting.
+    * Designs do not offer a curriculum to accompany them.
+    * Prerequisites for materials, knowledge, components, are not clear from the beginning.
+    * As a robot develops, it's software becomes specific to only that robot - unlike open 3D printing software, for example.
 2. Leverage the community for documentation
-  * Build standards to clearly outline documentation needs
-  * Offer training resources on how to document
-  * Make documentation friendly to each respective discipline & their typical applications
-  * Only use methods that have been shown successful by other communities.
-  * Keep documents and source files open & free as much as possible, and their tools thereof
+    * Build standards to clearly outline documentation needs
+    * Offer training resources on how to document
+    * Make documentation friendly to each respective discipline & their typical applications
+    * Only use methods that have been shown successful by other communities.
+    * Keep documents and source files open & free as much as possible, and their tools thereof
 
 ### Diagramming
 
 Okay, hear us out: diagrams may be the most important part of a multidisciplinary design.  Electrical circuits have established standards, hardware designs have them, but the crossover gets messy.  We are implementing new libraries starting in 2023 to help get your projects planned & documented for repeatability & collaboration.
 
 Starting with [Draw.io](https://app.diagrams.net/), here's some technology magic:
+
 | Click a library component | Drop it in your Diagram | Edit Connection Points |
 | ------------------------- | ----------------------- | ---------------------- |
 | ![library img](image/tg_library_select.png) | ![library img](image/tg_library_add.png) | ![library img](image/tg_library_add.png) |
@@ -137,40 +138,30 @@ The organizations in this table have influenced SCUTTLE organization heavily and
 | Open Dynamic      | [Open Dynamic Robot Initiative](https://open-dynamic-robot-initiative.github.io/)             | Computations for Dynamics at Academic Level                 | 15       |
 | Arxive            | [Free Academic Pub - Cornell](https://arxiv.org/)                                             | Free distribution & open access to scholarly articles       | 16       |
 
-<div class="accordion">
+??? "Wish List from Community Stars"
+    Table ► Wish List  
+    _Elements that would enhance these offerings - based on our experience, community, feedback, needs, and dreams._
 
- <details>
+    | Team No. | Wish                                                                                                                                                                                                                           |
+    | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+    | 1        | Give more clear metrics on performance - why should you build it?                                                                                                                                                              |
+    | 2        | Better support for native CAD files                                                                                                                                                                                            |
+    | 3        | Allow users to implement a license with each post, like printables.org                                                                                                                                                         |
+    | 4        | Create a segway into robotic control, instead of only CNC control                                                                                                                                                              |
+    | 5        | Reduce the custom parts & replace with OTS parts.  Make designs more print-friendly                                                                                                                                            |
+    | 6        | Dial back the Printables Branding and help posts link to full projects.                                                                                                                                                        |
+    | 7        | Grade submissions by an open standard, help projects recruit team members in some form                                                                                                                                         |
+    | 8        | Offer PDF downloads for instruction - enhance tools for professional level developers.  Better classification of disciplines behind posts (mechanical, electronic, software).                                                  |
+    | 9        | Become more inviting to community contributions - make a library of addons or changes.                                                                                                                                         |
+    | 10       | Publish goals & core values that speak to community - help broader disciplines outside software answer "how will Viam enhance open robotics" in more disciplines.  Better express what is needed from community vs in-company. |
+    | 11       | Improve navigation of content - help users (of various backgrounds) find answers ► students, researchers, makers, businesses, academic partners                                                                                |
+    | 12       | Build a community of some sort.  Explain why the robot is open source.                                                                                                                                                         |
+    | 13       | Better explanation of where to buy parts                                                                                                                                                                                       |
+    | 14       | Better categorize projects by discipline, by key component, and/or others.  Make easier to find relevant projects for users.                                                                                                   |
+    | 15       | Publish the source files for the robot components - particularly 3D printed parts.                                                                                                                                             |
+    | 16       | Offer a category for mechanical engineering along with CS, EE, PHYS, etc.                                                                                                                                                      |
 
- <summary>Wish List from Community Stars
-  </summary>
-
- Table ► Wish List  
- _Elements that would enhance these offerings - based on our experience, community, feedback, needs, and dreams._
-
-| Team No. | Wish                                                                                                                                                                                                                           |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1        | Give more clear metrics on performance - why should you build it?                                                                                                                                                              |
-| 2        | Better support for native CAD files                                                                                                                                                                                            |
-| 3        | Allow users to implement a license with each post, like printables.org                                                                                                                                                         |
-| 4        | Create a segway into robotic control, instead of only CNC control                                                                                                                                                              |
-| 5        | Reduce the custom parts & replace with OTS parts.  Make designs more print-friendly                                                                                                                                            |
-| 6        | Dial back the Printables Branding and help posts link to full projects.                                                                                                                                                        |
-| 7        | Grade submissions by an open standard, help projects recruit team members in some form                                                                                                                                         |
-| 8        | Offer PDF downloads for instruction - enhance tools for professional level developers.  Better classification of disciplines behind posts (mechanical, electronic, software).                                                  |
-| 9        | Become more inviting to community contributions - make a library of addons or changes.                                                                                                                                         |
-| 10       | Publish goals & core values that speak to community - help broader disciplines outside software answer "how will Viam enhance open robotics" in more disciplines.  Better express what is needed from community vs in-company. |
-| 11       | Improve navigation of content - help users (of various backgrounds) find answers ► students, researchers, makers, businesses, academic partners                                                                                |
-| 12       | Build a community of some sort.  Explain why the robot is open source.                                                                                                                                                         |
-| 13       | Better explanation of where to buy parts                                                                                                                                                                                       |
-| 14       | Better categorize projects by discipline, by key component, and/or others.  Make easier to find relevant projects for users.                                                                                                   |
-| 15       | Publish the source files for the robot components - particularly 3D printed parts.                                                                                                                                             |
-| 16       | Offer a category for mechanical engineering along with CS, EE, PHYS, etc.                                                                                                                                                      |
-
- _Figure: Table of Wishes from Community Stars_
- 
- </details>
-
-</div>
+    _Figure: Table of Wishes from Community Stars_
 
  ---
  

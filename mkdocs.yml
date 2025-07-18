@@ -1,0 +1,46 @@
+site_name: SCUTTLE Tech Guide
+site_url: http://yoshiask.github.io/ScuttleTechGuide
+repo_url: https://github.com/yoshiask/ScuttleTechGuide/
+edit_uri: blob/main/docs
+
+exclude_docs: |
+  readme.md
+  /_navbar.md
+  /_sidebar.md
+
+theme:
+  name: material
+  palette:
+    scheme: scuttle
+  logo: img/scuttle_logo_white.svg
+  favicon: img/favicon.png
+  icon:
+    annotation: octicons/question-24
+
+extra_css:
+  - style.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - nl2br
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - callouts
+  - pagetree
+  - awesome-nav
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

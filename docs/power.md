@@ -3,15 +3,15 @@
 
 This chart indicates the power loads of each component on your power supply.
 
-![pwr_loads_chart](/image/pwr_chart_loads.png ':class=image-25')
+![pwr_loads_chart](image/pwr_chart_loads.png ':class=image-25')
 
 This table describes the estimated duty cycles for key components in a typical operating scenario.
 
-![Chart of Duty Cycles](/image/pwr_table_dutyCycles.png ':class=image-30')
+![Chart of Duty Cycles](image/pwr_table_dutyCycles.png ':class=image-30')
 
 The raspberry pi and any loads that source power from it, ultimately source power from the 5v DC adapter.  This adapter has an efficiency curve as shown.  Note that the adapter has a constant power draw when the 12v source (battery) is powered on and hooked up.
 
-![DC adapter efficiency chart](/image/pwr_dc5v_efficiency.png ':class=image-25')
+![DC adapter efficiency chart](image/pwr_dc5v_efficiency.png ':class=image-25')
 
 ---
 

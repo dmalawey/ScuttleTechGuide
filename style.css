@@ -1,0 +1,24 @@
+[data-md-color-scheme="scuttle"] {
+    --bs-primary: #0556A3;
+    --bs-primary-light: #2295FF;
+    --bs-primary-dark: #165EA0;
+    --bs-primary-rgb: 5, 86, 163;
+    --bs-primary-dark-rgb: 22, 94, 160;
+    --bs-nav-link-color: var(--bs-primary);
+    
+    --md-primary-fg-color: var(--bs-primary);
+    --md-primary-fg-color--light: var(--bs-primary-light);
+    --md-primary-fg-color--dark: var(--bs-primary-dark);
+}
+
+[dir="ltr"] .md-header__title {
+    margin-left: 0;
+}
+
+[dir="rtl"] .md-header__title {
+    margin-right: 0;
+}
+
+.navbar.bg-primary {
+    background-image: linear-gradient(var(--bs-primary-light), var(--bs-primary));
+}

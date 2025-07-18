@@ -59,10 +59,11 @@ More info about active cooling on [Beagle Docs:material-arrow-top-right:](https:
 ### 2. Installing an OS
 The BeagleY-AI is designed to run Debian Linux, an open-source operating system common among embedded systems and servers.
 
-Follow the [official Quick Start guide](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#bb-imager) for `bb-imager` to install an appropriate OS on the SD card. (1)
+Follow the [official Quick Start guide](https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#bb-imager) for `bb-imager` to install an appropriate OS (1) on the SD card.
 { .annotate }
 
-    1.  [What's the difference between these OS images?](#whats-the-difference-between-these-os-images)
+1.  [What's the difference between these OS images?](#whats-the-difference-between-these-os-images)
+
 
 ### 3. Network setup
 

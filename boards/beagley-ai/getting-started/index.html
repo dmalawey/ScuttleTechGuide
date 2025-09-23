@@ -1,0 +1,1383 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://dmalawey.github.io/ScuttleTechGuide/boards/beagley-ai/getting-started/">
+      
+      
+        <link rel="prev" href="../../../parts/">
+      
+      
+        <link rel="next" href="../wiring-guide/">
+      
+      
+      <link rel="icon" href="../../../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Getting Started - SCUTTLE Tech Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M10.97%208.265a1.45%201.45%200%200%200-.487.57.75.75%200%200%201-1.341-.67c.2-.402.513-.826.997-1.148C10.627%206.69%2011.244%206.5%2012%206.5c.658%200%201.369.195%201.934.619a2.45%202.45%200%200%201%201.004%202.006c0%201.033-.513%201.72-1.027%202.215-.19.183-.399.358-.579.508l-.147.123a4%204%200%200%200-.435.409v1.37a.75.75%200%201%201-1.5%200v-1.473c0-.237.067-.504.247-.736.22-.28.486-.517.718-.714l.183-.153.001-.001c.172-.143.324-.27.47-.412.368-.355.569-.676.569-1.136a.95.95%200%200%200-.404-.806C12.766%208.118%2012.384%208%2012%208c-.494%200-.814.121-1.03.265M13%2017a1%201%200%201%201-2%200%201%201%200%200%201%202%200%22/%3E%3Cpath%20d%3D%22M12%201c6.075%200%2011%204.925%2011%2011s-4.925%2011-11%2011S1%2018.075%201%2012%205.925%201%2012%201M2.5%2012a9.5%209.5%200%200%200%209.5%209.5%209.5%209.5%200%200%200%209.5-9.5A9.5%209.5%200%200%200%2012%202.5%209.5%209.5%200%200%200%202.5%2012%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/mkdocs_pagetree_plugin.css">
+    
+      <link rel="stylesheet" href="../../../style.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="scuttle" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="SCUTTLE Tech Guide" class="md-header__button md-logo" aria-label="SCUTTLE Tech Guide" data-md-component="logo">
+      
+  <img src="../../../img/scuttle_logo_white.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SCUTTLE Tech Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting Started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmalawey/ScuttleTechGuide/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="SCUTTLE Tech Guide" class="md-nav__button md-logo" aria-label="SCUTTLE Tech Guide" data-md-component="logo">
+      
+  <img src="../../../img/scuttle_logo_white.svg" alt="logo">
+
+    </a>
+    SCUTTLE Tech Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmalawey/ScuttleTechGuide/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Power
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../computing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Computing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wiring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../parts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Parts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Boards
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Boards
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    BeagleY-AI
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            BeagleY-AI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#electrical-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Electrical setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Electrical setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-motors-to-motor-driver" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Motors to Motor Driver
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-motor-driver-to-beagle" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Motor Driver to Beagle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-encoders-to-beagle" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Encoders to Beagle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-cooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Cooling
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Cooling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generic-heat-sink-and-fan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generic heat sink and fan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raspberry-pi-active-cooler" class="md-nav__link">
+    <span class="md-ellipsis">
+      Raspberry Pi Active Cooler
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-installing-an-os" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Installing an OS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-network-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Network setup
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-pre-requisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Pre-requisites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-enabling-pwm" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Enabling PWM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-downloading-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Downloading code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-installing-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Installing Python
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-running-the-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Running the demo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appendix
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#whats-the-difference-between-these-os-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      What's the difference between these OS images?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whats-a-kernel" class="md-nav__link">
+    <span class="md-ellipsis">
+      What's a kernel?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wiring-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Raspberry Pi
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Raspberry Pi
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../raspberry-pi/wiring-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    TI TDA4VM
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            TI TDA4VM
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tda4vm/wiring-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../brand/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brand
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#electrical-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Electrical setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Electrical setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-motors-to-motor-driver" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Motors to Motor Driver
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-motor-driver-to-beagle" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Motor Driver to Beagle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-encoders-to-beagle" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Encoders to Beagle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-cooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Cooling
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Cooling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generic-heat-sink-and-fan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generic heat sink and fan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raspberry-pi-active-cooler" class="md-nav__link">
+    <span class="md-ellipsis">
+      Raspberry Pi Active Cooler
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-installing-an-os" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Installing an OS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-network-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Network setup
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-pre-requisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Pre-requisites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-enabling-pwm" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Enabling PWM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-downloading-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Downloading code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-installing-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Installing Python
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-running-the-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Running the demo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appendix
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#whats-the-difference-between-these-os-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      What's the difference between these OS images?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whats-a-kernel" class="md-nav__link">
+    <span class="md-ellipsis">
+      What's a kernel?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="getting-started">Getting Started</h1>
+<p><strong>You'll need:</strong></p>
+<ul>
+<li><a href="https://www.beagleboard.org/boards/beagley-ai">BeagleY-AI board</a></li>
+<li>microSD card (32GB+)</li>
+<li>USB-C power supply<ul>
+<li>Minimum: Rated for 15W (5V 3A)</li>
+<li>Recommended: <a href="https://www.raspberrypi.com/products/27w-power-supply/">Official Raspberry Pi power supply</a> or other USB PD-capable power supply</li>
+</ul>
+</li>
+<li>Ethernet cable</li>
+<li>Active cooler is highly recommended<ul>
+<li>Minimum: Adhesive heat sink and small 5V fan</li>
+<li>Recommended: <a href="https://www.raspberrypi.com/products/active-cooler/">Official Raspberry Pi active cooler</a></li>
+</ul>
+</li>
+<li>Computer with Ethernet port and SD card reader<ul>
+<li>Devices without built-in Ethernet ports or SD card slots may use <a href="https://www.amazon.com/Anker-Ethernet-PowerExpand-Aluminum-Portable/dp/B08CK9X9Z8">USB dongles</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="electrical-setup">Electrical setup</h2>
+<h3 id="1-motors-to-motor-driver">1. Motors to Motor Driver</h3>
+<p>See <a href="../../../wiring/#actuator-motor-driver">Wiring § Motor Driver</a> for how to wire the motors to the motor driver.</p>
+<h3 id="2-motor-driver-to-beagle">2. Motor Driver to Beagle</h3>
+<p>See <a href="../wiring-guide/#motors">BeagleY-AI § Motors</a> for how to wire the motor driver to the Beagle.</p>
+<h3 id="3-encoders-to-beagle">3. Encoders to Beagle</h3>
+<p>Encoders are used to determine the rotational position of each wheel. They are connected to the Beagle using the I2C protocol. The SCUTTLE design uses a simple I2C bus board to combine the I2C connections for both encoders into a single set of wires.</p>
+<p>See <a href="../../../wiring/#cables">Wiring § Cables</a> for how to create the wires connecting the bus board and the encoders.</p>
+<p>See <a href="../wiring-guide/#encoders">BeagleY-AI Wiring § Encoders</a> for how to wire the bus board to the Beagle.</p>
+<h2 id="hardware-setup">Hardware setup</h2>
+<h3 id="1-cooling">1. Cooling</h3>
+<p>The BeagleY-AI tends to run quite hot, so some kind of additional cooling is recommended.</p>
+<h4 id="generic-heat-sink-and-fan">Generic heat sink and fan</h4>
+<p>If you have a generic fan that is rated for 5V or more, connect the power wire to pins 2 or 4 on the BeagleY and the ground wire to pin 6. Refer to the <a href="https://pinout.beagleboard.io/">pinout diagram</a>.</p>
+<p>Stick the heat sink onto the main processor, the large silver chip closest to the USB ports. <br />
+Ensure the fan is oriented such that air is being blown through the fins of the heat sink.</p>
+<p>The fan can be mounted in various ways, including <a href="https://grabcad.com/library/fan_joint-1">this joint</a> for mounting on a DIN rail.</p>
+<p><img alt="Fan joint v1 mounted on a DIN rail for a BeagleY-AI" src="../../../img/mg_beagley_fanJoint.jpg" /></p>
+<h4 id="raspberry-pi-active-cooler">Raspberry Pi Active Cooler</h4>
+<p>You could also connect the fan using the 4-pin JST cable to the board's PWM fan connector located right below the GPIO pins. Connector's pinout is identical to the Rasperry Pi 5 one.</p>
+<p>Top-side view (USB and Ethernet connectors on the bottom)<br />
+Pins from left to right:</p>
+<p><img alt="JST" src="../../../image/BeagleY-AI%20Fan%20connector.png" /></p>
+<p>This option would provide active cooling that the board can control. For example, the OS can decide to spin the fans slower to make the device quieter when it is already running cool.</p>
+<p>More info about active cooling on <a href="https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#attach-cooling-fan">Beagle Docs<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 17.59 15.59 7H9V5h10v10h-2V8.41L6.41 19z"/></svg></span></a>.</p>
+<h3 id="2-installing-an-os">2. Installing an OS</h3>
+<p>The BeagleY-AI is designed to run Debian Linux, an open-source operating system common among embedded systems and servers.</p>
+<p class="annotate">Follow the <a href="https://docs.beagle.cc/boards/beagley/ai/02-quick-start.html#bb-imager">official Quick Start guide</a> for <code>bb-imager</code> to install an appropriate OS (1) on the SD card.<br /></p>
+<ol>
+<li><a href="#whats-the-difference-between-these-os-images">What's the difference between these OS images?</a></li>
+</ol>
+<h3 id="3-network-setup">3. Network setup</h3>
+<p>Ultimately you'll want the BeagleY-AI to be connected to the internet via Wi-Fi. Depending on how you configured Wi-Fi when you flashed the SD card, it may not know how to connect to your Wi-Fi network out-of-the-box.</p>
+<p>Follow the steps below if you are unable to connect to the Beagle from your computer using <code>ssh debian@beaglebone.local</code>.</p>
+<ol>
+<li><strong>Establish a wired connection:</strong> Plug one end of an Ethernet cable into your computer and the other end into the Beagle.</li>
+<li><strong>Power on the board:</strong> Plug your BeagleY-AI into a suitable USB-C power adapter.</li>
+<li><strong>Connect to the board:</strong> In a terminal on your computer, run <code>ssh debian@beaglebone.local</code>. If this succeeds, you will now be running commands on the Beagle.</li>
+<li><strong>Connect to Wi-Fi:</strong> Run <code>sudo systemctl start NetworkManager</code> and connect to your Wi-Fi network via NetworkManager TUI:<ol>
+<li>Enable the Wi-Fi interface by running <code>sudo ifconfig wlan0 up</code>.</li>
+<li>Run <code>sudo nmtui</code> and select <strong>Activate a connection</strong>.<br />
+<img alt="nmtui-1" src="../../../img/nmtui-1.png" /></li>
+<li>Select desired network connect to.<br />
+<img alt="nmtui-2" src="../../../img/nmtui-2.png" /></li>
+<li>On the right, click <strong>Activate</strong>.</li>
+<li>If necessary, type the network password in the pop-up window.<br />
+<img alt="nmtui-3" src="../../../img/nmtui-3.png" /></li>
+</ol>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are SSH'ed into the Beagle over Ethernet, the connection may drop out after a few minutes. A common workaround is to SSH into the board and run <code>sudo nmcli c m "Wired connection 1" ipv4.method link-local</code>.</p>
+</div>
+<h2 id="software-setup">Software setup</h2>
+<h3 id="1-pre-requisites">1. Pre-requisites</h3>
+<p>After successfully connecting to internet, run <code>sudo apt update</code>. </p>
+<ul>
+<li>Your system just grabs the newest lists of available software from all its repositories and stores them in <code>/var/lib/apt/lists/</code>. </li>
+<li>It simply makes sure that whenever you do an install or upgrade next, you’re working with the most recent info.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You could also <code>sudo apt upgrade</code> but be careful as on some boards (e.g. BeagleBone Black with the Debian image), running <code>apt upgrade</code> can actually pull in an older kernel or overwrite vendor‐customized device trees, breaking hardware support. For example, users have reported their 5.10 kernel being downgraded back to 4.19 after an unguarded <code>apt upgrade</code>. <a href="https://forum.beagleboard.org/t/apt-update-apt-upgrade-automatic-kernel-change-downgrade-to-4-19/32030">More info<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 17.59 15.59 7H9V5h10v10h-2V8.41L6.41 19z"/></svg></span></a></p>
+<p>Upgrading between major OS releases (e.g. Raspberry Pi OS Bullseye → Bookworm) via <code>apt full-upgrade</code> is <em>not</em> recommended; a clean flash of the new release image is the supported path to avoid partial‐upgrade failures. See <a href="https://forums.raspberrypi.com/viewtopic.php?t=337992">Upgrade rather than reinstall<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 17.59 15.59 7H9V5h10v10h-2V8.41L6.41 19z"/></svg></span></a> or <a href="https://forums.raspberrypi.com/viewtopic.php?t=288172">Upgrade from 'Buster' to Raspberry Pi OS<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 17.59 15.59 7H9V5h10v10h-2V8.41L6.41 19z"/></svg></span></a>.</p>
+</div>
+<h3 id="2-enabling-pwm">2. Enabling PWM</h3>
+<p>The BeagleY-AI has hardware PWM, but to use it you'll need to import the appropriate overlays on boot.</p>
+<ol>
+<li>Open <code>/boot/firmware/extlinux/extlinux.conf</code> in a text editor. For example, <code>sudo nano /boot/firmware/extlinux/extlinux.conf</code>.</li>
+<li>Locate the "microSD (default)" section at the end of the file.</li>
+<li>
+<p>Replace the commented <code>fdtoverlays</code> line with the following:</p>
+<div class="highlight"><pre><span></span><code>fdtoverlays /overlays/k3-am67a-beagley-ai-pwm-epwm0-gpio12.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm1-gpio13.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm0-gpio5.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm1-gpio6.dtbo
+</code></pre></div>
+</li>
+<li>
+<p>The full section should look like this:<br />
+    <div class="highlight"><pre><span></span><code>label microSD (default)
+    kernel /Image
+    append console=ttyS2,115200n8 root=/dev/mmcblk1p2 ro rootfstype=ext4 rootwait net.ifnames=0 quiet
+    fdtdir /
+    fdt /ti/k3-am67a-beagley-ai.dtb
+    fdtoverlays /overlays/k3-am67a-beagley-ai-pwm-epwm0-gpio5-gpio12.dtbo /overlays/k3-am67a-beagley-ai-pwm-epwm1-gpio6-gpio13.dtbo
+    #initrd /initrd.img
+</code></pre></div></p>
+</li>
+<li>Save the file. For Nano, hit <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-x">X</kbd></span> and then <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</li>
+</ol>
+<h3 id="3-downloading-code">3. Downloading code</h3>
+<p>To install the repo type:<br />
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/yoshiask/SCUTTLE-BeagleY-AI-Demo
+</code></pre></div><br />
+Navigate to the directory:<br />
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>SCUTTLE-BeagleY-AI-Demo
+</code></pre></div></p>
+<h3 id="4-installing-python">4. Installing Python</h3>
+<p>The <code>pip</code> command available from the BeagleY-AI's core environment is locked, so you'll need to use a Python virtual environment.</p>
+<ul>
+<li>To create a new virtual enviornment: <code>python3 -m venv ./venv</code></li>
+<li>To activate an environment: <code>source venv/bin/activate</code></li>
+<li>To deactivate an environment: <code>deactivate</code></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You'll have to activate the virtual environment in every terminal you wish to run or manage your Python project from.</p>
+</div>
+<p>Within the virtual environment, install the required libraries:<br />
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</code></pre></div></p>
+<h3 id="5-running-the-demo">5. Running the demo</h3>
+<p>With the robot on the ground, run <code>L3_gpDemo.py</code> to drive the SCUTTLE with a wired gamepad:<br />
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>L3_gpDemo.py
+</code></pre></div></p>
+<h2 id="appendix">Appendix</h2>
+<h3 id="whats-the-difference-between-these-os-images">What's the difference between these OS images?</h3>
+<p>There are three pieces of information to note for each image: the Debian version, the environment, and the Linux kernel version. For example, "BeagleY-AI Debian 12.11 2025-05-21 XFCE (v6.6.x-ti)" is Debian 12.11, with the XFCE desktop environment, and Linux kernel 6.6.</p>
+<ul>
+<li><a href="https://xfce.org/about/screenshots">XFCE<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 17.59 15.59 7H9V5h10v10h-2V8.41L6.41 19z"/></svg></span></a> is a desktop environment, meaning you will have an interface similar to Windows or MacOS. Note that you'll need a micro HDMI cable and an external monitor to make use of it.</li>
+<li>The minimal environment contains only a text-based command line. If you intend on running the board headless (meaning, without a dedicated display), this is the recommended configuration.</li>
+</ul>
+<h3 id="whats-a-kernel">What's a kernel?</h3>
+<p>In a few words, an operating system kernel is a piece of low-level software whose primary job is to schedule tasks on the CPU.</p>
+<p>In more words: The main processor of a computer can really only do one thing at a time. Early operating systems such as DOS didn't have a kernel, and as such code had to be executed in sequence. However, as computers got more powerful, it made sense to want to multitask on them. To accomplish this, kernels were created to manage all tasks running on the system. The kernel is then responsible for deciding when to let a task run and when to give control of execution to another task.</p>
+<p>Modern kernels like the Linux kernel and Windows NT also include a hardware abstraction layer (HAL) which allows software to talk to hardware without knowing exactly how the hardware works or who makes it.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../../assets/mkdocs_pagetree_plugin.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

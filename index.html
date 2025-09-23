@@ -1,0 +1,1469 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://dmalawey.github.io/ScuttleTechGuide/">
+      
+      
+      
+        <link rel="next" href="power/">
+      
+      
+      <link rel="icon" href="img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>SCUTTLE Tech Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M10.97%208.265a1.45%201.45%200%200%200-.487.57.75.75%200%200%201-1.341-.67c.2-.402.513-.826.997-1.148C10.627%206.69%2011.244%206.5%2012%206.5c.658%200%201.369.195%201.934.619a2.45%202.45%200%200%201%201.004%202.006c0%201.033-.513%201.72-1.027%202.215-.19.183-.399.358-.579.508l-.147.123a4%204%200%200%200-.435.409v1.37a.75.75%200%201%201-1.5%200v-1.473c0-.237.067-.504.247-.736.22-.28.486-.517.718-.714l.183-.153.001-.001c.172-.143.324-.27.47-.412.368-.355.569-.676.569-1.136a.95.95%200%200%200-.404-.806C12.766%208.118%2012.384%208%2012%208c-.494%200-.814.121-1.03.265M13%2017a1%201%200%201%201-2%200%201%201%200%200%201%202%200%22/%3E%3Cpath%20d%3D%22M12%201c6.075%200%2011%204.925%2011%2011s-4.925%2011-11%2011S1%2018.075%201%2012%205.925%201%2012%201M2.5%2012a9.5%209.5%200%200%200%209.5%209.5%209.5%209.5%200%200%200%209.5-9.5A9.5%209.5%200%200%200%2012%202.5%209.5%209.5%200%200%200%202.5%2012%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/mkdocs_pagetree_plugin.css">
+    
+      <link rel="stylesheet" href="style.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="scuttle" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#about" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="SCUTTLE Tech Guide" class="md-header__button md-logo" aria-label="SCUTTLE Tech Guide" data-md-component="logo">
+      
+  <img src="img/scuttle_logo_white.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SCUTTLE Tech Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmalawey/ScuttleTechGuide/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="SCUTTLE Tech Guide" class="md-nav__button md-logo" aria-label="SCUTTLE Tech Guide" data-md-component="logo">
+      
+  <img src="img/scuttle_logo_white.svg" alt="logo">
+
+    </a>
+    SCUTTLE Tech Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmalawey/ScuttleTechGuide/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    <span class="md-ellipsis">
+      About
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Projects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Links
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glossary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Standards
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documenting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documenting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documenting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learn-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learn Docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#our-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Our Goals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagramming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagramming
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmarking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benchmarking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-stars" class="md-nav__link">
+    <span class="md-ellipsis">
+      Community Stars
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thought-leadership" class="md-nav__link">
+    <span class="md-ellipsis">
+      Thought Leadership
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Power
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="computing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Computing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="wiring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="parts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Parts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Boards
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Boards
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    BeagleY-AI
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            BeagleY-AI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="boards/beagley-ai/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="boards/beagley-ai/wiring-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Raspberry Pi
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Raspberry Pi
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="boards/raspberry-pi/wiring-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    TI TDA4VM
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            TI TDA4VM
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="boards/tda4vm/wiring-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="brand/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brand
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    <span class="md-ellipsis">
+      About
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Projects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Links
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glossary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Standards
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documenting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documenting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documenting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learn-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learn Docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#our-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Our Goals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagramming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagramming
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmarking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benchmarking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-stars" class="md-nav__link">
+    <span class="md-ellipsis">
+      Community Stars
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thought-leadership" class="md-nav__link">
+    <span class="md-ellipsis">
+      Thought Leadership
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Home</h1>
+
+<p><img alt="banner image" src="image/banner.jpg" title=":class=banner-image" /></p>
+<h2 id="about">About</h2>
+<p>Welcome to ScuttleTechGuide! An open door to building and developing with the SCUTTLE multidisciplinary ecosystem.  For several years we hosted all of the documentation for SCUTTLE Robotics on our website, <a href="https://scuttlerobot.org">scuttlerobot.org</a>. But, since mid 2024 we found new ways to make the documentation more flexible &amp; easily updated.  This repository will feature items such as wiring diagrams so that customers can view while contributors can edit.  Also, students can download source files for our diagrams and use them to kickstart documentation for their project.  This repo will expand until we have a solid, fully open, set of docs for the standard SCUTTLE robot and we will trim back the website (scuttlerobot.org) to focus on business interactionss such as ordering robots.</p>
+<h2 id="more-projects">More Projects</h2>
+<p>More open-source designs:</p>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Link</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OpenAir</td>
+<td><a href="https://qr.net/openairproject">qr.net/openairproject</a></td>
+<td>take control of air, pressure, &amp; flow with open elements</td>
+</tr>
+<tr>
+<td>OpenArm</td>
+<td><a href="https://qr.net/openarmproject">qr.net/openarmproject</a></td>
+<td>revolutionize robotic arms, a 10-year goal</td>
+</tr>
+<tr>
+<td>OpenBox</td>
+<td><a href="https://qr.net/openboxproject">qr.net/openboxproject</a></td>
+<td>array of open designs beginning with a steel box</td>
+</tr>
+<tr>
+<td>OpenGrow</td>
+<td><a href="https://qr.net/opengrowproject">qr.net/opengrowproject</a></td>
+<td>open designs for hydroponics &amp; aquaponics systems</td>
+</tr>
+<tr>
+<td>OpenJar</td>
+<td><a href="https://qr.net/openjarproject">qr.net/openjarproject</a></td>
+<td>array of designs for standard jars, threads, &amp; seals</td>
+</tr>
+<tr>
+<td>OpenLab</td>
+<td><a href="https://qr.net/openlabproject">qr.net/openlabproject</a></td>
+<td>build a laboratory to design &amp; fabricate anything.</td>
+</tr>
+<tr>
+<td>openME</td>
+<td><a href="https://qr.net/openmeproject">qr.net/openmeproject</a></td>
+<td>a Mechanical Engineering degree, comprehensive &amp; free, in-progress</td>
+</tr>
+<tr>
+<td>OpenSpin</td>
+<td><a href="https://qr.net/openspinproject">qr.net/openspinproject</a></td>
+<td>array of designs based on parametric bearings</td>
+</tr>
+<tr>
+<td>SCUTTLE_Nigeria</td>
+<td><a href="https://qr.net/scuttleafrica">qr.net/scuttleafrica</a></td>
+<td>university-level robotics lab in Lagos, Nigeria</td>
+</tr>
+<tr>
+<td>SCUTTLE_tech</td>
+<td><a href="https://qr.net/scuttleproject">qr.net/scuttleproject</a></td>
+<td>engineering design guide for scuttle robot</td>
+</tr>
+<tr>
+<td>SCUTTLE_Mini</td>
+<td><a href="https://qr.net/scuttlemini">qr.net/scuttlemini</a></td>
+<td>miniature mobile robot, 10kg payload, designs</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reference">Reference</h2>
+<p>A section for terminology, footnotes, and sources cited within the tech guide.</p>
+<h3 id="quick-links">Quick Links</h3>
+<p><a class="md-button" href="https://scuttlerobot.org/resources">SCUTTLE Resources</a> <a class="md-button" href="https://www.scuttlerobot.org/resources/models">CAD Models</a> <a class="md-button" href="https://www.scuttlerobot.org/resources/videos/">Videos</a> <a class="md-button" href="https://qr.page/g/15vgHvaHTAe">Applications Guide</a></p>
+<h3 id="glossary">Glossary</h3>
+<table>
+<thead>
+<tr>
+<th>Abbreviation or Term</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LH, RH</td>
+<td>left-hand, right-hand</td>
+</tr>
+<tr>
+<td>OTS</td>
+<td>off-the-shelf</td>
+</tr>
+<tr>
+<td>DFM</td>
+<td>design for manufacturing</td>
+</tr>
+<tr>
+<td>SBC</td>
+<td>single-board computer</td>
+</tr>
+</tbody>
+</table>
+<h3 id="key-standards">Key Standards</h3>
+<p>If you learn about these standards, you can benefit in your project. A) you may find affordable off-the-shelf solutions to integrate. B) you may find a cluster of design knowledge to dive deeper in your favorite area as a maker C) you can invent a project that segways into commercialization more smoothly. </p>
+<p>Learn <a href="https://www.scuttlerobot.org/updates/blog/standards-inventions/">Why Standards are your best friend</a></p>
+<p>A quick list of standards we integrate:</p>
+<ul>
+<li>18650 battery cells <a href="https://www.fenixlighting.com/blogs/news/the-ultimate-guide-to-the-18650-battery">specifications</a></li>
+<li>MQTT <a href="https://info.hivemq.com/mqtt-essentials">protocol for IoT</a></li>
+<li>USB-PD, or Power delivery (integration in progress)</li>
+<li>DIN rail, 35mm, mechanical geometry</li>
+<li>Aluminum Extrusion, 30-series or 30x30mm.</li>
+<li>Camera fastener thread, 1/4-20 (integration in progress)</li>
+<li>Toyota's 5S methods</li>
+<li>Toyota's Lean Manufacturing practices</li>
+<li>Toyota's Kaizen practices</li>
+<li>Toyota's 5-why root cause analysis</li>
+<li>Wheel bearings, 608 spec, the ABEC scale (used worldwide from skateboards to fidget spinners)</li>
+<li>Metric System of Units</li>
+<li>Markdown programming language for documentation (in progress)</li>
+<li>Embedded Linux Shell scripting</li>
+<li>Creative Commons Open Source License <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></li>
+<li>Water &amp; dust intrusion <a href="https://en.wikipedia.org/wiki/IP_code">IP rating scale</a></li>
+</ul>
+<h2 id="documenting">Documenting</h2>
+<h3 id="learn-docs">Learn Docs</h3>
+<p>Resources for Documenting</p>
+<ul>
+<li>Docs, simplified with <a href="https://docsify-this.net/#/">Docsify-This</a></li>
+<li>Emoji - in markdown with <a href="https://github-emoji-picker.rickstaa.dev/">Github Emoji Picker</a> ► Use this for markdown compatibility.</li>
+<li>Markdown <a href="https://www.markdownguide.org/cheat-sheet/">Cheat Sheet</a></li>
+<li>Diagrams, with draw.io also known as <a href="https://diagrams.net">Diagrams.net</a></li>
+<li>Altcodes, from <a href="https://altcodeunicode.com/">AltcodeUnicode</a> ► use these for compatibility with all word processors.</li>
+</ul>
+<blockquote>
+<p><strong>GET LATEST</strong></p>
+<ul>
+<li>Draw.io Library <a href="diagram/lib_sctl_v0629.xml">version 06.29</a></li>
+<li>Draw.io Diagram <a href="diagram/diagram_wiring_v0629.xml">draft version 06.29</a></li>
+</ul>
+</blockquote>
+<h3 id="our-goals">Our Goals</h3>
+<ol>
+<li>Become the first multidisciplinary open project that addresses the 2020-era pain points for the community:<ul>
+<li>Mechanical designs are locked into specific CAD software. </li>
+<li>Manufacturing methods span broadly with poor repeatability by open community.</li>
+<li>Documentation for high-fidelity designs does not address novice experience level.</li>
+<li>Highly professional projects are scarce.  Designs that are robust enough to be repeated are usually expensive.</li>
+<li>It is hard to get help.  Well designed components don't have engineering-level customer service.</li>
+<li>Robot designs are tied to one embedded controller - availability and costs are limiting.</li>
+<li>Designs do not offer a curriculum to accompany them.</li>
+<li>Prerequisites for materials, knowledge, components, are not clear from the beginning.</li>
+<li>As a robot develops, it's software becomes specific to only that robot - unlike open 3D printing software, for example.</li>
+</ul>
+</li>
+<li>Leverage the community for documentation<ul>
+<li>Build standards to clearly outline documentation needs</li>
+<li>Offer training resources on how to document</li>
+<li>Make documentation friendly to each respective discipline &amp; their typical applications</li>
+<li>Only use methods that have been shown successful by other communities.</li>
+<li>Keep documents and source files open &amp; free as much as possible, and their tools thereof</li>
+</ul>
+</li>
+</ol>
+<h3 id="diagramming">Diagramming</h3>
+<p>Okay, hear us out: diagrams may be the most important part of a multidisciplinary design.  Electrical circuits have established standards, hardware designs have them, but the crossover gets messy.  We are implementing new libraries starting in 2023 to help get your projects planned &amp; documented for repeatability &amp; collaboration.</p>
+<p>Starting with <a href="https://app.diagrams.net/">Draw.io</a>, here's some technology magic:</p>
+<table>
+<thead>
+<tr>
+<th>Click a library component</th>
+<th>Drop it in your Diagram</th>
+<th>Edit Connection Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="library img" src="image/tg_library_select.png" /></td>
+<td><img alt="library img" src="image/tg_library_add.png" /></td>
+<td><img alt="library img" src="image/tg_library_add.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>As we build a library of the most common components, we will release open draw.io libraries so you can grab preconfigured, labeled images with connection points already set.  The images are high quality, lightweight, and easily pulled into other softwares like Visio and Powerpoint.</p>
+<h2 id="benchmarking">Benchmarking</h2>
+<p>As an open source community, we aim to gather best practices from leading open projects.  The multidisciplinary nature of SCUTTLE means no existing model fits us, but many elements have been resolved by great communities with an ongoing development and outcomes.</p>
+<h2 id="community-stars">Community Stars</h2>
+<p>The organizations in this table have influenced SCUTTLE organization heavily and we continue seeking out best practices from groups like them</p>
+<table>
+<thead>
+<tr>
+<th>Team</th>
+<th>Site</th>
+<th>Feature to Aspire to:</th>
+<th>Team No.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Voron 3D Printer</td>
+<td><a href="https://docs.vorondesign.com/">Voron Docs</a></td>
+<td>well-made multidisciplinary documentation</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Thingiverse</td>
+<td><a href="https://www.thingiverse.com/">Thingiverse Library</a></td>
+<td>attracted millions - easy to sign up, easy to use</td>
+<td>2</td>
+</tr>
+<tr>
+<td>GrabCAD</td>
+<td><a href="https://grabcad.com/library">GrabCAD Library</a></td>
+<td>in-browser Visualization - great permalinks - great tagging</td>
+<td>3</td>
+</tr>
+<tr>
+<td>OpenBuilds</td>
+<td><a href="https://openbuilds.com/?o=l">openbuilds</a></td>
+<td>attracted high-effort contributions - peak modularity</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Leo Rover</td>
+<td><a href="https://www.leorover.tech/developers">Leo Dev Resources</a></td>
+<td>Use github for software development</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Printables</td>
+<td><a href="https://www.printables.com/">Printables Library</a></td>
+<td>Helps designers post designs with clear licensing</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Hackaday</td>
+<td><a href="https://www.hackaday.io/">Hackaday.io</a></td>
+<td>Curating well-engineered designs</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Hackster.io</td>
+<td><a href="https://www.hackster.io/contests">Hackster Contests</a></td>
+<td>Attracts all types of designers with nice contests</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Leo Rover</td>
+<td><a href="https://a360.co/378zqRp">Leo 3D Models</a></td>
+<td>Convenient in-browser viewing of 3D models</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Viam</td>
+<td><a href="https://discord.gg/viam">Viam Discord</a></td>
+<td>Refined Discord channel for asking questions</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Texas Instruments</td>
+<td><a href="https://dev.ti.com/tirex/global?id=com.ti.Jacinto%20Robotics%20Academy">TI Robotics Academy</a></td>
+<td>Research-grade tasks taught in Edge AI</td>
+<td>11</td>
+</tr>
+<tr>
+<td>uStepper Arm</td>
+<td><a href="https://qr.page/g/1PZfPMFuz8x">Build Guide</a></td>
+<td>Build Guide with detailed graphics</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Moveo Arm</td>
+<td>BCN3D Moveo</td>
+<td>Remaining 3D Printable post-commercialization</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Instructables</td>
+<td><a href="https://www.instructables.com/projects">Instructables Library</a></td>
+<td>Access to PDF version of every project writeup</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Open Dynamic</td>
+<td><a href="https://open-dynamic-robot-initiative.github.io/">Open Dynamic Robot Initiative</a></td>
+<td>Computations for Dynamics at Academic Level</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Arxive</td>
+<td><a href="https://arxiv.org/">Free Academic Pub - Cornell</a></td>
+<td>Free distribution &amp; open access to scholarly articles</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<details>
+<summary>Wish List from Community Stars</summary>
+<p>Table ► Wish List<br />
+<em>Elements that would enhance these offerings - based on our experience, community, feedback, needs, and dreams.</em></p>
+<table>
+<thead>
+<tr>
+<th>Team No.</th>
+<th>Wish</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Give more clear metrics on performance - why should you build it?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Better support for native CAD files</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Allow users to implement a license with each post, like printables.org</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Create a segway into robotic control, instead of only CNC control</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Reduce the custom parts &amp; replace with OTS parts.  Make designs more print-friendly</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Dial back the Printables Branding and help posts link to full projects.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Grade submissions by an open standard, help projects recruit team members in some form</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Offer PDF downloads for instruction - enhance tools for professional level developers.  Better classification of disciplines behind posts (mechanical, electronic, software).</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Become more inviting to community contributions - make a library of addons or changes.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Publish goals &amp; core values that speak to community - help broader disciplines outside software answer "how will Viam enhance open robotics" in more disciplines.  Better express what is needed from community vs in-company.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Improve navigation of content - help users (of various backgrounds) find answers ► students, researchers, makers, businesses, academic partners</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Build a community of some sort.  Explain why the robot is open source.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Better explanation of where to buy parts</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Better categorize projects by discipline, by key component, and/or others.  Make easier to find relevant projects for users.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Publish the source files for the robot components - particularly 3D printed parts.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Offer a category for mechanical engineering along with CS, EE, PHYS, etc.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Figure: Table of Wishes from Community Stars</em></p>
+</details>
+<hr />
+<h2 id="thought-leadership">Thought Leadership</h2>
+<ul>
+<li>Linux is the largest open source project in history, and it's founders created <a href="https://www.theopensourceway.org">TheOpenSourceWay.org</a> to guide other communities.  Their publication called <a href="https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.html#_why_do_people_participate_in_open_source_communities">The Open Source Way</a> offers insights to how it all works.</li>
+<li>The Open Source Hardware Association pushes to engage hardware development teams in open source.  They have regular releases of their <a href="https://qr.scuttlerobot.org/g/58a4R641DBp">State of Open Source Hardware</a>, and this one is from 2021.</li>
+</ul>
+<hr />
+<p><a href="https://github.com/dmalawey/ScuttleTechGuide" title=":class=button">Github Repo</a><br />
+<a href="https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&amp;sidebar=true#/?show-page-options=true" title=":class=button">Website</a><br />
+<a href="https://qr.page/g/leQK0r6g6q" title=":class=button">SCUTTLE Africa</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="assets/mkdocs_pagetree_plugin.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

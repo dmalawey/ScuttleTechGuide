@@ -2,6 +2,15 @@
 
 Tools for SCUTTLE Robot learning & development
 
+## Build
+
+The tools to build a SCUTTLE Robot from our kit are incredibly simple.  We engineered version 3.0 down to the individual fasteners for assembling the robot with minimal tools.
+
+* soldering iron
+* hot melt glue gun
+* phillips screwdriver (ph3 and ph1)
+* hex wrench, 6mm
+
 ## OpenLab
 
 2025 March update:  The tools for a basic SCUTTLE build, a robot lab, and a mechatronics workshop are all equivalent.  Please visit OpenLab webpage for lots of recommended tools for robotics work. 
@@ -13,6 +22,12 @@ Tools for SCUTTLE Robot learning & development
 ## Manuals
 
 _The info below will be relocated to OpenLab, along with lots more._
+
+>
+> Please find the "Tools Guide" published as a PDF in archives tab, until we can unpack the main tools on this page.
+>
+
+
 
 You can learn a great deal from reading these manuals - not only how to use a tool, but better techniques, compatible materials, safety wisdom, and available mods that you didn't know existed.
 

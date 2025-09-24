@@ -6,6 +6,13 @@ Tools for SCUTTLE Robot learning & development
 
 The tools to build a SCUTTLE Robot from our kit are incredibly simple.  We engineered version 3.0 down to the individual fasteners for assembling the robot with minimal tools.
 
+* ![screwdriver](img/tools_screwdriver.jpg)
+* ![soldering iron](img/tools_solderingiron.jpg)
+* ![hex wrench 6mm](img/tools_hex6mm.jpg)
+* ![hot glue gun](img/tools_hotgluegun.jpg)
+* ![crimers1](img/tools_crimpers1.jpg)
+
+
 * soldering iron
 * hot melt glue gun
 * phillips screwdriver (ph3 and ph1)

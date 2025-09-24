@@ -18,11 +18,20 @@ Off-the-shelf parts make up the key technologies onboard the robot.  They're mad
 
 Printed parts are the custom designs that hold your robot together.  In the SCUTTLE design, there are about 15 standard prints and hundreds of community-made addons.
 
+Here's a photo with all the prints for SCUTTLE version 3.0 in one box.  Some of the prints are preassembled with their mating parts.
 * ![prints kit1](img/prints_kit1.jpg)
+
+The i2c bracket snaps onto the DIN rail and secures the i2c circuit board.  The motor driver bracket snaps onto the DIN rail and holds the motor driver.  Self tapping screws are used for both brackets.
 * ![din parts1](img/prints_din1.jpg)
+
+The wheel assembly has four parts (wheel bracket, wheel pulley, wheel spacer, and motor pulley)  Here are the raw prints and the assembly together.
 * ![prints_wheelbracket](img/prints_wbk1.jpg)
 * ![prints_wheelbracket2](img/prints_wbk2.jpg)
+
+The camera assembly features 3 prints.  The "bracket" holds the camera, the "pivot" joins both parts, and the "mount" clips into the chassis aluminum rails.  This assembly holds the only M5 sized fastener, with 20mm length and nested nut feature in the print.
 * ![prints_camera](img/prints_cam1.jpg)
+
+The battery assembly has two prints.  The "panel" carries a power switch and two pairs of anderson terminals.  The "din bracket" clips onto the DIN rail with an embedded spring clip.  The parts join with superglue but they are aligned using a screw, M2.5x10.
 * ![prints battery](img/prints_btry1.jpg)
 * ![prints pi bracket](img/prints_pi1.jpg)
 

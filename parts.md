@@ -24,7 +24,12 @@ Printed parts are the custom designs that hold your robot together.  In the SCUT
 * ![prints_wheelbracket2](img/prints_wbk2.jpg)
 * ![prints_camera](img/prints_cam1.jpg)
 * ![prints battery](img/prints_btry1.jpg)
+* ![prints pi bracket](img/prints_pi1.jpg)
 
+
+Don't overtighten the shaft bolt!  Grip the narrow end of the tool to achieve proper hand-torque.
+
+![prints can break](img/prints_break.jpg)
 
 # 3D Printing
 

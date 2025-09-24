@@ -18,6 +18,14 @@ Off-the-shelf parts make up the key technologies onboard the robot.  They're mad
 
 Printed parts are the custom designs that hold your robot together.  In the SCUTTLE design, there are about 15 standard prints and hundreds of community-made addons.
 
+* ![prints kit1](img/prints_kit1.jpg)
+* ![din parts1](img/prints_din1.jpg)
+* ![prints_wheelbracket](img/prints_wbk1.jpg)
+* ![prints_wheelbracket2](img/prints_wbk2.jpg)
+* ![prints_camera](img/prints_cam1.jpg)
+* ![prints battery](img/prints_btry1.jpg)
+
+
 # 3D Printing
 
 ---

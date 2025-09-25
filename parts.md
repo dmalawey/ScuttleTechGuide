@@ -24,11 +24,11 @@ Here's a photo with all the prints for SCUTTLE version 3.0 in one box.  Some of 
 The i2c bracket snaps onto the DIN rail and secures the i2c circuit board.  The motor driver bracket snaps onto the DIN rail and holds the motor driver.  Self tapping screws are used for both brackets.
 * ![din parts1](img/prints_din1.jpg)
 
-The wheel assembly has four parts (wheel bracket, wheel pulley, wheel spacer, and motor pulley)  Here are the raw prints and the assembly together.
+Each wheel assembly has five parts (wheel bracket, wheel pulley, wheel spacer, and motor pulley, encoder bracket).  The wheel bracket (big print) has a unique print for left and right, but the remaining parts are identical left-to-right.  This means you'll find 6 total .STL files for these 5 parts.  See the first photo with fresh prints and the second photo with one drivetrain assembly built.
 * ![prints_wheelbracket](img/prints_wbk1.jpg)
 * ![prints_wheelbracket2](img/prints_wbk2.jpg)
 
-The camera assembly features 3 prints.  The "bracket" holds the camera, the "pivot" joins both parts, and the "mount" clips into the chassis aluminum rails.  This assembly holds the only M5 sized fastener, with 20mm length and nested nut feature in the print.
+The camera assembly features 3 prints.  The "bracket" holds the camera, the "pivot" joins both parts, and the "twist bracket" clips into the chassis aluminum rails.  This assembly holds the only M5 sized fastener, with 20mm length and nested nut feature in the print.
 * ![prints_camera](img/prints_cam1.jpg)
 
 The battery assembly has two prints.  The "panel" carries a power switch and two pairs of anderson terminals.  The "din bracket" clips onto the DIN rail with an embedded spring clip.  The parts join with superglue but they are aligned using a screw, M2.5x10.
@@ -53,34 +53,29 @@ The encoder bracket has two copies on the robot, for the left and right encoders
 Don't overtighten the shaft bolt!  Grip the narrow end of the tool to achieve proper hand-torque.
 * ![prints can break](img/prints_break.jpg)
 
+**Part Names & Abbreviations**
+The following abbreviations are found in our STL files at times.  This helps view selections on a small printer display.  
+| Part                  | STL | STL | Part                 |
+| --------------------- | --- | --- | -------------------- |
+| battery panel         | BPN | MDB | motor driver bracket |
+| camera bracket        | CAM | MPL | motor pulley         |
+| camera joint          | CJT | PDN | pi bracket, DIN      |
+| battery bracket, DIN  | DBB | TWS | twist bracket        |
+| DIN/extrusion bracket | DIN | WBL | wheel bracket left   |
+| encoder bracket       | ENC | WBR | wheel bracket right  |
+| i2c bracket           | I2C | WPL | wheel pulley         |
+| kickstand             | KST | WSP | wheel spacer         |
+
+
 # 3D Printing
 
 ---
+Printing Info
+1. We always use ABS filament for the best toughness.  You can build the robot with any material but the design is for ABS.
+2. Standard SCUTTLE v3.0 requires about 330g of 3D printed parts.  Everything is designed for manufacturing in FFF with no supports.
+3. Direction: Each design is exported with a coordinate system called "PRINT" to give the STL a default upright direction. To help identify the orientation, our labels are debossed for reading upright during printing, and the default text location is 6mm up from the base with 6mm font.  Then you can catch an issue early in the printing of a new part.
+4. Designs are made for typical out-of-box print settings, such as 30% infill and two exterior layers.  The nozzle is 0.4mm and path width 0.45 or 0.5mm.
+5. Designs aim for anyone to print.  Instead of dialing in super-fine print settings, we build geometry that tolerates a common low-cost printer performance.
+6. Most of our parts feature a built-in design lesson.  The kickstand is a great example for compliance.  The wheel bracket carefully integrates print direction with stress direction.
+7. The version numbers are independent for each part.  If we improve a design for one part, we release that design so you can upgrade individual pieces.
 
-> Standard SCUTTLE v3.0 requires about 330g of 3D printed parts.  Everything is designed for manufacturing in FFF with no supports.
-
-![prints overview](image/print_full_set.PNG)
-_Figure: All 3D Printed Parts for a SCUTTLE kit_
-
-
-<div class="accordion">
-
-<details>
-  <summary>3D Model - Wheel Assembly</summary>
-
-  See our 3D model for the wheel assembly
-  
-  _We've uploaded the model to sketchfab to embed this viewer - let us know if this is helpful!_
-
-<div class="video-container-16by9"> 
- <div class="sketchfab-embed-wrapper">
- 
-  <iframe title="Drivetrain_L" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/6089b024280f4fadb31e674b08e08839/embed?autospin=1&ui_theme=dark%22%3E">
- 
-  </iframe>
- </div>
-</div>
-
-</details>
-</div>
----

@@ -43,9 +43,15 @@ The kickstand attaches by-hand without hardware.  The design features compliance
 
 The DIN bracket attaches a DIN rail to the chassis, with two identical copies per robot.  Features on this design: tabs interlock with the aluminum, so you can first mount these without screws.  Loosely fit the M6 screw and dropin nut to hold the DIN rail while allowing repositioning.  Finally, tighten the M6 screw to lock in the position.
 * ![pints din rail bracket](img/prints_din2.jpg)
-Don't overtighten the shaft bolt!  Grip the narrow end of the tool to achieve proper hand-torque.
 
-![prints can break](img/prints_break.jpg)
+The battery din-bracket features a pocket that accepts a spring clip, and the spring clip locks this bracket on DIN rail (but you can still nudge it to slide it).  After printing, the supports are removed and the clip is installed.  In the photo below, find the left-hand bracket as-printed and the right-hand bracket installed on the DIN rail.
+* ![battery bracket with DIN spring](img/prints_din3.jpg)
+
+The encoder bracket has two copies on the robot, for the left and right encoders. It features two holes for M2.5 machine screws to attach to the wheel assembly.  Two more holes accept the tiny M2 screws for either left-hand or right-hand mounting of the encoders.  The configurations are shown in the photo.  
+* ![encoder bracket, left and right](img/prints_enc1.jpg)
+
+Don't overtighten the shaft bolt!  Grip the narrow end of the tool to achieve proper hand-torque.
+* ![prints can break](img/prints_break.jpg)
 
 # 3D Printing
 

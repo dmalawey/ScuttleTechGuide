@@ -18,7 +18,7 @@ Off-the-shelf parts make up the key technologies onboard the robot.  They're mad
 
 Printed parts are the custom designs that hold your robot together.  In the SCUTTLE design, there are about 15 standard prints and hundreds of community-made addons.
 
-Here's a photo with all the prints for SCUTTLE version 3.0 in one box.  Some of the prints are preassembled with their mating parts.
+Here's a photo with all the prints for SCUTTLE version 3.0 in one box.  Some of the prints shown are preassembled with their mating parts, as found in the kit product.
 * ![prints kit1](img/prints_kit1.jpg)
 
 The i2c bracket snaps onto the DIN rail and secures the i2c circuit board.  The motor driver bracket snaps onto the DIN rail and holds the motor driver.  Self tapping screws are used for both brackets.
@@ -33,9 +33,16 @@ The camera assembly features 3 prints.  The "bracket" holds the camera, the "piv
 
 The battery assembly has two prints.  The "panel" carries a power switch and two pairs of anderson terminals.  The "din bracket" clips onto the DIN rail with an embedded spring clip.  The parts join with superglue but they are aligned using a screw, M2.5x10.
 * ![prints battery](img/prints_btry1.jpg)
+
+Two identical prints called pi bracket hold the pi in place.  The pi bracket grips the DIN rail on one edge and snaps-down on the other edge (left and right as shown in the photo).  Brass heat-set inserts are fitted into the prints and M2.5 machine screws secure down the raspberry pi.  Assembly: mount the brackets to the DIN, line up the pi using the holes, and add the four screws.  To remove the pi, keep the bracket attached.  Lift the tabs which bend, and release the bracket from the DIN rail. It's recommended to keep these brackets attached to your pi to protects the bottom facing features from shorting on a tabletop.  The pi fits best in the direction shown, with lifter tabs exposed.
 * ![prints pi bracket](img/prints_pi1.jpg)
 
+The kickstand attaches by-hand without hardware.  The design features compliance to snap onto the aluminum rail, and the kickstand lifts the wheels off the ground.  Test your drivetrain right at your desk without your SCUTTLE running off!  Alternatively, lift your robot 90 degrees to store it on the kickstand, taking less space.  The designed height suits the standard robot clearance and you can adjust this model to modify as needed.
+* ![prints kickstand 1](img/prints_kst1.jpg)
+* ![prints kickstand upright](img/prints_kst2.jpg)
 
+The DIN bracket attaches a DIN rail to the chassis, with two identical copies per robot.  Features on this design: tabs interlock with the aluminum, so you can first mount these without screws.  Loosely fit the M6 screw and dropin nut to hold the DIN rail while allowing repositioning.  Finally, tighten the M6 screw to lock in the position.
+* ![pints din rail bracket](img/prints_din2.jpg)
 Don't overtighten the shaft bolt!  Grip the narrow end of the tool to achieve proper hand-torque.
 
 ![prints can break](img/prints_break.jpg)

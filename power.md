@@ -32,16 +32,10 @@ Now your power source is ready for quick plugging!
 
 Images for general power distribution components & examples.
 
-![drill bit](https://i.imgur.com/D3sDUlU.jpg)
-
-![fasteners](https://i.imgur.com/UkaOBIx.jpg)
-
-![deburring tool](https://i.imgur.com/CLA0Gfc.jpg)
-
-![threads inserted](https://i.imgur.com/iEK601h.jpg)
-
-![zip tie positioning](https://i.imgur.com/kiJwb7D.jpg)
-
-![source and load](https://i.imgur.com/lM1F4Kr.jpg)
-
-![power rail and source terminal](https://i.imgur.com/quijDQi.jpg)
+* ![drill bit](https://i.imgur.com/D3sDUlU.jpg)
+* ![fasteners](https://i.imgur.com/UkaOBIx.jpg)
+* ![deburring tool](https://i.imgur.com/CLA0Gfc.jpg)
+* ![threads inserted](https://i.imgur.com/iEK601h.jpg)
+* ![zip tie positioning](https://i.imgur.com/kiJwb7D.jpg)
+* ![source and load](https://i.imgur.com/lM1F4Kr.jpg)
+* ![power rail and source terminal](https://i.imgur.com/quijDQi.jpg)

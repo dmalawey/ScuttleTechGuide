@@ -12,9 +12,9 @@ Soldering iron: building the robot from scratch requires soldering of common dup
 
 Hex wrench: We couldn't quite eliminate all hex-tools from the job!  For the axle, made of M8 bolt, we tighten it with a 6mm hex wrench, which is always included in hex wrench kits but we ship one specially with our kit.  The wheel is hand-tightened with a low torque (grip the short end) while the lock-nut on the opposing side is captured in the plastic print to hold it in place.
 
-* ![screwdriver](img/tools_screwdriver.jpg)
-* ![soldering iron](img/tools_solderingiron.jpg)
-* ![hex wrench 6mm](img/tools_hex6mm.jpg)
+- ![screwdriver](img/tools_screwdriver.jpg)
+- ![soldering iron](img/tools_solderingiron.jpg)
+- ![hex wrench 6mm](img/tools_hex6mm.jpg)
   
 Hot glue gun (optional) this is recommended for adding strength to the end-caps on the aluminum extrusion, and also for protecting any exposed pins.  We recommend adding hot glue to the enccoder circuit boards exposed pins to prevent short-circuits in case metal contacts the pins.  The same is recommended for the backside of our i2c distribution bus.  Hot glue is a priority tool for general electronics work and serves many more uses!
  
@@ -22,11 +22,8 @@ Crimpers for ferrules:  This is optional, since we ship kits with cables having 
 
 Crimpers for Anderson connector: This is recommended for building any custom power electronics.  It's optional for building scuttle, and required for expanding anderson connections.  They are a top choice of crimp connector for custom electronics builders and growing in popularity.  It's a $30 investment for extremely repeatable crimps with minimal skills. 
 
-* ![hot glue gun](img/tools_hotgluegun.jpg)
-* ![crimers1](img/tools_crimpers1.jpg)
-
-
-
+- ![hot glue gun](img/tools_hotgluegun.jpg)
+- ![crimers1](img/tools_crimpers1.jpg)
 
 
 

@@ -1,8 +1,7 @@
 # Wiring Guide
 
 >
-> All about the wiring of electronics for your robot.
-> This page is divided into signal wires & power wires.
+> All about the wiring of electronics for your robot. This page is divided into signal wires & power wires.  As of 2025, find the full wiring documentation in archives under "wiring guide."  Our goal is to break down this guide into pieces and include them directly here in the github.  In that way, users can download individual pieces and collaborators can improve the diagrams and push updates in the github.  We now use draw.io for easy diagrams with good quality while powerpoint has been used in the past. 
 >
 
 Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the subsections for details.

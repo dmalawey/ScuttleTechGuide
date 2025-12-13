@@ -10,7 +10,10 @@ Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the
 | ------------------- | ------------------- | -------------------- |
 | ![img](image/wg_overview_pi.png) | ![img](image/wg_overview_TDA4VM.png) | ![img](image/wg_overview_byai.png) |
 
-
+# Diagrams
+We're publishing an open source diagrams packet so you can access the working files and use them for your project!  This includes wiring diagrams, cable diagrams, routing diagrams, and more!  Access these examples and you can use the .drawio files relating to your project to make great documentation.  The packet ranges from 2023-2025 and many individual diagrams are unfinished or not yet up to standard.  But it's certainly enough to get you some good examples.
+* [download PDF packet](abc)
+* [download .drawio files](abc)
 
 ## Signals
 

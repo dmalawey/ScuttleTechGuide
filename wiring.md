@@ -38,49 +38,20 @@ We chose the colors to make good use of any pack of wires.  When you add sensors
 
 ### Cables
 
-This section covers cables you can DIY.
-
-<div class="accordion">
-
-<details>
-  <summary>Cable Diagrams</summary>
-
-To build signal cables, use these diagrams.
-
-![cable-encoder-l](image/wg_cable_encoder_lh.png ':class=image-25')
-
-_Figure: cables for left encoder_
-
-<br/><br/>
-
-![cable-encoder-R](image/wg_cable_encoder_rh.png ':class=image-25')
-
-_Figure: cables for right encoder_
-
-<br/><br/>
-
-![cable-motor](image/wg_cable_motor.png ':class=image-25')
-
-[grab the diagram](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagram1.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1yAXCKNeVdJE7FfkX81iIosMF-5VFMIfJ%26export%3Ddownload)
-
-_Figure: cables for motor_
-
-<br/><br/>
-
-![cable-i2c](image/wg_cable_i2c.png ':class=image-25')
-
-_Figure: cables for i2c_
-
-</details>
-
-</div>
-
 
 **Signals Routing**
-The following image shows the routing of signals for PWM on the robot.
+The following image shows the routing of signals for PWM on the robot.  Then see the routing of signals for i2c.  Last, find the pinout designations for the i2c-based encoders.
 
 - ![diagram, wiring signals for PWM](img/wiring_signals_routing2.jpg)
+- ![diagram, wiring signals for i2C](img/wiring_signals_routing1.jpg)
+- ![diagram, wiring signals pinout1.jpg](img/wiring_signals_pinout1.jpg)
 
+
+The following diagrams give motor signals, motor power, motor pinout with images.
+
+- ![img](img/wiring_motor_signals.jpg)
+- ![img](img/wiring_motor_power.jpg)
+- ![img](img/wiring_motor_pinout.jpg)
 
 ## Power
 

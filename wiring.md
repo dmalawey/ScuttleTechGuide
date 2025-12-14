@@ -10,7 +10,8 @@ Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the
 | ------------------- | ------------------- | -------------------- |
 | ![img](image/wg_overview_pi.png) | ![img](image/wg_overview_TDA4VM.png) | ![img](image/wg_overview_byai.png) |
 
-# Diagrams
+# Templates
+_template for diagrams_
 We're publishing an open source diagrams packet so you can access the working files and use them for your project!  This includes wiring diagrams, cable diagrams, routing diagrams, and more!  Access these examples and you can use the .drawio files relating to your project to make great documentation.  The packet ranges from 2023-2025 and many individual diagrams are unfinished or not yet up to standard.  But it's certainly enough to get you some good examples.
 * [download PDF packet](https://github.com/dmalawey/ScuttleTechGuide/blob/06d364108e8cc1c2e09686d637b52af152cc41cd/docs/2025_DiagramsPacket.pdf)
 * [download .drawio files](https://github.com/dmalawey/ScuttleTechGuide/blob/06d364108e8cc1c2e09686d637b52af152cc41cd/docs/2025.12_SCTLwiringPacket.zip) (6Mb zip file with .drawio files)
@@ -20,11 +21,7 @@ We're publishing an open source diagrams packet so you can access the working fi
 Signal wires perform the communication on your robot, between sensors, CPU, and actuators.  Several wires make up a cable, and the cables get plugged in when you build your robot.
 All signals on SCUTTLE can be made with regular off-the-shelf Dupont-style terminals, all female.  Lengths are 10cm and 20cm as shown.
 
-> ⚠️Please do not peel the wires apart! Keep them bonded for strong connections.
-
-![dupont cables photo](https://i.imgur.com/YN3LAEp.jpg ':class=image-25')
-
-> Colors Selection
+## Standards
 
 We chose the colors to make good use of any pack of wires.  When you add sensors and actuators, try to stay consistent.
 
@@ -35,6 +32,15 @@ We chose the colors to make good use of any pack of wires.  When you add sensors
 | PWM signals | Orange, Yellow |
 | CLOCK (i2C | Gray |
 | SIGNAL (i2C) | White |
+
+
+See the following exported images for the standard diagrams in our wires.  We aim to keep alignment of graphics including wire colors, scale of diagram parts, to have diagram colors that match real life, and use connector graphics that show the configuration of orientations and terminals arrangement.
+
+- ![img](img/wiring_standards_cables1.jpg)
+- ![img](img/wiring_standards_cables2.jpg)
+- ![img](img/wiring_standards_connector1.jpg)
+- ![img](img/wiring_standards_connector2.jpg)
+
 
 ### Cables
 

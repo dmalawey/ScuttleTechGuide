@@ -76,7 +76,10 @@ _Figure: cables for i2c_
 </div>
 
 
+**Signals Routing**
+The following image shows the routing of signals for PWM on the robot.
 
+- ![diagram, wiring signals for PWM](img/wiring_signals_routing2.jpg)
 
 
 ## Power

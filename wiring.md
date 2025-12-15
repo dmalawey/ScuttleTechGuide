@@ -1,14 +1,7 @@
 # Wiring Guide
 
->
-> All about the wiring of electronics for your robot. This page is divided into signal wires & power wires.  As of 2025, find the full wiring documentation in archives under "wiring guide."  Our goal is to break down this guide into pieces and include them directly here in the github.  In that way, users can download individual pieces and collaborators can improve the diagrams and push updates in the github.  We now use draw.io for easy diagrams with good quality while powerpoint has been used in the past. 
->
+All about the wiring of electronics for your robot. This page is divided into signal wires & power wires.  As of 2025, find the full wiring documentation in archives under "wiring guide."  Our goal is to break down this guide into pieces and include them directly here in the github.  In that way, users can download individual pieces and collaborators can improve the diagrams and push updates in the github.  We now use draw.io for easy diagrams with good quality while powerpoint has been used in the past. 
 
-Here's a preview of the wiring for the Pi and TI configurations.  Proceed to the subsections for details.
-
-| Pi Wiring Thumbnail | TI wiring thumbnail | BeagleY-AI Thumbnail |
-| ------------------- | ------------------- | -------------------- |
-| ![img](image/wg_overview_pi.png) | ![img](image/wg_overview_TDA4VM.png) | ![img](image/wg_overview_byai.png) |
 
 # Templates
 _template for diagrams_
@@ -61,40 +54,12 @@ The following diagrams give motor signals, motor power, motor pinout with images
 
 ## Power
 
-### Power Routing
+See the power and signals across the whole robot for scuttle v3 with raspberry pi.
 
-The overview for power cables on SCUTTLE v3
-
-![power overview](image/wg_overview_power.png ':class=image-25')
-
-_Figure: power overview_
-
-Here are the cables to power the motors from the motor driver.
-
-![motor leads](image/wg_motor_leads.png ':class=image-25')
-
-_Figure: motor leads_
-
-### Actuator: Motor Driver
-
-The cables to power the motor driver from 12v.
-
-![motor driver](image/wg_motor_driver.png ':class=image-25')
-
-_Figure: motor driver wiring_
-
-|The motor wires to communicate from CPU to the motor driver| BeagleY-AI Connectivity|
-|--------------| -------------- |
-|![motor leads](image/wg_cable_motor_signal.png)| ![Beagle motor leads](image/Beagle_wiring_whitebg.png)|
-
-_Figure: motor signal cable_
-
-### Source: Battery
-
-![battery image](image/wg_battery.png ':class=image-25')
-
-_Figure: battery components_
-
+- ![img](img/wiring_bot_power1.jpg)
+- ![img](img/wiring_bot_routing1.jpg)
+- ![img](img/wiring_bot_routing1.jpg)
+  
 ## Addons
 
 > This section to include popular addons such as RPLIDAR, ultrasonic sensor, and more.

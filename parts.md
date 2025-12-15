@@ -84,3 +84,12 @@ Printing Info
 6. Most of our parts feature a built-in design lesson.  The kickstand is a great example for compliance.  The wheel bracket carefully integrates print direction with stress direction.
 7. The version numbers are independent for each part.  If we improve a design for one part, we release that design so you can upgrade individual pieces.
 
+# Addon
+
+Lidar is the most popular sensor for addons, and the most popular selection of lidars is a low cost RPlidar model A1 or the very similar YDlidar (more common in Asia), which consumes just about 4 watts and integrates on SCUTTLE easily.  We built a lidar bracket and a beautiful 3D model for you to work with in your lidar project. The images show the lidar added to vertical aluminum extrusion, attached by a printable bracket and M6 fasteners.
+* Access the [Lidar Tower Model on grabCAD](https://grabcad.com/library/lidar-tower-1)
+* Order this lidar module [on amazon](https://amzn.to/4j8EHcL) for $99
+
+-![linked image lidar tower1](https://s3.amazonaws.com/gc-p/screenshots/pics/619849680c9662a032b508989907753d/original.jpg)
+-![linked image lidar tower, side](https://s3.amazonaws.com/gc-p/screenshots/pics/f983bb363b4107ec831a9f1408b2dfb9/original.jpg)
+-![linked image lidar Render](https://s3.amazonaws.com/gc-p/screenshots/pics/f8cc53398fbaa9f5953f5569c662177d/original.jpg)

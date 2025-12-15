@@ -1,18 +1,9 @@
 # Power Budget
-> A dedicated section for budgeting power. This contains details the power system onboard SCUTTLE.  With extensibility as a central goal for SCUTTLE, we aim to offer sufficient detail to let you engineer any new function or actuator you can dream of.
+A dedicated section for budgeting power. This contains details the power system onboard SCUTTLE.  With extensibility as a central goal for SCUTTLE, we aim to offer sufficient detail to let you engineer any new function or actuator you can dream of.  The data below shows the power demand when averaging the devices onboard the robot, with their expected duty cycles and power levels.  We made individual measurements of the devices - the raspberry pi uses the most power at around 4 watts on average.
 
-This chart indicates the power loads of each component on your power supply.
-
-![pwr_loads_chart](/image/pwr_chart_loads.png ':class=image-25')
-
-This table describes the estimated duty cycles for key components in a typical operating scenario.
-
-![Chart of Duty Cycles](/image/pwr_table_dutyCycles.png ':class=image-30')
-
-The raspberry pi and any loads that source power from it, ultimately source power from the 5v DC adapter.  This adapter has an efficiency curve as shown.  Note that the adapter has a constant power draw when the 12v source (battery) is powered on and hooked up.
-
-![DC adapter efficiency chart](/image/pwr_dc5v_efficiency.png ':class=image-25')
-
+- ![img power components](img/power_components1.jpg)
+- ![img power components2](img/power_components2.jpg)
+- ![img placeholder](img/img_placeHolder.jpg)
 ---
 
 ## DIN Power

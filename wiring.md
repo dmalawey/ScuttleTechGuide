@@ -10,7 +10,7 @@ Signal wires perform the communication on your robot, between sensors, CPU, and 
 All signals on SCUTTLE can be made with regular off-the-shelf Dupont-style terminals, all female.  Lengths are 10cm and 20cm as shown.
 
 **Signals Routing**
-The following image shows the routing of signals for PWM on the robot.  Then see the routing of signals for i2c.  Last, find the pinout designations for the i2c-based encoders.
+The following image shows the routing of signals for PWM on the robot. Then see the routing of signals for i2c.  Having i2c already distributed on a simple breakout board gives the users access to A) probe the signals during operation for troubleshooting or B) connect further sensors, since i2c is the most popular communication protocol for off-the-shelf sensors. Last, find the pinout designations for the i2c-based encoders. Note the encoders have one difference and that is to drive the pulldown pin necessary for changing the i2c address.  By differentiating the addresses, we can communicate with both sensors on the same lines simultaneously.
 
 - ![diagram, wiring signals for PWM](img/wiring_signals_routing2.jpg)
 - ![diagram, wiring signals for i2C](img/wiring_signals_routing1.jpg)
@@ -20,9 +20,13 @@ The following image shows the routing of signals for PWM on the robot.  Then see
 
 The following diagrams give motor signals, motor power, motor pinout with images.
 
+**Motor Pinout:**  The motor driver is shown which receives two pairs of PWM signals.  One PWM signal can control the speed of a motor, but two are required to implement both forward and reverse.  Input 1 and 2 control the right-hand motor, and correspond to output 1 and 2.  The input ranges 0-100% PWM at 3.3v while the output ranges 0-12v where 12v is the input voltage level.  This motor driver board features two independent h-bridge MOSFETs has its very own detailed datasheet for those who wish to explore.
+
+**Motor Power** The power diagram shows an anderson power connector which is appropriate for the 18awg paired wire, where the anderson pair can plug into the battery directly. However, in the latest v3 robot we have simple ferrules crimped on the end of this cable and tie it into power at the power distribution terminals, which are DIN terminals.   The motor wires are soldered into the motor terminals with polarity reversed for left and right, so the positive signals from the CPU ultimately give "forward" motion while each motor turns opposite from each other.   Users can duplicate this exact setup for powering LEDs, fans, or other DC actuators with the same stack of software, wiring, connections, and PWM scheme.
+
 - ![img](img/wiring_motor_signals.jpg)
 - ![img](img/wiring_motor_power.jpg)
-- ![img](img/wiring_motor_pinout.jpg)
+- ![img](img/img_placeHolder.jpg)
 
 ## Power
 

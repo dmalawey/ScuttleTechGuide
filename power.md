@@ -6,7 +6,7 @@ A dedicated section for budgeting power. This contains details the power system 
 - ![img placeholder](img/img_placeHolder.jpg)
 ---
 
-## DIN Power
+# DIN Power
 
 Quick guide steps to route power with DIN rail.
 
@@ -18,8 +18,6 @@ Quick guide steps to route power with DIN rail.
 6. We recommend the terminal pair for the power source is secured and the load pair is free.
 7. secure your source wires into the power distribution terminals and the DIN bracket onto your rail.
 Now your power source is ready for quick plugging!
-
-### Images
 
 Images for general power distribution components & examples.
 

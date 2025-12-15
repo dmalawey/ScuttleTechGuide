@@ -12,3 +12,8 @@ We challenge all companies who use the term "open-source hardware" to match the 
 Below, see an infographic for the most popular present-day open source robot.  We noted the details of the designs available, and its far from complete.  We hope other engineers also push for higher standards so we can form ecosystems that help developers build, learn, and advance.
 
 ![graphic of open source breakdown](img/osh_compare1.jpg)
+
+
+Robustness is every engineer's goal, and it needs a definition in the context of open source hardware.  Since we couldn't find any examples in existing publications, we made this diagram to express key factors of robustness in terms of engineering choices for SCUTTLE.  If your goals are like our goals, then you may define robustness in the same way that we do, and you might find the pairing of SCUTTLE and SPOT to be a great example of contrasting robustness.  In most cases, other experts can see the value of using standardized high-volume parts to be integrated in a robot.  But for the average person, simple familiar parts looks a lot like cutting costs.  So, this graphic is a breakout diagram of the choices in the design for robustness and their downstream impacts.  This deserves more discussion but for now let's just get it posted.  2025.12 -DM
+
+![graphic for robustness](img/osh_robustness.jpg)

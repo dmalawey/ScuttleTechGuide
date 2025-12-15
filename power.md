@@ -39,3 +39,10 @@ Images for general power distribution components & examples.
 * ![zip tie positioning](https://i.imgur.com/kiJwb7D.jpg)
 * ![source and load](https://i.imgur.com/lM1F4Kr.jpg)
 * ![power rail and source terminal](https://i.imgur.com/quijDQi.jpg)
+
+## Efficiency
+The mobile robot is designed for efficiency at carrying loads and SCUTTLE specifically was designed with energy consumption in mind.  Note when compared to a typical quadrotor drone, the robot has more runtime, less mass, and higher payload by immense factors.
+
+- ![img power drone 1](img/power_drone1.jpg)
+- ![img power drone2](img/power_drone2.jpg)
+- ![img_placeholder](img/img_placeHolder.jpg)

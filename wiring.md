@@ -56,9 +56,11 @@ The following diagrams give motor signals, motor power, motor pinout with images
 
 See the power and signals across the whole robot for scuttle v3 with raspberry pi.
 
+The first diagram shows all main cables, and the second diagram shows only the power cables.  
+
 - ![img](img/wiring_bot_power1.jpg)
 - ![img](img/wiring_bot_routing1.jpg)
-- ![img](img/wiring_bot_routing1.jpg)
+- ![img](img/img_placeHolder.jpg)
   
 ## Addons
 

@@ -93,3 +93,7 @@ Lidar is the most popular sensor for addons, and the most popular selection of l
 -![linked image lidar tower1](https://s3.amazonaws.com/gc-p/screenshots/pics/619849680c9662a032b508989907753d/original.jpg)
 -![linked image lidar tower, side](https://s3.amazonaws.com/gc-p/screenshots/pics/f983bb363b4107ec831a9f1408b2dfb9/original.jpg)
 -![linked image lidar Render](https://s3.amazonaws.com/gc-p/screenshots/pics/f8cc53398fbaa9f5953f5569c662177d/original.jpg)
+
+Another integrated sensor includes binocular vision.  Several projects have implemented 3D vision and one popular choice is the intel realsense camera.  We have an open design posted with an articulating ball mount and the camera assembled, so most of the mechanical engineering is done for your sensor integration.
+
+![realsense camera linked image](https://s3.amazonaws.com/gc-p/screenshots/pics/46574282b81d8568bc7258e3fb619382/original.jpg)

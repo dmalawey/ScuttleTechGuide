@@ -100,3 +100,10 @@ Another integrated sensor includes binocular vision.  Several projects have impl
 - ![realsense camera linked image](https://s3.amazonaws.com/gc-p/screenshots/pics/46574282b81d8568bc7258e3fb619382/original.jpg)
 - ![realsense bracket image 2](https://s3.amazonaws.com/gc-p/screenshots/pics/f1e51fb1c1a643aaa220187cc6e20a69/original.JPG)
 - ![image, thermal camera](https://s3.amazonaws.com/gc-p/screenshots/pics/b51ce0610e33ef82208d8271768fc072/original.JPG)
+
+For integrating a new choice of CPU, the modifications are now easy!  Follow the same design strategy implemented on the latest Edge AI board bracket (Texas Instruments Edge AI SK with TDA4VM processor).  All main electronics components attach to the DIN rail so the brackets begin to carry all of the same features for attaching to PCBs and DIN.  For this design, we include two printed parts that are parametric and feature holes spaced appropriate for the PCB mounting holes.  For any rectangular pcb, you can modify this bracket to adjust for the hole spacing of your board.  The third image below shows the demo robot for industrial automation featuring advanced telemetry, made by D3 Engineering with Texas Instruments electroncis integrated.
+* Access the [Edge AI Bracket on GrabCAD](https://grabcad.com/library/edgeai-bracket-v3-1)
+
+- ![linked edgeai img1](https://s3.amazonaws.com/gc-p/screenshots/pics/5ba16884b0d3f1023d3adc22c57fe452/original.jpg)
+- ![linked edgeai img2](https://s3.amazonaws.com/gc-p/screenshots/pics/dcea2cdf4690a6c0e3a48ec31df6549e/original.jpg)
+- ![linked edgeai_img3](https://s3.amazonaws.com/gc-p/screenshots/pics/094c7d9c14755115e52e88ebaf9018e1/original.jpg)

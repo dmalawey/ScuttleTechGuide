@@ -32,8 +32,10 @@ Images for general power distribution components & examples.
 * ![power rail and source terminal](https://i.imgur.com/quijDQi.jpg)
 
 ## Efficiency
-The mobile robot is designed for efficiency at carrying loads and SCUTTLE specifically was designed with energy consumption in mind.  Note when compared to a typical quadrotor drone, the robot has more runtime, less mass, and higher payload by immense factors.
+The mobile robot is designed for efficiency at carrying loads and SCUTTLE specifically was designed with energy consumption in mind.  Note when compared to a typical quadrotor drone, the robot has more runtime, less mass, and higher payload by immense factors.  The "typical drone" values come from a research publication (2022 Jacewicz et al) covering detailed evaluation of the energy spent during flight routines.  The sampled model of drone was model M690B from tmotor.com, a medium-class quadrotor with typical configuration.  For mobile projects of scanning an area or delivering items, both mobile robots and drones can be implemented but the drone is likely to consume 60 times more energy as in our comparison.
+
+In this chart we also included a common solar panel at the $25 range with a size around 300x300 mm, which would fit on top of SCUTTLE.  This class of solar panel produces more energy than SCUTTLE consumes, meaning that when connected to the system, it can charge the battery and run the robot at the same time (and we have tested this!).  This pairing of solar and scuttle is a huge opportunity because it means a robot could operate indefinitely without plugging in.
 
 - ![img power drone 1](img/power_drone1.jpg)
 - ![img power drone2](img/power_drone2.jpg)
-- ![img_placeholder](img/img_placeHolder.jpg)
+- ![img_placeholder](img/power_droneExample.jpg)

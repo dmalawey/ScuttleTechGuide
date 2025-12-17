@@ -43,3 +43,10 @@ As of 2025, we are moving towards rebuilding the content so that all elements ar
 * Wiring_Addons - TO BE POSTED
   * Several examples of sensors and actuators that have been integrated on SCUTTLE and verified.  These OTS sensors and actuators are highly common among electronics projects globally, so we have integrated many familiar devices on SCUTTLE so you can copy our design plans.  Selecting connections that match our wiring addons guide will enhance your alignment with our other tutorials and instructions online.
 
+## Beginners
+
+The beginner's guide was built with exhaustive information about getting the robot running from scratch.  This was written in 2021-2022 based on the college course at Texas A&M, where in one semester the student connects each module and performs testing on the device to understand it and verify configuration, then move on to activate all robot components.  Last, there are activities for operating the systems together such as driving and viewing the camera.  This is unique from the other guides in that it's a standalone manual and it's oriented to specific activities that build knowledge of the robotics systems in general and all the capabilities of the robot.
+
+Topics in this guide that are unique include setting up the micro SD card for raspberry pi, installing our software from the github, and performing verification of the wheel odometry through the wheel sensors.  These exercises have universal learning outcomes but they focus on the one particular SCUTTLE model (version 2) which has raspberry pi version 3, and other small hardware specifics.  Despite the college-level goals, this should be accessible for young learners too because we assume there is no prior knowledge of operating linux, setup of wireless connections, and programming in python.  There are specific exercises that give step-by-step instructions for each of those items.
+
+* Download the [Beginners Guide PDF, 3MB](https://github.com/dmalawey/ScuttleTechGuide/blob/7b22038b08c63516247df77d17e402354d57d48e/docs/SCTL_BeginnersGuide.pdf)

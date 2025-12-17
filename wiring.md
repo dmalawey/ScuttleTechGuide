@@ -3,8 +3,8 @@
 All about the wiring of electronics for your robot. This page is divided into signal wires & power wires.  As of 2025, find the full wiring documentation in archives under "wiring guide."  Our goal is to break down this guide into pieces and include them directly here in the github.  In that way, users can download individual pieces and collaborators can improve the diagrams and push updates in the github.  We now use draw.io for easy diagrams with good quality while powerpoint has been used in the past. 
 
 - ![img robot wiring](img/wiring_bot_routing1.jpg)
-- ![img robot overview](img/rend_scuttle_v3_1.jpg)
-- ![img](img/img_placeHolder.jpg)
+- ![img robot overview](img/rend_sctl_v3_1.jpg)
+- ![img placeholder](img/img_placeHolder.jpg)
 
 ## Signals
 

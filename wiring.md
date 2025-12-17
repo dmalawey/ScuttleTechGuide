@@ -37,7 +37,15 @@ The first diagram shows all main cables, and the second diagram shows only the p
 - ![img](img/wiring_bot_power1.jpg)
 - ![img](img/wiring_bot_routing1.jpg)
 - ![img](img/img_placeHolder.jpg)
-  
+
+## Cables
+
+These diagrams are designated for building the cables, which is recommended for all users even if you receive the cables in a kit.  Get familiar with the type of signal carried on each wire color, and you will find it's very advantageous when integrating new sensors.  Get familiar with the mechanical formation (from an off-the-shelf ribbon cable to a purpose-built cable) and it saves huge headaches when configuring new sensors and actuators. It is highly intentional to separate color clusters for i2c and PWM, because thousands of other devices fall into these categories, requiring the same wire-count or the exact same signals.  Try to adopt a minimum of 4-count dupont terminals for your custom cables for secure plugging and simplified wiring work.
+
+- ![img](img/wiring_signals_cable_i2c.jpg)
+- ![img](img/wiring_motor_cable1.jpg)
+- ![img](img/img_placeHolder.jpg)
+ 
 ## Addons
 
 > This section to include popular addons such as RPLIDAR, ultrasonic sensor, and more.

@@ -59,8 +59,12 @@ These diagrams are designated for building the cables, which is recommended for 
 # Templates
 _template for diagrams_
 We're publishing an open source diagrams packet so you can access the working files and use them for your project!  This includes wiring diagrams, cable diagrams, routing diagrams, and more!  Access these examples and you can use the .drawio files relating to your project to make great documentation.  The packet ranges from 2023-2025 and many individual diagrams are unfinished or not yet up to standard.  But it's certainly enough to get you some good examples.
-* [download PDF packet](https://github.com/dmalawey/ScuttleTechGuide/blob/06d364108e8cc1c2e09686d637b52af152cc41cd/docs/2025_DiagramsPacket.pdf)
+* [download PDF packet](https://github.com/dmalawey/ScuttleTechGuide/blob/d6f4d6101141f5ecef1b5c2f7ace48e645213b4a/docs/wiring_pack_2025.12.zip)
+ * Last updated 2025.12.17
+ * Contains 8 diagram.drawio files and notes 
 * [download .drawio files](https://github.com/dmalawey/ScuttleTechGuide/blob/06d364108e8cc1c2e09686d637b52af152cc41cd/docs/2025.12_SCTLwiringPacket.zip) (6Mb zip file with .drawio files)
+
+![image for wiring index diagram](img/wiring_index.jpg)
 
 ## Standards
 

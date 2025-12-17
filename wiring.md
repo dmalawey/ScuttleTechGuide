@@ -66,17 +66,25 @@ We're publishing an open source diagrams packet so you can access the working fi
 
 ![image for wiring index diagram](img/wiring_index.jpg)
 
-## Standards
+# Standards
 
-We chose the colors to make good use of any pack of wires.  When you add sensors and actuators, try to stay consistent.
+We chose the colors to make good use of any pack of wires.  When you add sensors and actuators, try to stay consistent.  If you explore the .drawio templates above, you can learn a lot about our standards because they're noted right inside of the actual diagrams. For some highlights, see below:
 
 | Function | Preferred Color |
-| ------ | ----------------- |
+| -------- | ----------------- |
 | Ground | Black, Brown, Green |
 | Power, 3.3v | Red, Purple |
 | PWM signals | Orange, Yellow |
 | CLOCK (i2C | Gray |
 | SIGNAL (i2C) | White |
+
+| Function | Spec |
+| -------- | ---- |
+| Power (cable) | 18AWG, paired, silicone |
+| Signals (cables) | 22 AWG, ribbon style |
+| Power (general) | plain ferrule |
+| Power (frequent connection) | Anderson red/black connector |
+| Signals (connector) | Dupont 4 pin, 6pin, 8pin connectors |
 
 See the following exported images for the standard diagrams in our wires.  We aim to keep alignment of graphics including wire colors, scale of diagram parts, to have diagram colors that match real life, and use connector graphics that show the configuration of orientations and terminals arrangement.  Years of projects went into the decisions of how to layout graphics to make the actual engineering and building easier.  And it pays off.  You're encouraged to take these templates, make your design documents shine and make everything modifiable from the ground up.
 

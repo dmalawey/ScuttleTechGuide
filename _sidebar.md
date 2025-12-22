@@ -7,5 +7,6 @@
 * [Brand](brand)
 * [Navigation](nav)
 * [Wisdom](wisdom)
+* [Sensors](sensors)
 * [BeagleY-AI](beagley-ai)
 * [archives](archive)

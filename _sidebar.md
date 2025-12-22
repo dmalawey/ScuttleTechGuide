@@ -5,6 +5,7 @@
 * [Wiring](wiring)
 * [Parts](parts)
 * [Brand](brand)
+* [Navigation](nav)
 * [Wisdom](wisdom)
 * [BeagleY-AI](beagley-ai)
 * [archives](archive)

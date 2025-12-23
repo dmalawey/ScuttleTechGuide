@@ -3,6 +3,8 @@
 ## About
 Welcome to ScuttleTechGuide! An open door to building and developing with the SCUTTLE multidisciplinary ecosystem.  For several years we hosted all of the documentation for SCUTTLE Robotics on our website, [scuttlerobot.org](https://scuttlerobot.org). But, since mid 2024 we found new ways to make the documentation more flexible & easily updated.  This repository will feature items such as wiring diagrams so that customers can view while contributors can edit.  Also, students can download source files for our diagrams and use them to kickstart documentation for their project.  This repo will expand until we have a solid, fully open, set of docs for the standard SCUTTLE robot and we will trim back the website (scuttlerobot.org) to focus on business interactionss such as ordering robots.
 
+_short URL: qr.net/scuttleproject_
+
 ## More Projects
 
 >

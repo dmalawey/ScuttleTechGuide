@@ -24,3 +24,13 @@ The camera that we include in our SCUTTLE Kits is ultimately a sensor, communica
 - ![linked cam image](https://s3.amazonaws.com/gc-p/screenshots/pics/7146bfe8332c0045e1d6df665cb4e2b2/original.JPG)
 - ![linked cam image 2](https://s3.amazonaws.com/gc-p/screenshots/pics/8f3e0d22c330675428de6a53e7be8775/original.JPG)
 - ![linked cam image 3](https://s3.amazonaws.com/gc-p/screenshots/pics/876a55f4de1542a1341cadf317db3d78/original.PNG)
+
+**Motor Driver**
+This is the dual-motor driver included with SCUTTLE v3, and we are grouping it with "sensors" since it is a modular i/o device that can be independently added, wired in, and tested just like a sensor.  This is a step-up from the extremely popular L298N boards, where they are both H-bridge devices or MOSFETS, delivering a current to the output terminals in proportion to the input signals in PWM.  Robotics designers should know this is our most highly recommended mass-produced driver board for those who want to learn PWM control functions with a hands-on device, and you need more current (this offers up to 5A per channel, 10A total) and up to 40 volts.  For SCUTTLE this is the solution that controls two DC motors but for mechatronics this is an easy variable-control output device for any DC actuator including LED lamps or pumps, etc.  This model was remade december 2025 for a very good example of designing a simple circuit board in Solidworks.  Follow the feature tree or even duplicate this model and adjust the board size, hole spacing easily to produce another circuit CAD design.
+
+As for purchasing options, HW231 is not a highly standard name of a board, so also search MC33886, which is the name of the driver chip on the board.  This can be found as low as $12 per piece and should be available in any country.  
+* Get the [motor driver CAD model here](https://grabcad.com/library/hw231-1)
+
+- ![linked driver image](https://s3.amazonaws.com/gc-p/screenshots/pics/4b95be0b44cfbaa3e54cc167a026bf80/original.jpg)
+- ![linked image 2](https://s3.amazonaws.com/gc-p/screenshots/pics/7939f29b547aecdc46b2c049dcba83c0/original.jpg)
+- ![linked image 3](https://s3.amazonaws.com/gc-p/screenshots/pics/d552e5d8f4d2722be0ddddf76658d6a6/original.jpg)

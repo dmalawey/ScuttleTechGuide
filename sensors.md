@@ -16,3 +16,11 @@ Grab the [CAD model for VL53L0X here](https://grabcad.com/library/distance_senso
 - ![linked image vl](https://s3.amazonaws.com/gc-p/screenshots/pics/f5448e5885d7e3fb3c4d58366ff12598/original.JPG)
 - ![linked image vl](https://s3.amazonaws.com/gc-p/screenshots/pics/cda1c93d9aa5161a2e2e5f725b405375/original.JPG)
 - ![linked image vl](https://s3.amazonaws.com/gc-p/screenshots/pics/9288873f93db424b96bf6e8e47437dd5/original.JPG)
+
+**Vision**
+The camera that we include in our SCUTTLE Kits is ultimately a sensor, communicating through USB and delivering vision data via pixels. We chose this design after testing several USB webcams and off-the-shelf selections including logitech and more. One important criteria for the camera was to have a microphone embedded.  The microphone is very rudimentary but is sufficient to capture speech-to-text and support interactive teleoperation of the robot. This compact square form factor is most common for industrial cameras, with a rugged steel case and interchangeable lenses. Our included selection is 720P which has proven more than sufficient for most machine-vision tasks. Working with the video feed in software, we found sometimes even downscaling the images to 256 pixels is preferred before processing the images, to balance speed and resolution. But, if you want to maintain the hardware design and gain more resolution, there are plenty of variants with 1080p or 4k resolution now. We have created a couple of different printable mounting solutions to attach the camera to 3030 rail, and our typical bracket includes an additional degree of freedom.  When the user configures SCUTTLE for a task, it is sometimes important to put the floor in view, or point upwards towards people.  Quickly make your adjustments and tighten the phillips screw to lock the angle in place.  Keep in mind that machine vision is a whole field of study and  
+* Get the [Camera CAD model here](https://grabcad.com/library/scuttle-square-cam-v1-1)
+
+- ![linked cam image](https://s3.amazonaws.com/gc-p/screenshots/pics/7146bfe8332c0045e1d6df665cb4e2b2/original.JPG)
+- ![linked cam image 2](https://s3.amazonaws.com/gc-p/screenshots/pics/8f3e0d22c330675428de6a53e7be8775/original.JPG)
+- ![linked cam image 3](https://s3.amazonaws.com/gc-p/screenshots/pics/876a55f4de1542a1341cadf317db3d78/original.PNG)

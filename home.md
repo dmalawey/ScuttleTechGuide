@@ -16,9 +16,28 @@ SCUTTLE is designed as an architecture for developers to easily automate actuato
 - ![placeholder](img/img_placeHolder.jpg)
 
 
-## Reference
+## Specs
+The standard configuration of the robot includes the a 3-cell lithium ion battery, and has the following specifications:
 
-A section for terminology, footnotes, and sources cited within the tech guide.
+* Exterior Dimensions: 365 x 440 x 100 (mm)
+* Ground Clearance: 58mm
+* Weight: 4.1kg
+* Payload Rating: 40 kg
+* Full Speed: 0.45 m/s
+* Diameter, drive wheels: 83 mm
+* Diameter, casters: 49 mm
+
+**The battery** uses the top-of-the-line panasonic cells with 3200mAh or higher, and it's modular so you can easily swap the cells or add features.  One student team in 2022 created a communication module to transmit battery voltage to the CPU. It includes two pairs of anderson connectors so you can charge the robot and operate it at the same time.
+
+**The wheel module** is ready for upgrading for offroad projects, or changing motors for higher speeds.  Our gearmotor standard is 300 RPM and 12v but you can find many variations with 600rpm and the motor driver will handle it just fine.  Online you can find users' wheel mods with larger wheels, which is easily accepted by this wheel layout.
+
+**The power distribution** system is expandable, mounted on ever-popular industrial (steel) 35mm DIN rail, with the class-leading Dinkle DK2.5N screw terminals that accept up to 12awg wires.  All of the power wires are 18awg, paired and colored red & black for easy identification. The battery has available current for over 4x what the standard setup uses, and plenty of energy to accomodate added loads.
+
+**Sensor Communication** is done over ordinary i2c protocol, ready with plenty of spare addresses in the MCU to add your own off-the-shelf sensors. Plus, our sample software is arranged in modules so you can discover how to add devices without breaking down the robot routines.  We designed a simple and easy-to-use i2c bus board, with four extra sensor positions so you can plug-in loads of new sensing options without creating a special wire harness.
+
+**Driving** can be performed with a wireless bluetooth controller, such as our included gamepad.  Or, perform autonomous driving with your own routine (and use our software if you want).  Lastly, we have tested out online-based remote "telepresence" style of driving with the video and audio feed transmitted over WiFi (included on all the popular CPU boards).
+
+**Telemetry** starts with the two military-grade encoders with insane 12 bit resolution that can detect wheel movements at 0.2 degrees, but expect 2 degrees in practical use with geartrain and wheel slip, etc.  We have tested out and published data for multiple Lidar integrations like RPLidar and YDlidar, and even one from SICK industrial sensors manufacturer.  You can find free printable CAD models for lidar brackets.
 
 ### Quick Links
 

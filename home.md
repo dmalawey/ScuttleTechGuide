@@ -5,25 +5,11 @@ Welcome to ScuttleTechGuide! An open door to building and developing with the SC
 
 _short URL: qr.net/scuttleproject_
 
-## More Projects
+**Robot Diagram**
+Every robot is made of the same components: [actuators, sensors, computer, drivers, power supply] The actuators are controlled by a driver, the sensors report information to the computer, and the computer makes decisions for the actuators to be driven.  The power supply activates all the components.  Our robot lays out the components clearly as in the diagram below.
 
->
-> More open-source designs:
->
-> | Project | Link | Purpose | 
-> | --------------- | ---------------------- | -------------------------------------------------------- | 
-> | OpenAir | [qr.net/openairproject](https://qr.net/openairproject) | take control of air, pressure, & flow with open elements | 
-> | OpenArm | [qr.net/openarmproject](https://qr.net/openarmproject) | revolutionize robotic arms, a 10-year goal | 
-> | OpenBox | [qr.net/openboxproject](https://qr.net/openboxproject) | array of open designs beginning with a steel box | 
-> | OpenGrow | [qr.net/opengrowproject](https://qr.net/opengrowproject) | open designs for hydroponics & aquaponics systems | 
-> | OpenJar | [qr.net/openjarproject](https://qr.net/openjarproject) | array of designs for standard jars, threads, & seals | 
-> | OpenLab | [qr.net/openlabproject](https://qr.net/openlabproject) | build a laboratory to design & fabricate anything. |
-> | openME | [qr.net/openmeproject](https://qr.net/openmeproject) | a Mechanical Engineering degree, comprehensive & free, in-progress | 
-> | OpenSpin | [qr.net/openspinproject](https://qr.net/openspinproject) | array of designs based on parametric bearings | 
-> | SCUTTLE_Nigeria | [qr.net/scuttleafrica](https://qr.net/scuttleafrica) | university-level robotics lab in Lagos, Nigeria |
-> | SCUTTLE_tech | [qr.net/scuttleproject](https://qr.net/scuttleproject) | engineering design guide for scuttle robot |
-> | SCUTTLE_Mini | [qr.net/scuttlemini](https://qr.net/scuttlemini) | miniature mobile robot, 10kg payload, designs |
->
+![robot system diagram](img/main_bot_diagram.jpg)
+
 
 ## Reference
 
@@ -183,6 +169,26 @@ The organizations in this table have influenced SCUTTLE organization heavily and
 
 ---
 
+
+## More Projects
+
+>
+> More open-source designs:
+>
+> | Project | Link | Purpose | 
+> | --------------- | ---------------------- | -------------------------------------------------------- | 
+> | OpenAir | [qr.net/openairproject](https://qr.net/openairproject) | take control of air, pressure, & flow with open elements | 
+> | OpenArm | [qr.net/openarmproject](https://qr.net/openarmproject) | revolutionize robotic arms, a 10-year goal | 
+> | OpenBox | [qr.net/openboxproject](https://qr.net/openboxproject) | array of open designs beginning with a steel box | 
+> | OpenGrow | [qr.net/opengrowproject](https://qr.net/opengrowproject) | open designs for hydroponics & aquaponics systems | 
+> | OpenJar | [qr.net/openjarproject](https://qr.net/openjarproject) | array of designs for standard jars, threads, & seals | 
+> | OpenLab | [qr.net/openlabproject](https://qr.net/openlabproject) | build a laboratory to design & fabricate anything. |
+> | openME | [qr.net/openmeproject](https://qr.net/openmeproject) | a Mechanical Engineering degree, comprehensive & free, in-progress | 
+> | OpenSpin | [qr.net/openspinproject](https://qr.net/openspinproject) | array of designs based on parametric bearings | 
+> | SCUTTLE_Nigeria | [qr.net/scuttleafrica](https://qr.net/scuttleafrica) | university-level robotics lab in Lagos, Nigeria |
+> | SCUTTLE_tech | [qr.net/scuttleproject](https://qr.net/scuttleproject) | engineering design guide for scuttle robot |
+> | SCUTTLE_Mini | [qr.net/scuttlemini](https://qr.net/scuttlemini) | miniature mobile robot, 10kg payload, designs |
+>
 [Github Repo](https://github.com/dmalawey/ScuttleTechGuide ':class=button')
 [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/ScuttleTechGuide/main&sidebar=true#/?show-page-options=true ':class=button')
 [SCUTTLE Africa](https://qr.page/g/leQK0r6g6q ':class=button')

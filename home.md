@@ -6,9 +6,14 @@ Welcome to ScuttleTechGuide! An open door to building and developing with the SC
 _short URL: qr.net/scuttleproject_
 
 **Robot Diagram**
-Every robot is made of the same components: [actuators, sensors, computer, drivers, power supply] The actuators are controlled by a driver, the sensors report information to the computer, and the computer makes decisions for the actuators to be driven.  The power supply activates all the components.  Our robot lays out the components clearly as in the diagram below.
+Every robot is made of the same components: [actuators, sensors, computer, drivers, power supply] The actuators are controlled by a driver, the sensors report information to the computer, and the computer makes decisions for the actuators to be driven.  The power supply activates all the components.  Our robot lays out the components clearly as in the diagram below (left).
 
-![robot system diagram](img/main_bot_diagram1.jpg)
+**Actuators**
+SCUTTLE is designed as an architecture for developers to easily automate actuators.  One example is shown below (middle) that features a spraying mechanism with a cleaning product.  If a designer wanted a robot that performs cleaning, the job is simply to add an actuator and a driver for that actuator.  This project shows a linear actuator and a relay with a 3D printed assembly that holds the spray can.  In this project, the existing computer and power supply are connected to the new actuator system to give power and computing.  The hardware modules and software modules are pre-built so you can copy and paste most of the engineering effort to support brand new projects.
+
+- ![robot system diagram](img/main_bot_diagram1.jpg)
+- ![robot actuator diagram](img/main_bot_diagram2.jpg)
+- ![placeholder](img/img_placeHolder.jpg)
 
 
 ## Reference

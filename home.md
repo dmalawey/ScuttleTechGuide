@@ -8,7 +8,7 @@ _short URL: qr.net/scuttleproject_
 **Robot Diagram**
 Every robot is made of the same components: [actuators, sensors, computer, drivers, power supply] The actuators are controlled by a driver, the sensors report information to the computer, and the computer makes decisions for the actuators to be driven.  The power supply activates all the components.  Our robot lays out the components clearly as in the diagram below.
 
-![robot system diagram](img/main_bot_diagram.jpg)
+![robot system diagram](img/main_bot_diagram1.jpg)
 
 
 ## Reference

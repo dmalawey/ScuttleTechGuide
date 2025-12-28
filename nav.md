@@ -25,3 +25,8 @@ How much clearance is needed for SCUTTLE to pass below furniture? For comparison
 - ![img comparing roobot sizes](img/nav_roomba2.jpg)
 - ![img comparing roobot sizes](img/nav_astro1.jpg)
 - ![img comparing robot sizes](img/nav_astro2.jpg)
+
+**Low Profile**
+Why is the chassis so low to the ground?  Because you can always build up, but it's best to start low.  Several project areas liked under-car inspection for security, visual inspection, or parts retrieval are accessible only to low-profile vehicles.  Out of the box, we want to support these outcomes.  For the project shown below, the robot navigates under a car (Johor Bahru, Malaysia 2020) with ease.  The 12v LED lights can be triggered by the pi and we can perform autonomous detection functions while manually driving with the gamepad. 
+
+![img driving under car](img/nav_underCar.jpg)

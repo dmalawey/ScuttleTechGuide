@@ -84,6 +84,24 @@ Printing Info
 6. Most of our parts feature a built-in design lesson.  The kickstand is a great example for compliance.  The wheel bracket carefully integrates print direction with stress direction.
 7. The version numbers are independent for each part.  If we improve a design for one part, we release that design so you can upgrade individual pieces.
 
+# Hardware
+
+The preferred fasteners are M6 for the frame and M2.5 for fastening electronics, and only deviating as needed.  See images below to identify the parts, and note the following
+* The course screws maybe called "screws for plastic", "thread-forming screws", or "self-tapping" by some distributors.
+* The M3 machine screws fasten the motors, 3 per motor.
+* The M8 machine screw forms the axle in the drivetrain.
+* The M2.5x6 screws fasten the electronics, mating in brass threaded inserts.
+* The tiny M2.5 course screws have two for each encoder, chosen to make more clearance in the encoder assembly
+* Two of the 6 M2.5 course screws also fasten the i2c board into the i2c bracket.
+* The M6 nuts are installed in aluminum extrusions:
+  * 18 for corner brackets and casters
+  * 4 slide-in type for mounting the drivetrain assembly
+* The drive belt has HTD tooth style, 9mm width, with length described by 45-tooth-count or 245mm.
+
+- ![hardware fasteners1](img/hardware_fasteners1.jpg)
+- ![hardware fasteners2](img/hardware_fasteners2.jpg)
+- ![hardware chassis parts](img/hardware_chassis1.jpg)
+  
 # Addon
 
 Lidar is the most popular sensor for addons, and the most popular selection of lidars is a low cost RPlidar model A1 or the very similar YDlidar (more common in Asia), which consumes just about 4 watts and integrates on SCUTTLE easily.  We built a lidar bracket and a beautiful 3D model for you to work with in your lidar project. The images show the lidar added to vertical aluminum extrusion, attached by a printable bracket and M6 fasteners.

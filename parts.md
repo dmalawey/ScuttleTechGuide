@@ -101,6 +101,10 @@ The preferred fasteners are M6 for the frame and M2.5 for fastening electronics,
 - ![hardware fasteners1](img/hardware_fasteners1.jpg)
 - ![hardware fasteners2](img/hardware_fasteners2.jpg)
 - ![hardware chassis parts](img/hardware_chassis1.jpg)
+
+**Not shown above:**
+The heat-set inserts we choose have 6mm length and M2.5 threads. They are installed into the 3D prints for wheel brackets and battery bracket, and raspberry pi brackets.  These are not shown in the images, nor the fasteners of the battery bracket.  In the battery bracket, we use M2.5x10mm countersunk machine screws which fasten the battery tray, secure the panel to the bracket, and fit in the Anderson connector pairs to retain the connector position.
+
   
 # Addon
 

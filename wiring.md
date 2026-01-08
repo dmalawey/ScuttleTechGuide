@@ -40,6 +40,10 @@ The first diagram shows all main cables, and the second diagram shows only the p
 - ![img](img/wiring_bot_routing1.jpg)
 - ![img](img/img_placeHolder.jpg)
 
+Our terminal blocks are Dinkle DK2.5N, a choice for an easy introduction to the big world of DIN rail terminals.  This model is equivalent to the industry leader Phoenix Contact, with model UK 2.5N.  The video below shows how to assemble the screw terminals and jumpers to build the power circuit.
+
+<iframe width="700" src="https://www.youtube.com/embed/2WlvUsMasX8" title="How to use the gray terminal block kit with Dinkle DIN rail DK2.5N blocks and accessories." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Cables
 
 These diagrams are designated for building the cables, which is recommended for all users even if you receive the cables in a kit.  Get familiar with the type of signal carried on each wire color, and you will find it's very advantageous when integrating new sensors.  Get familiar with the mechanical formation (from an off-the-shelf ribbon cable to a purpose-built cable) and it saves huge headaches when configuring new sensors and actuators. It is highly intentional to separate color clusters for i2c and PWM, because thousands of other devices fall into these categories, requiring the same wire-count or the exact same signals.  Try to adopt a minimum of 4-count dupont terminals for your custom cables for secure plugging and simplified wiring work.
@@ -47,6 +51,7 @@ These diagrams are designated for building the cables, which is recommended for 
 - ![img](img/wiring_signals_cable_i2c.jpg)
 - ![img](img/wiring_motor_cable1.jpg)
 - ![img](img/img_placeHolder.jpg)
+
  
 ## Addons
 

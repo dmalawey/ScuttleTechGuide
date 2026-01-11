@@ -1,11 +1,12 @@
 # Parts for the SCUTTLE Robot
 
 >
-> * **Sourcing: BOM Downloads for sourcing parts**
+> **Sourcing:**
 > * download [BOM v3, PDF](https://github.com/dmalawey/ScuttleTechGuide/blob/e01a412a85ed5757fea2188e6432ee075e86c56f/docs/BOM_v3.pdf)
 > * download [BOM spreadsheet, XLSX](https://github.com/dmalawey/ScuttleTechGuide/blob/e01a412a85ed5757fea2188e6432ee075e86c56f/docs/BOM_v3_publish_2024.xlsx)
 > * These bill of materials feature vendors like amazon and mcmaster while equivalent parts are available globally.  The robot design is flexible enough to select variations as you need. 
-> * **Building: BOM downloads for building the robot**
+>
+> **Building:**
 > * download [BOM thumbnails, PDF](https://github.com/dmalawey/ScuttleTechGuide/blob/c05570d2dcd6559e1039815b424ecbd671699423/docs/BOM_v3_thumbnails.pdf)
 > * download [BOM thumbnails prints, PDF](https://github.com/dmalawey/ScuttleTechGuide/blob/668c17a193f97723ec31de08682bc4f6dce895b1/docs/BOM_v3_thumbnails_prints.pdf)
 > * The BOM_Thumbnails features images of parts, for visual reference only. This can help you identify screws, and 3D printed part names, or plan 3D prints to build SCUTTLE.  
@@ -17,6 +18,14 @@ Off-the-shelf parts make up the key technologies onboard the robot.  They're mad
 ## Prints
 
 Printed parts are the custom designs that hold your robot together.  In the SCUTTLE design, there are about 15 standard prints and hundreds of community-made addons.
+
+>
+> **Printing**
+> * download [printable parts kit](https://grabcad.com/library/scuttle_prints_v3-1)
+> * note the dates on each CAD post to verify the latest
+> * this model contains STL files, plus native CAD files for printed-only parts
+> * use this model to quickly arrange your own prints in CAD or your Slicer
+> * 
 
 Here's a photo with all the prints for SCUTTLE version 3.0 in one box.  Some of the prints shown are preassembled with their mating parts, as found in the kit product. (left) The i2c bracket snaps onto the DIN rail and secures the i2c circuit board.  The motor driver bracket snaps onto the DIN rail and holds the motor driver.  Self tapping screws are used for both brackets. (right)
 

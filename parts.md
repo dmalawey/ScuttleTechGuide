@@ -15,6 +15,28 @@
 ## OTS
 Off-the-shelf parts make up the key technologies onboard the robot.  They're made from world-class technology companies and highly refined manufacturers.
 
+**Hardware**
+
+The preferred fasteners are M6 for the frame and M2.5 for fastening electronics, and only deviating as needed.  See images below to identify the parts, and note the following
+* The course screws maybe called "screws for plastic", "thread-forming screws", or "self-tapping" by some distributors.
+* The M3 machine screws fasten the motors, 3 per motor.
+* The M8 machine screw forms the axle in the drivetrain.
+* The M2.5x6 screws fasten the electronics, mating in brass threaded inserts.
+* The tiny M2.5 course screws have two for each encoder, chosen to make more clearance in the encoder assembly
+* Two of the 6 M2.5 course screws also fasten the i2c board into the i2c bracket.
+* The M6 nuts are installed in aluminum extrusions:
+  * 18 for corner brackets and casters
+  * 4 slide-in type for mounting the drivetrain assembly
+* The drive belt has HTD tooth style, 9mm width, with length described by 45-tooth-count or 245mm.
+
+- ![hardware fasteners1](img/hardware_fasteners1.jpg)
+- ![hardware fasteners2](img/hardware_fasteners2.jpg)
+- ![hardware chassis parts](img/hardware_chassis1.jpg)
+
+**Not shown above:**
+The heat-set inserts we choose have 6mm length and M2.5 threads. They are installed into the 3D prints for wheel brackets and battery bracket, and raspberry pi brackets.  These are not shown in the images, nor the fasteners of the battery bracket.  In the battery bracket, we use M2.5x10mm countersunk machine screws which fasten the battery tray, secure the panel to the bracket, and fit in the Anderson connector pairs to retain the connector position.
+
+
 ## Prints
 
 Printed parts are the custom designs that hold your robot together.  In the SCUTTLE design, there are about 15 standard prints and hundreds of community-made addons.
@@ -93,26 +115,6 @@ Printing Info
 6. Most of our parts feature a built-in design lesson.  The kickstand is a great example for compliance.  The wheel bracket carefully integrates print direction with stress direction.
 7. The version numbers are independent for each part.  If we improve a design for one part, we release that design so you can upgrade individual pieces.
 
-# Hardware
-
-The preferred fasteners are M6 for the frame and M2.5 for fastening electronics, and only deviating as needed.  See images below to identify the parts, and note the following
-* The course screws maybe called "screws for plastic", "thread-forming screws", or "self-tapping" by some distributors.
-* The M3 machine screws fasten the motors, 3 per motor.
-* The M8 machine screw forms the axle in the drivetrain.
-* The M2.5x6 screws fasten the electronics, mating in brass threaded inserts.
-* The tiny M2.5 course screws have two for each encoder, chosen to make more clearance in the encoder assembly
-* Two of the 6 M2.5 course screws also fasten the i2c board into the i2c bracket.
-* The M6 nuts are installed in aluminum extrusions:
-  * 18 for corner brackets and casters
-  * 4 slide-in type for mounting the drivetrain assembly
-* The drive belt has HTD tooth style, 9mm width, with length described by 45-tooth-count or 245mm.
-
-- ![hardware fasteners1](img/hardware_fasteners1.jpg)
-- ![hardware fasteners2](img/hardware_fasteners2.jpg)
-- ![hardware chassis parts](img/hardware_chassis1.jpg)
-
-**Not shown above:**
-The heat-set inserts we choose have 6mm length and M2.5 threads. They are installed into the 3D prints for wheel brackets and battery bracket, and raspberry pi brackets.  These are not shown in the images, nor the fasteners of the battery bracket.  In the battery bracket, we use M2.5x10mm countersunk machine screws which fasten the battery tray, secure the panel to the bracket, and fit in the Anderson connector pairs to retain the connector position.
 
   
 # Addon

@@ -30,7 +30,7 @@ The preferred fasteners are M6 for the frame and M2.5 for fastening electronics,
 * The drive belt has HTD tooth style, 9mm width, with length described by 45-tooth-count or 245mm.
 
 - ![hardware fasteners1](img/hardware_fasteners1.jpg)
-- ![hardware fasteners2](img/img_placeHolder.jpg)
+- ![hardware fasteners2](img/hardware_fasteners2.jpg)
 - ![hardware chassis parts](img/hardware_chassis1.jpg)
 
 **Not shown above:**

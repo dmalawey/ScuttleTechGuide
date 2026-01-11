@@ -140,3 +140,11 @@ For integrating a new choice of CPU, the modifications are now easy!  Follow the
 - ![linked edgeai img1](https://s3.amazonaws.com/gc-p/screenshots/pics/5ba16884b0d3f1023d3adc22c57fe452/original.jpg)
 - ![linked edgeai img2](https://s3.amazonaws.com/gc-p/screenshots/pics/dcea2cdf4690a6c0e3a48ec31df6549e/original.jpg)
 - ![linked edgeai_img3](https://s3.amazonaws.com/gc-p/screenshots/pics/094c7d9c14755115e52e88ebaf9018e1/original.jpg)
+
+The L298N motor driver is the most popular low cost device for DC actuators, among makers.  SCUTTLE developers often add this module to drive an extra actuator like lights or a stepper motor.  This can handle 12v input directly from the power bus but less current than our onboard motor drivers, at only about 2A continuous output.  The inputs are PWM and output is DC or pulses for a stepper motor.  Online, find thousands of tutorials with this module with keyword H-bridge, motor driver, stepper driver, etc.  This model contains a quick, easy 3D printable bracket which uses ~m3 self-tapping screws and a medium binder clip for tools-free DIN clamping.
+* download [CAD model L298N](https://grabcad.com/library/motordriver-1)
+
+
+- ![linked image 1](https://s3.amazonaws.com/gc-p/screenshots/pics/c96b2c6c672ff1dc9d4d784eb3e4dc36/original.jpg)
+- ![linked image 2](https://s3.amazonaws.com/gc-p/screenshots/pics/3e399e4d0ac91728d7a8eb2db3f3e7c6/original.jpg)
+- ![linked image 3](https://s3.amazonaws.com/gc-p/screenshots/pics/2aaa01c914fde91ac033f41377d1e8ef/original.jpg)

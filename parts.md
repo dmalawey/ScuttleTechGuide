@@ -115,7 +115,7 @@ Printing Info
 6. Most of our parts feature a built-in design lesson.  The kickstand is a great example for compliance.  The wheel bracket carefully integrates print direction with stress direction.
 7. The version numbers are independent for each part.  If we improve a design for one part, we release that design so you can upgrade individual pieces.
 
-## PCB Fabrication
+# PCB Fabrication
 _For parts on SCUTTLE are designed for PCB fabrication._
 
 >

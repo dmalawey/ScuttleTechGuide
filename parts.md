@@ -115,8 +115,25 @@ Printing Info
 6. Most of our parts feature a built-in design lesson.  The kickstand is a great example for compliance.  The wheel bracket carefully integrates print direction with stress direction.
 7. The version numbers are independent for each part.  If we improve a design for one part, we release that design so you can upgrade individual pieces.
 
+## PCB Fabrication
+_For parts on SCUTTLE are designed for PCB fabrication._
 
-  
+>
+> **fabricating**
+> * download gerber files for [I2C board](https://github.com/scuttlerobot/SCUTTLE/blob/d809847c246c458edcc84bb8ade9f48690c71425/hardware/electronics/SCTL_I2C_Breakout_Gerbers.zip)
+> * download gerber files for [bms adapter board](https://github.com/scuttlerobot/SCUTTLE/blob/d809847c246c458edcc84bb8ade9f48690c71425/hardware/electronics/SCTL_BMSAdpater_Gerbers.zip)
+> * order your own PCB, go to [PCBway.com](https://www.pcbway.com) or [JLCPCB.COM](https://www.jlcpcb.com) or any other PCB fab service.
+> * upload the gerber files, preview the design, and order (cheap and fast!)
+>   
+
+Why do we need custom fabrication?  Ultimately, we don't.  SCUTTLE should be the most accessible robotics system possible and we want users to build it with minimal tools.  The two designs requiring pcb fabrication are readily performed with DIY soldering skills.  But, these parts are an invitation to become a well-rounded multidisciplinary designer.  If our user go through the process of ordering PCB's, they have a new tool in their wheelhouse.  Recognizing the file types, discovering your country's best pcb fab offerings, and submitting your own order empowers you with a new skill: accessing custom pcbs cheaply, quickly, and digitally.
+
+For anyone learning robotics, the exercise of ordering these two PCB designs will be advantageous for you in the coming years.  Below, find the bms adapter board (left), and adapter board attached to the battery tray (center).  This adapter simply re-routes the battery terminals that protrude from the 3-cell tray.  These terminals have endpoints on the PCB which align with the BMS board, so the two PCBs can be stacked and soldered directly to each other. On the right, find the i2c bus board with some right-angle dupont pins.  Both of these circuits are very simple and their function is to reduce wiring effort on the robot.
+
+- ![image i2c board](img/fab_bmsAdapter1.jpg)
+- ![image bms adapter](img/fab_bmsAdapter2.jpg)
+- ![image bms adapter on battery tray](img/fab_i2cbus1.jpg)
+
 # Addon
 
 Lidar is the most popular sensor for addons, and the most popular selection of lidars is a low cost RPlidar model A1 or the very similar YDlidar (more common in Asia), which consumes just about 4 watts and integrates on SCUTTLE easily.  We built a lidar bracket and a beautiful 3D model for you to work with in your lidar project. The images show the lidar added to vertical aluminum extrusion, attached by a printable bracket and M6 fasteners.

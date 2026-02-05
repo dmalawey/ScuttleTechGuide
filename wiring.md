@@ -44,6 +44,12 @@ Our terminal blocks are Dinkle DK2.5N, a choice for an easy introduction to the 
 
 <iframe width="700" src="https://www.youtube.com/embed/2WlvUsMasX8" title="How to use the gray terminal block kit with Dinkle DIN rail DK2.5N blocks and accessories." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+Wire type: it is highly advised to choose SILICONE insulated wires because they tolerate high temeperature and are not affected by soldering.  Soldering activities in a factory are performed rapidly but makers need a bit more time to complete a solder job.  If the wire remains hot for more than a few seconds, the popular PVC type insulation will begin melting.   Look for these properties in your wire:
+* paired, bonded wire (for neatness & easier cut-to-length pairs)
+* 16 gauge (smaller limits the current, larger wires lose fitment within the screw terminals)
+* silicone insulation (for heat resistance)
+* high strand-count (for best flexibility)
+
 ## Cables
 
 These diagrams are designated for building the cables, which is recommended for all users even if you receive the cables in a kit.  Get familiar with the type of signal carried on each wire color, and you will find it's very advantageous when integrating new sensors.  Get familiar with the mechanical formation (from an off-the-shelf ribbon cable to a purpose-built cable) and it saves huge headaches when configuring new sensors and actuators. It is highly intentional to separate color clusters for i2c and PWM, because thousands of other devices fall into these categories, requiring the same wire-count or the exact same signals.  Try to adopt a minimum of 4-count dupont terminals for your custom cables for secure plugging and simplified wiring work.

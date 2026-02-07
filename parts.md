@@ -134,6 +134,12 @@ For anyone learning robotics, the exercise of ordering these two PCB designs wil
 - ![image bms adapter](img/fab_bmsAdapter2.jpg)
 - ![image bms adapter on battery tray](img/fab_i2cbus1.jpg)
 
+# Classroom
+This section offers information about storing parts for a whole classroom or lab with multiple users.  SCUTTLE was designed for groups of learners initially, and it's optimal to have 10 robots for 20 learners or so.  Students can share resources and learn together and it's cost-effective for a university to invest in a full set of robot supplies, instead of just one.  At that stage it creates many new tasks for a laboratory coordinator or educational admin, to keep track of parts and changes. 
+
+* Download the [Inventory Plan](https://github.com/dmalawey/ScuttleTechGuide/blob/70fb01551f69dcf07dd9c65c4e2f360658fbe914/docs/SCTL_inventory_2026.pdf) as a PDF, 15MB.
+* The above document shows how to arrange parts for multiple kits, keep track of inventory and safely store components for a whole classroom. 
+
 # Addon
 
 Lidar is the most popular sensor for addons, and the most popular selection of lidars is a low cost RPlidar model A1 or the very similar YDlidar (more common in Asia), which consumes just about 4 watts and integrates on SCUTTLE easily.  We built a lidar bracket and a beautiful 3D model for you to work with in your lidar project. The images show the lidar added to vertical aluminum extrusion, attached by a printable bracket and M6 fasteners.

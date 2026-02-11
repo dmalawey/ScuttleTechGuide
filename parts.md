@@ -36,6 +36,14 @@ The preferred fasteners are M6 for the frame and M2.5 for fastening electronics,
 **Not shown above:**
 The heat-set inserts we choose have 6mm length and M2.5 threads. They are installed into the 3D prints for wheel brackets and battery bracket, and raspberry pi brackets.  These are not shown in the images, nor the fasteners of the battery bracket.  In the battery bracket, we use M2.5x10mm countersunk machine screws which fasten the battery tray, secure the panel to the bracket, and fit in the Anderson connector pairs to retain the connector position.
 
+**Camera & Gamepad**
+The SCUTTLE Kits come with a USB camera to support computer vision and a GamePad for wireless control by the user.  This camera is a compact, industrial style of camera with a lens that gives a 150 degree field-of-view - much wider than the typical webcam.  When it comes to obstacle avoidance and autonomous navigation, the wide viewing angle helps SCUTTLE see obstacles around the full width of the chassis in every frame.  The camera is enclosed in a black, steel square enclosure for rugged performance and it has a 1-meter cable so users can plug into the USB port on the raspberry pi and then mount the camera at any spot on the robot.
+
+Our gamepad is also an important inclusion.  The bot can drive autonomously but we often want to control functions directly by the user.  The gamepad (EasySMX model 9101) gives us a way to run one command at a time by pressing the buttons, which the users can custom program in any way they want.  The gamepad operates on bluetooth and plugs into USB on the pi, so it doesn't take any processing & communications bandwidth from the robot itself. 
+
+- ![camera image](img/parts_cam1.jpg)
+- ![camera FOV](img/parts_cam2.jpg)
+- ![gamepad unboxed](img/parts_gp1.jpg)
 
 ## Prints
 

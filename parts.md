@@ -46,7 +46,7 @@ Our gamepad is also an important inclusion.  The bot can drive autonomously but 
 - ![gamepad unboxed](img/parts_gp1.jpg)
 
 **Belt Drive**
-The drivetrain is a fully operable module that can be built independently of the robot, with two pulleys and a timing belt driven by DC gearmotor.  The right-hand is a symmetric (mirrored) copy of the left and each drivetrain assembly has a rubber timing belt coupling the motor output to the wheel pulley.  
+The drivetrain is a fully operable module that can be built independently of the robot, with two pulleys and a timing belt driven by DC gearmotor.  The right-hand is a symmetric (mirrored) copy of the left and each drivetrain assembly has a rubber timing belt coupling the motor output to the wheel pulley.  Recommended distributors of belts & pulleys include [B&B Manufacturing USA](https://www.bbman.com/catalog/product/20MP025MSFA5), [RS components based in Japan](https://us.rs-online.com), and [Bestorq Manufacturing](https://bestorqb2b.com/1/SizeList)
 
 The standard version 3 design has a belt with the following specifications. An example suitable belt would be Part No. [245-5M-09](https://www.gprindustrial.com/en/5mm-pitch-5m-timing-belts/9756-245-5M-09-htd-timing-belt.html) from GPR Industrial and several manufacturers offer equivalent belts that are suitable.
 |  Feature  | spec | units |

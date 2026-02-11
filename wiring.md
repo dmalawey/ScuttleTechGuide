@@ -44,7 +44,7 @@ Our terminal blocks are Dinkle DK2.5N, a choice for an easy introduction to the 
 
 <iframe width="700" src="https://www.youtube.com/embed/2WlvUsMasX8" title="How to use the gray terminal block kit with Dinkle DIN rail DK2.5N blocks and accessories." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Battery**
+**Battery Power**
 
 The diagrams below isolate the battery, dc converter/adapter, and CPU.  The 5V converter receives power from the 12v battery output and delivers it out via USB-C.  This is a traditional fixed-voltage adapter rather than a PD device so the USB voltage is 5 volts only, and up to 15 watts of power.  These images show battery output directly to the adapter but you may instead connect the converter to the 12v DIN terminal blocks.  In the middle image, the external power supply (or battery charger) is shown.  Users can operate the robot and charge the battery simultaneously with this conifguration. In the third diagram (right) we have the motor driver included in the diagram.  The ground wire of the motor driver communication cable is important for any occasion that the raspberry pi is powered independently.  If the pi is powered from your laptop over USB, then there is no common ground between CPU and motor driver except this one wire.
 
@@ -52,6 +52,13 @@ The diagrams below isolate the battery, dc converter/adapter, and CPU.  The 5V c
 - ![img](img/wiring_battery_adapter2.jpg)
 - ![img](img/wiring_battery_routing.jpg)
 
+**Battery Build**
+
+The battery panel (BPN) is the 3D printed front panel of the battery in the next diagam.  It is a housing for 4 anderson terminals and the power switch, shown in the middle image below.  For assembling the battery, we first solder 3 pieces: battery tray (black), BMS adapter board, and BMS board itself.  These mate in the order shown in the middle image, with the BMS adapter in between the BMS and tray.  Secondly, the wiring harness is built with anderson and spade terminals.  Then the two wires are soldered between the harness and the circuit boards, (power and ground) and the battery internals get mounted to the printed brackets (BPN and battery bracket).  Lastly, the two printed parts are joined with a screw for locating and superglued together after checking everything functions.
+
+- ![img](img/wiring_battery_panel1.jpg)
+- ![img](img/wiring_battery_panel2.jpg)
+- ![img](img/wiring_battery_panel3.jpg)
 
 Wire type: it is highly advised to choose SILICONE insulated wires because they tolerate high temeperature and are not affected by soldering.  Soldering activities in a factory are performed rapidly but makers need a bit more time to complete a solder job.  If the wire remains hot for more than a few seconds, the popular PVC type insulation will begin melting.   Look for these properties in your wire:
 * paired, bonded wire (for neatness & easier cut-to-length pairs)

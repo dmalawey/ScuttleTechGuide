@@ -45,6 +45,20 @@ Our gamepad is also an important inclusion.  The bot can drive autonomously but 
 - ![camera FOV](img/parts_cam2.jpg)
 - ![gamepad unboxed](img/parts_gp1.jpg)
 
+**Belt Drive**
+The drivetrain is a fully operable module that can be built independently of the robot, with two pulleys and a timing belt driven by DC gearmotor.  The right-hand is a symmetric (mirrored) copy of the left and each drivetrain assembly has a rubber timing belt coupling the motor output to the wheel pulley.  
+
+The standard version 3 design has a belt with the following specifications. An example suitable belt would be Part No. [245-5M-09](https://www.gprindustrial.com/en/5mm-pitch-5m-timing-belts/9756-245-5M-09-htd-timing-belt.html) from GPR Industrial and several manufacturers offer equivalent belts that are suitable.
+|  Feature  | spec | units |
+| --- | ----- | -----|
+| length | 245 | mm |
+| pitch | 5 | mm |
+| width | 9 | mm|
+| teeth | 49 | count |
+
+Our first version of the robot utilized an aluminum motor pulley from BBMan Manufacturing [like this one](https://www.bbman.com/catalog/product/20MP025MSFA5) but the standard v3 drivetrain now uses 3D printed ABS material for several benefits!  The drivetrain is now fully parametric - developers can adjust the gear ratio of the drivetrain readily by changing the tooth count on the wheel and motor pulleys and printing out their own. The ABS motor pulley fits with a press-fit onto the motor shaft rather than a set-screw in the aluminum machined part, which would occasionally gouge the shaft, become loose, and damage the shaft as it eventually slipped.  With the latest setup, we have specifically designated the motor pulley as the limiting feature of the drivetrain so a sudden crash or overlaod of the drivetrain will damage the pulley and nothing else.  This component is low cost, quick to print, and easy to change out in such a case.
+
+
 ## Prints
 
 Printed parts are the custom designs that hold your robot together.  In the SCUTTLE design, there are about 15 standard prints and hundreds of community-made addons.

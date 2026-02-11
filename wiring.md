@@ -32,12 +32,12 @@ The following diagrams give motor signals, motor power, motor pinout with images
 
 ## Power
 
-See the power and signals across the whole robot for scuttle v3 with raspberry pi.
+See the power and signals across the whole robot for scuttle v3 with raspberry pi, the standard configuration.  Connections to the pi include power input, i2c cables, and PWM cables.
 
 The first diagram shows all main cables, and the second diagram shows only the power cables.  
 
-- ![img](img/wiring_bot_power1.jpg)
 - ![img](img/wiring_bot_routing1.jpg)
+- ![img](img/wiring_bot_power1.jpg)
 - ![img](img/img_placeHolder.jpg)
 
 Our terminal blocks are Dinkle DK2.5N, a choice for an easy introduction to the big world of DIN rail terminals.  This model is equivalent to the industry leader Phoenix Contact, with model UK 2.5N.  The video below shows how to assemble the screw terminals and jumpers to build the power circuit.

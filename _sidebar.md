@@ -9,4 +9,5 @@
 * [Wisdom](wisdom)
 * [Sensors](sensors)
 * [BeagleY-AI](beagley-ai)
+* [Curriculum](curriculum)
 * [archives](archive)

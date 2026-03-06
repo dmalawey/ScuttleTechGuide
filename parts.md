@@ -172,6 +172,8 @@ Lidar is the most popular sensor for addons, and the most popular selection of l
 - ![linked image lidar tower, side](https://s3.amazonaws.com/gc-p/screenshots/pics/f983bb363b4107ec831a9f1408b2dfb9/original.jpg)
 - ![linked image lidar Render](https://s3.amazonaws.com/gc-p/screenshots/pics/f8cc53398fbaa9f5953f5569c662177d/original.jpg)
 
+**3D Cameras**
+
 Another integrated sensor includes binocular vision.  Several projects have implemented 3D vision and one popular choice is the intel realsense camera.  We have an open design posted with an articulating ball mount and the camera assembled, so most of the mechanical engineering is done for your sensor integration.  Includes a 3D printed mount to add 1 degree of freedom.
 * Access the [Realsense on GrabCAD](https://grabcad.com/library/realsense-camera-mount-1)
 
@@ -179,12 +181,16 @@ Another integrated sensor includes binocular vision.  Several projects have impl
 - ![realsense bracket image 2](https://s3.amazonaws.com/gc-p/screenshots/pics/f1e51fb1c1a643aaa220187cc6e20a69/original.JPG)
 - ![image, thermal camera](https://s3.amazonaws.com/gc-p/screenshots/pics/b51ce0610e33ef82208d8271768fc072/original.JPG)
 
+**Texas Instruments Edge AI SK**
+
 For integrating a new choice of CPU, the modifications are now easy!  Follow the same design strategy implemented on the latest Edge AI board bracket (Texas Instruments Edge AI SK with TDA4VM processor).  All main electronics components attach to the DIN rail so the brackets begin to carry all of the same features for attaching to PCBs and DIN.  For this design, we include two printed parts that are parametric and feature holes spaced appropriate for the PCB mounting holes.  For any rectangular pcb, you can modify this bracket to adjust for the hole spacing of your board.  The third image below shows the demo robot for industrial automation featuring advanced telemetry, made by D3 Engineering with Texas Instruments electroncis integrated.
 * Access the [Edge AI Bracket on GrabCAD](https://grabcad.com/library/edgeai-bracket-v3-1)
 
 - ![linked edgeai img1](https://s3.amazonaws.com/gc-p/screenshots/pics/5ba16884b0d3f1023d3adc22c57fe452/original.jpg)
 - ![linked edgeai img2](https://s3.amazonaws.com/gc-p/screenshots/pics/dcea2cdf4690a6c0e3a48ec31df6549e/original.jpg)
 - ![linked edgeai_img3](https://s3.amazonaws.com/gc-p/screenshots/pics/094c7d9c14755115e52e88ebaf9018e1/original.jpg)
+
+**Motor Driver**
 
 The L298N motor driver is the most popular low cost device for DC actuators, among makers.  SCUTTLE developers often add this module to drive an extra actuator like lights or a stepper motor.  This can handle 12v input directly from the power bus but less current than our onboard motor drivers, at only about 2A continuous output.  The inputs are PWM and output is DC or pulses for a stepper motor.  Online, find thousands of tutorials with this module with keyword H-bridge, motor driver, stepper driver, etc.  This model contains a quick, easy 3D printable bracket which uses ~m3 self-tapping screws and a medium binder clip for tools-free DIN clamping.
 * download [CAD model L298N](https://grabcad.com/library/motordriver-1)
@@ -195,6 +201,12 @@ The L298N motor driver is the most popular low cost device for DC actuators, amo
 - ![linked image 3](https://s3.amazonaws.com/gc-p/screenshots/pics/2aaa01c914fde91ac033f41377d1e8ef/original.jpg)
 
 **DIN Terminal Blocks**
-Are you exploring DIN-mounted terminals? Several industrial manufacturers offer compatible terminal blocks that you might shop for expanding your power distribution including Phoenix Contact, AutomationDirect, and Dinkle which we include in the SCUTTLE Kits.  This market space is so huge that you could spend days exploring.  We performed a rough study of which popular brands are available at our favorite distributors, and which model numbers are essentially compatible.  The document below is the summary of info gathered so far, focusing on these questions:  1) From each manufacturer, what is the most popular simple terminal block?  Which models are compatible with our Dinkle-brand terminal jumper?  Which equivalent terminals to our DK2.5N have available CAD models for download?  Which vendors make the CAD models available?  This study might help make sense of a highly complex component space so you can source parts and know what you're getting.
+
+Are you exploring DIN-mounted terminals? Several industrial manufacturers offer compatible terminal blocks that you might shop for expanding your power distribution including Phoenix Contact, Konnect-It, and Dinkle which we include in the SCUTTLE Kits.  This market space is so huge that you could spend days exploring.  We performed a rough study of which popular brands are available at our favorite distributors, and which model numbers are essentially compatible.  The document below is the summary of info gathered so far, focusing on these questions:  1) From each manufacturer, what is the most popular simple terminal block?  Which models are compatible with our Dinkle-brand terminal jumper?  Which equivalent terminals to our DK2.5N have available CAD models for download?  Which vendors make the CAD models available?  This study might help make sense of a highly complex component space so you can source parts and know what you're getting.
 * download [DIN terminals Data PDF](https://github.com/dmalawey/ScuttleTechGuide/blob/dd4eb07f4e244cf34ffd090ee00882d67a24ec0a/research/2025_dinTerminals.pdf)
 * download [DIN terminals xlsx](https://github.com/dmalawey/ScuttleTechGuide/blob/dd4eb07f4e244cf34ffd090ee00882d67a24ec0a/research/2025_dinTerminals.xlsx)
+* access [CAD Models](https://grabcad.com/library/screwterminal-2) for a few known compatible units.
+
+- ![linked image](https://s3.amazonaws.com/gc-p/screenshots/pics/cdb815729db6702b5e1b5b5bac6fe121/original.JPG)
+- ![linked image](https://s3.amazonaws.com/gc-p/screenshots/pics/3efcf578150ac3a2f43d1f80227bc9ff/original.jpg)
+- ![linked image](https://s3.amazonaws.com/gc-p/screenshots/pics/05b7263558f07470bd8062300640a54f/original.jpg)

@@ -193,3 +193,8 @@ The L298N motor driver is the most popular low cost device for DC actuators, amo
 - ![linked image 1](https://s3.amazonaws.com/gc-p/screenshots/pics/c96b2c6c672ff1dc9d4d784eb3e4dc36/original.jpg)
 - ![linked image 2](https://s3.amazonaws.com/gc-p/screenshots/pics/3e399e4d0ac91728d7a8eb2db3f3e7c6/original.jpg)
 - ![linked image 3](https://s3.amazonaws.com/gc-p/screenshots/pics/2aaa01c914fde91ac033f41377d1e8ef/original.jpg)
+
+**DIN Terminal Blocks**
+Are you exploring DIN-mounted terminals? Several industrial manufacturers offer compatible terminal blocks that you might shop for expanding your power distribution including Phoenix Contact, AutomationDirect, and Dinkle which we include in the SCUTTLE Kits.  This market space is so huge that you could spend days exploring.  We performed a rough study of which popular brands are available at our favorite distributors, and which model numbers are essentially compatible.  The document below is the summary of info gathered so far, focusing on these questions:  1) From each manufacturer, what is the most popular simple terminal block?  Which models are compatible with our Dinkle-brand terminal jumper?  Which equivalent terminals to our DK2.5N have available CAD models for download?  Which vendors make the CAD models available?  This study might help make sense of a highly complex component space so you can source parts and know what you're getting.
+* download [DIN terminals Data PDF](abc)
+* download [DIN terminals xlsx](abc)

@@ -23,9 +23,9 @@ Robustness is every engineer's goal, and it needs a definition in the context of
 
 Choosing a camera for Machine Vision? This topic is a small writeup about camera selection. Below, find a Q&A between a developer and SCUTTLE team member.  In the next two images, look at how much information we can see depending on the lens field of view.  Onboard the robot, we have tested many USB cameras like logitech and microsoft webcams and there is always a need for more peripheral vision.  For discovery of obstacles, we want to know what appears to the left and right of the robot's path and this is the main driver for our standardization of 150 degrees for the camera Field of View (FOV).  So if you shop for your own camera, try to find a lens which has this nice wide range.  Also note that 150 degrees is still less than what is often called a "fisheye lens" which are closer to 180 degrees and larger.  When we increase FOV into the fisheye territory, the warping of geometry is excessive and our computer-vision software cannot make good sense of the geometries in the room from the pixels returned by the camera.
 
-- ![camera with 90 FOV](img_cameraDemo1.jpg)
-- ![camera with 150 FOV](img_cameraDemo2.jpg)
-- ![placeholder](img_placeHolder.jpg)
+- ![camera with 90 FOV](img/img_cameraDemo1.jpg)
+- ![camera with 150 FOV](img/img_cameraDemo2.jpg)
+- ![placeholder](img/img_placeHolder.jpg)
 
 >
 > Q) Are you currently using the camera for more than teleoperation and basic object recognition?   I am wondering about resolution, fps, and shutter type (if it matters).

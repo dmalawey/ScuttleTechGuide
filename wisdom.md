@@ -27,6 +27,8 @@ Choosing a camera for Machine Vision? This topic is a small writeup about camera
 - ![camera with 150 FOV](img/img_cameraDemo2.jpg)
 - ![placeholder](img/img_placeHolder.jpg)
 
+In order to find compatible cameras, you might include the term "ELP" in your search. ELP is a brand name but it has seemingly formed into a descriptor for many other brands of camera with the industrial square shape and compact size, often with interchangeable lenses.  From Gemini 2026, _"An ELP camera is a brand of professional, high-definition USB camera modules specialized for industrial, machine vision, and security applications. These plug-and-play, compact cameras are widely used in robotics, ATM security, 3D printing, and kiosks, offering features like zoom lenses, global shutters, and night vision, compatible with Windows, Linux, Android, and Raspberry Pi."_  Depending on your level of proficiency, you can likely gain benefits by adopting one of the variations of new cameras on the market.  Since Raspberry Pi and Texas Instruments include some chips onboard their SBC for camera processing, it is possible to omit the USB cable, source a camera that feeds data directly to the computer, and perform modern image processing algorithms with extremely high speed and a ribbon cable, all with camera components that are based on ELP camera devices.
+
 >
 > Q) Are you currently using the camera for more than teleoperation and basic object recognition?   I am wondering about resolution, fps, and shutter type (if it matters).
 > 

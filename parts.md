@@ -47,6 +47,10 @@ Our gamepad is also an important inclusion.  The bot can drive autonomously but 
 
 **Testing the Gamepad** is recommended to validate and understand the functionality before integrating it on the robot. Visit the popular [HTML5 Gamepad Tester](https://hardwaretester.com/gamepad) online and visualize the outputs of your gamepad inside your web browser.  To run this, plug in the USB dongle of the gamepad into the USB port of the PC.  In this testing page, you can toggle the different modes of the gamepad and see different response types on the UI.  For example, the Left and Right Triggers L1 and R1 can either output binary values or continuous values.  It is up to the user to decide what values to operate with.  If L1 will control a relay that drives a water pump, it is best to use a binary value.  If the L1 will feed into the kinematics and vary your steering of SCUTTLE, then a floating point output is best.  In our documentation (Kinematics Guide, Software Guide, etc) please follow the indicated setup to match our noted gamepad mode.
 
+- ![gamepad testing img1](img/parts_gp2.jpg)
+- ![gamepad testing 2](img/parts_gp3.jpg)
+- ![placeholder](img/img_placeHolder.jpg)
+
 **Belt Drive**
 The drivetrain is a fully operable module that can be built independently of the robot, with two pulleys and a timing belt driven by DC gearmotor.  The right-hand is a symmetric (mirrored) copy of the left and each drivetrain assembly has a rubber timing belt coupling the motor output to the wheel pulley.  Recommended distributors of belts & pulleys include [B&B Manufacturing USA](https://www.bbman.com/catalog/product/20MP025MSFA5), [RS components based in Japan](https://us.rs-online.com), and [Bestorq Manufacturing](https://bestorqb2b.com/1/SizeList)
 

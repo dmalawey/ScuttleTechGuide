@@ -69,3 +69,10 @@ Axiomtek's CAPA55R Intel-based computer for industrial robotics:
 _Figure: Axiomtek / Intel CAPA55R SBC_
 
 ---
+
+## Memory
+Embedded computers like Raspberry Pi rely on a solid-state memory card to perform well.  The speed and reliability of the whole robot depends on the performance of this Micro SD card, so we ship our kits with the top-tier choice of micro SD cards.  The choice memory card is Samsung's Evo Plus, which is the top performer by a large margin above the average SD card that we tested.  The size of the storage is not a major impact but the read and write speeds are crucial.  In the below images, find the SD card shown up close and the results of our speed testing.  The right-hand image comes from trials in 2020 and 2021 using read and write trials on a desktop PC with high speed USB3.0 ports and various SD card adapters.  If you source your own SD card we can recommend the Samsung brand of memory overall and expect all of their newer lines of SD cards to peform as well as Evo Plus and Evo Select.
+
+- ![img computing memory sd card](img/compute_memory1.jpg)
+- ![computing memory sd card 2](img/compute_memory2.jpg)
+- ![memory speed performance chart](img/compute_memory3.jpg)

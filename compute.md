@@ -65,9 +65,9 @@ _Overview of wiring SCUTTLE with TDA4VM below_
 * Visit the [CAPA55R Product Page](https://www.axiomtek.com/Default.aspx?MenuId=Products&FunctionId=ProductView&ItemId=26529&upcat=270)
 
 _Below, images for overview of wiring SCUTTLE with Intel-based CAPA55R, and the axiomtek's Intel-based single board computer_
-- ![Intel wiring overview](image/wg_overview_intel.png)
+- ![Intel wiring overview](img/wg_overview_intel.jpg)
 - ![CAPA55R Image](https://www.axiomtek.com/Download/Photo/en-US/capa55r_4.jpg)
-- ![placeholder](img/img_placeHolder.jpg)
+- ![CAPA55R SBC iso view](img/tg_cpu_axiomtek.jpg)
 
 ---
 

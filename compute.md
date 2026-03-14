@@ -27,7 +27,8 @@ This is the latest model of raspberry pi as of 2025 with the pi version 3B the m
 * [Raspberry Pi Homepage](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 
 _Overview of wiring SCUTTLE with Pi_
-![Pi wiring overview](image/wg_overview_pi.png ':class=image-25')
+
+![Pi wiring overview](img/wg_overview_pi.jpg)
 
 ## Beagle
 **BeagleY-AI, released 2024 March**
@@ -53,7 +54,7 @@ _Figure: Beagleboard Pinout diagram_
 * Access the [TDA4VM SK Product Page](https://www.ti.com/tool/SK-TDA4VM)
 
 _Overview of wiring SCUTTLE with TDA4VM below_
-![EDGE AI wiring overview](image/wg_overview_TDA4VM.png ':class=image-25')
+![EDGE AI wiring overview](img/wg_overview_ti.jpg)
 
 
 ## Intel_CAPA55R

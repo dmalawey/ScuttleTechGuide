@@ -66,6 +66,15 @@ The standard version 3 design has a belt with the following specifications. An e
 
 Our first version of the robot utilized an aluminum motor pulley from BBMan Manufacturing [like this one](https://www.bbman.com/catalog/product/20MP025MSFA5) but the standard v3 drivetrain now uses 3D printed ABS material for several benefits!  The drivetrain is now fully parametric - developers can adjust the gear ratio of the drivetrain readily by changing the tooth count on the wheel and motor pulleys and printing out their own. The ABS motor pulley fits with a press-fit onto the motor shaft rather than a set-screw in the aluminum machined part, which would occasionally gouge the shaft, become loose, and damage the shaft as it eventually slipped.  With the latest setup, we have specifically designated the motor pulley as the limiting feature of the drivetrain so a sudden crash or overlaod of the drivetrain will damage the pulley and nothing else.  This component is low cost, quick to print, and easy to change out in such a case.
 
+**Wheels**
+
+The driving wheels are durable solid urethane with 83mm diameter and double bearings - the same wheels found in skateboards.  The bearings are 608 bearings with 8mm ID and 22mm OD, press-fit into the wheels.  With bearings installed, each wheel weighs about 240 grams. These wheels are permanently bonded to the 3D printed wheel pulley, which has a parametric design.  A savvy maker can adjust the pulleys for a new size, print new ones and change the drivetrain gear ratio if they wish. Compatible wheels are widely available if you wish to source different colors or styles for your SCUTTLE.
+
+_Below, the images show a wheel with ground contact in a diagram, the wheel section from the CAD assembly, and an image for the wheelbase (from left to right)._
+- ![wheel spec](img/kinematics_wheel_spec.jpg)
+- ![wheel section](img/parts_wheel_section.jpg)
+- ![wheelbase diagram](img/kinematics_wheelbase.jpg)
+
 
 ## Prints
 

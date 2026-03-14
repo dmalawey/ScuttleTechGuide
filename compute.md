@@ -10,10 +10,13 @@ This section covers the various computer options for your SCUTTLE CPU. We integr
 | Intel      | industrial controller               | industry & manufacturing      |
 
 _Images below feature scuttle with raspberry pi, with beaglebone y-ai, texas instruments edge-ai sk board, and intel-based industrial computer_
-- ![sctl_pi](image/tg_scuttle_pi.png)
-- ![sctl_byai](img/tg_scuttle_byai.png)
-- ![sctl_ti](image/tg_scuttle_ti.png)
-- ![sctl_intel](image/tg_scuttle_intel.png) |
+
+- ![sctl_pi](img/tg_scuttle_pi.jpg)
+- ![sctl_byai](img/tg_scuttle_beagle.jpg)
+- ![sctl_ti](img/tg_scuttle_ti.jpg)
+- ![sctl_intel](img/tg_scuttle_intel.jpg)
+- ![placeholder](img/img_placeHolder.jpg)
+- ![placeholder](img/img_placeHolder.jpg)
 
 ## Pi_4
 
@@ -60,13 +63,11 @@ _Overview of wiring SCUTTLE with TDA4VM below_
 * Click to [DOWNLOAD](https://lobfile.com/file/DIq7.drawio) editable design
 * Access the intel/axiomtek [SBC Datasheet](https://www.axiomtek.com/Download/Spec/en-US/capa55r.pdf)
 * Visit the [CAPA55R Product Page](https://www.axiomtek.com/Default.aspx?MenuId=Products&FunctionId=ProductView&ItemId=26529&upcat=270)
-_Overview of wiring SCUTTLE with Intel-based CAPA55R below_
-![Intel wiring overview](image/wg_overview_intel.png ':class=image-25')
 
-
-Axiomtek's CAPA55R Intel-based computer for industrial robotics:
-![CAPA55R Image](https://www.axiomtek.com/Download/Photo/en-US/capa55r_4.jpg ':class=image-25')
-_Figure: Axiomtek / Intel CAPA55R SBC_
+_Below, images for overview of wiring SCUTTLE with Intel-based CAPA55R, and the axiomtek's Intel-based single board computer_
+- ![Intel wiring overview](image/wg_overview_intel.png)
+- ![CAPA55R Image](https://www.axiomtek.com/Download/Photo/en-US/capa55r_4.jpg)
+- ![placeholder](img/img_placeHolder.jpg)
 
 ---
 

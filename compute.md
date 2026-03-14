@@ -28,7 +28,7 @@ This is the latest model of raspberry pi as of 2025 with the pi version 3B the m
 
 _Overview of wiring SCUTTLE with Pi_
 
-![Pi wiring overview](img/wg_overview_pi.jpg)
+![Pi wiring overview](img/wg_overview_pi.jpg ':class=image-40')
 
 ## Beagle
 **BeagleY-AI, released 2024 March**
@@ -42,8 +42,12 @@ Beaglebone blue was actually the first ever board we integrated on SCUTTLE, with
 * Pinout diagram here: [pinout.beagley.ai](https://pinout.beagley.ai/)
 * Expert user review: [docs.beagle.cc](https://community.element14.com/products/devtools/single-board-computers/next-genbeaglebone/b/blog/posts/beagley-ai-review)
 
-![Beaglebone pinout](image/Beagle_wiring_overview.png ':class=image-25')
-_Figure: Beagleboard Pinout diagram_
+_Below, The Beagleboard model Y-AI pinout diagram_
+
+![Beaglebone pinout](image/Beagle_wiring_overview.png ':class=image-40')
+
+
+---
 
 ## TI_Edge_AI
 
@@ -53,9 +57,10 @@ _Figure: Beagleboard Pinout diagram_
 * Download the [TDA4VM Datasheet](https://www.ti.com/lit/pdf/spruj21)
 * Access the [TDA4VM SK Product Page](https://www.ti.com/tool/SK-TDA4VM)
 
-_Overview of wiring SCUTTLE with TDA4VM below_
-![EDGE AI wiring overview](img/wg_overview_ti.jpg)
+_SCUTTLE wiring overview diagram with TDA4VM below_
+![EDGE AI wiring overview](img/wg_overview_ti.jpg ':class=image-40')
 
+---
 
 ## Intel_CAPA55R
 

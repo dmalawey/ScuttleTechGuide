@@ -39,6 +39,8 @@ The heat-set inserts we choose have 6mm length and M2.5 threads. They are instal
 **Camera & Gamepad**
 The SCUTTLE Kits come with a USB camera to support computer vision and a GamePad for wireless control by the user.  This camera is a compact, industrial style of camera with a lens that gives a 150 degree field-of-view - much wider than the typical webcam.  When it comes to obstacle avoidance and autonomous navigation, the wide viewing angle helps SCUTTLE see obstacles around the full width of the chassis in every frame.  The camera is enclosed in a black, steel square enclosure for rugged performance and it has a 1-meter cable so users can plug into the USB port on the raspberry pi and then mount the camera at any spot on the robot.
 
+* Download the [Gamepad User Manual](https://github.com/dmalawey/ScuttleTechGuide/blob/2d5392dce6bb6cb78a9e88b806aec2b5b9612300/docs/2025_gamepad_manual.pdf) for model ESM9101.
+
 Our gamepad is also an important inclusion.  The bot can drive autonomously but we often want to control functions directly by the user.  The gamepad (EasySMX model 9101) gives us a way to run one command at a time by pressing the buttons, which the users can custom program in any way they want.  The gamepad operates on bluetooth and plugs into USB on the pi, so it doesn't take any processing & communications bandwidth from the robot itself. 
 
 - ![camera image](img/parts_cam1.jpg)

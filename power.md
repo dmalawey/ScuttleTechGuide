@@ -37,3 +37,13 @@ In this chart we also included a common solar panel at the $25 range with a size
 - ![img power drone 1](img/power_drone1.jpg)
 - ![img power drone2](img/power_drone2.jpg)
 - ![img_placeholder](img/power_drone3.jpg)
+
+## Upgrading
+
+Many users of SCUTTLE add bigger computers or heavy actuators that demand more power.  The limitation of capacity (watt-hours) is usually more consequential than shear power (in watts) in supporting larger power loads.  If the battery is upgraded for capacity, it is often sensible to change over to a Lithium Iron Phosphate type of battery because they have a competitive market and are designed for energy storage such as in solar energy systems.  We have tested out two specific models of recommended options during 2024 and 2025, with the basic data charted below.  If you are familiar with the feel of the 35 watt-hours provided by the standard 3-cell li-ion battery pack, this chart gives a sense of the available gains with the 10AH LiFePo and 4AH higher voltage Ridgid battery pack.  These options are very well engineered and distributed widely.
+
+- ![chart, power battery upgrades](img/power_batteryCap1.jpg)
+- ![chart, computing power](img/power_compute.jpg)
+- ![place holder](img/img_placeHolder.jpg)
+
+In the second chart, find the power demand of a few different computers shown.  Most SBCs in the class of Raspberry Pi are gentle on power consumption but if you gear up towards AI dedicated machines or intensive GPU performance, then the power can leap up to an average of 20 watts.  This data comes from real tests performed by the SCUTTLE team around 2023, with the highest power drawn from the industrial single board computer with Intel-inside.

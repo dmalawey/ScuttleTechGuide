@@ -44,7 +44,9 @@ Many users of SCUTTLE add bigger computers or heavy actuators that demand more p
 
  **Energy storage capacity** is the goal of any upgrade to the battery, rather than peak power output.  If the user seeks more capacity, it is often sensible to change over to a Lithium Iron Phosphate type of battery because they have a competitive market and are designed for energy storage such as in solar energy systems.  We have tested out two specific models of recommended options during 2024 and 2025, with the basic data charted below.  If you are familiar with the feel of the 35 watt-hours provided by the standard 3-cell li-ion battery pack, this chart gives a sense of the available gains with the 10AH LiFePo and 4AH higher voltage Ridgid battery pack.  These options are very well engineered and distributed widely.
 
- Specifically, we benchmarked an Eco-Worthy LifePo4 10-AH model battery and the Ridgid Power Tools 18v 4AH battery.  Each is highly competitive in their respective spaces and cost competitive as a robotics upgrade.  Both of these choices contain internal battery management and can operate as a drop-in replacement, almost.  For the EcoWorthy you will need to design a fastening setup and for the Ridgid you will need a 12v DC step-down adapter.  
+ Specifically, we benchmarked an Eco-Worthy LifePo4 10-AH model battery and the Ridgid Power Tools 18v 4AH battery.  Each is highly competitive in their respective spaces and cost competitive as a robotics upgrade.  Both of these choices contain internal battery management and can operate as a drop-in replacement, almost.  For the EcoWorthy you will need to design a fastening setup and for the Ridgid you will need a 12v DC step-down adapter.
+ * Download the [ECOworthy Battery Data (PDF, 4MB)](https://github.com/dmalawey/ScuttleTechGuide/blob/dc0e3186e3062b4a9f7b40f1f98807e4061f844d/research/2023_EcoworthyData.pdf)
+ * Access [Battery CAD Model](https://grabcad.com/library/lifepo-battery-10ah-1) to further integrate on your robot
 
 - ![chart, power battery upgrades](img/power_batteryCap1.jpg)
 - ![battery photo, ecoworthy 10ah](img/power_batteryEW.jpg)

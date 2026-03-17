@@ -40,10 +40,19 @@ In this chart we also included a common solar panel at the $25 range with a size
 
 ## Upgrading
 
-Many users of SCUTTLE add bigger computers or heavy actuators that demand more power.  The limitation of capacity (watt-hours) is usually more consequential than shear power (in watts) in supporting larger power loads.  If the battery is upgraded for capacity, it is often sensible to change over to a Lithium Iron Phosphate type of battery because they have a competitive market and are designed for energy storage such as in solar energy systems.  We have tested out two specific models of recommended options during 2024 and 2025, with the basic data charted below.  If you are familiar with the feel of the 35 watt-hours provided by the standard 3-cell li-ion battery pack, this chart gives a sense of the available gains with the 10AH LiFePo and 4AH higher voltage Ridgid battery pack.  These options are very well engineered and distributed widely.
+Many users of SCUTTLE add bigger computers or heavy actuators that demand more power.  The limitation of capacity (watt-hours) is usually more consequential than shear power (in watts) in supporting larger power loads.  
+
+ **Energy storage capacity** is the goal of any upgrade to the battery, rather than peak power output.  If the user seeks more capacity, it is often sensible to change over to a Lithium Iron Phosphate type of battery because they have a competitive market and are designed for energy storage such as in solar energy systems.  We have tested out two specific models of recommended options during 2024 and 2025, with the basic data charted below.  If you are familiar with the feel of the 35 watt-hours provided by the standard 3-cell li-ion battery pack, this chart gives a sense of the available gains with the 10AH LiFePo and 4AH higher voltage Ridgid battery pack.  These options are very well engineered and distributed widely.
+
+ Specifically, we benchmarked an Eco-Worthy LifePo4 10-AH model battery and the Ridgid Power Tools 18v 4AH battery.  Each is highly competitive in their respective spaces and cost competitive as a robotics upgrade.  Both of these choices contain internal battery management and can operate as a drop-in replacement, almost.  For the EcoWorthy you will need to design a fastening setup and for the Ridgid you will need a 12v DC step-down adapter.  
 
 - ![chart, power battery upgrades](img/power_batteryCap1.jpg)
+- ![battery photo, ecoworthy 10ah](img/power_batteryEW.jpg)
+- ![battery CAD image](img/power_batteryEW2.jpg)
+
+**CPU power demand** is key for evaluating your battery needs. In the second chart, find the power demand of a few different computers shown.  Most SBCs in the class of Raspberry Pi are gentle on power consumption but if you gear up towards AI dedicated machines or intensive GPU performance, then the power can leap up to an average of 20 watts.  This data comes from real tests performed by the SCUTTLE team around 2023, with the highest power drawn from the industrial single board computer with Intel-inside.
+
+
 - ![chart, computing power](img/power_compute.jpg)
 - ![place holder](img/img_placeHolder.jpg)
-
-In the second chart, find the power demand of a few different computers shown.  Most SBCs in the class of Raspberry Pi are gentle on power consumption but if you gear up towards AI dedicated machines or intensive GPU performance, then the power can leap up to an average of 20 watts.  This data comes from real tests performed by the SCUTTLE team around 2023, with the highest power drawn from the industrial single board computer with Intel-inside.
+- ![place holder](img/img_placeHolder.jpg)

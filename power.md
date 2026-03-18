@@ -60,5 +60,5 @@ The Industrial computer tested is the Axiomtek CAPA55R model which is found in m
 
 
 - ![chart, computing power](img/power_compute.jpg)
-- ![testing photo](img/power_eval1.jpg)
-- ![place holder](img/img_placeHolder.jpg)
+- ![testing photo, intel pc](img/power_eval1.jpg)
+- ![usb dongle power testing](img/power_usb1.jpg)

@@ -56,5 +56,5 @@ Many users of SCUTTLE add bigger computers or heavy actuators that demand more p
 
 
 - ![chart, computing power](img/power_compute.jpg)
-- ![place holder](img/img_placeHolder.jpg)
+- ![testing photo](img/power_eval1.jpg)
 - ![place holder](img/img_placeHolder.jpg)

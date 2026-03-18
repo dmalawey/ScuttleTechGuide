@@ -54,6 +54,8 @@ Many users of SCUTTLE add bigger computers or heavy actuators that demand more p
 
 **CPU power demand** is key for evaluating your battery needs. In the second chart, find the power demand of a few different computers shown.  Most SBCs in the class of Raspberry Pi are gentle on power consumption but if you gear up towards AI dedicated machines or intensive GPU performance, then the power can leap up to an average of 20 watts.  This data comes from real tests performed by the SCUTTLE team around 2023, with the highest power drawn from the industrial single board computer with Intel-inside.
 
+The Industrial computer tested is the Axiomtek CAPA55R model which is found in machines like Walmart's warehousing mobile robots.  It features a full-blown Intel 11th-gen Tiger Lake processor, with M.2 slots for RAM and solid state hard drive - it's much more like a desktop PC than a common single-board computer.  The chart shows two bars representing the 20 watts average power and 40 watts peak power.  You can reproduce this test with a benchmark software such as [PerformanceTest](https://www.passmark.com/products/performancetest/) by Passmark.  This software runs performance tests on CPU, RAM, Hard drive and more and we can capture the highest overall power demand by measuring the DC power input to the computer during the test.  Overall the chart is intended to summarize the power demands for a range of computer types to help engineers plan for the power demands as we select a computer for SCUTTLE.
+
 
 - ![chart, computing power](img/power_compute.jpg)
 - ![testing photo](img/power_eval1.jpg)

@@ -7,6 +7,11 @@ The labs for Mobile Robotics were designed mostly by David Malawey up to 2019.  
 * Download [Labs Instruction Set](https://github.com/dmalawey/ScuttleTechGuide/blob/ba865c0839a029d23dfbd1dc440d5871b1565388/docs/Labs_MobileRobotics_2019.pdf)
 * Download [Prerequisites Summary PDF](https://github.com/dmalawey/ScuttleTechGuide/blob/161ce9ac067b9ad4956c6fd4e2f7f4e68fb8f9e3/docs/Labs_Prerequisites_2019.pdf)
 
+- ![lab learners1](img/lab_tamu1.jpg)
+- ![lab david](img/lab_tamu2.jpg)
+- ![lab learners2](img/lab_tamu3.jpg)
+
+
 **Lab Topics**
 _The essential topics are broken down into learning modules for each week as shown in the table._
 

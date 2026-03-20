@@ -62,3 +62,14 @@ The Industrial computer tested is the Axiomtek CAPA55R model which is found in m
 - ![chart, computing power](img/power_compute.jpg)
 - ![testing photo, intel pc](img/power_eval1.jpg)
 - ![usb dongle power testing](img/power_usb1.jpg)
+
+**Accessory Loads**
+One example of a "heavy load" accessory for SCUTTLE is an ultraviolet-emitting LED array such as shown below.  The photo depicts a senior design team's project from 2021 at Texas A&M where the robot performs semi-autonomous cleaning of a space (with some photo editing to show the invisible UV light).  This team built a horizontal arm with a vertical axis for sweping across human spaces such as in hospital rooms, to kill bacteria with the COVID19 virus and other surface-borne bacteria as the targets.  This lamp required an average of 20 watts due to its high duty cycle of 90% while the stepper motor for vertical motion added 23 watts to the power budget.  A NEMA 23 stepper motor & driver may often pull as much as 100 watts but it operates intermittently, lowering the average.  For your SCUTTLE based projects it is advised to tabulate your accessory loads in Watts rather than Amps, for evaluating battery life.  And then tabulate the power demands in Amps to verify your choices of cables and connectors are sufficient. 
+
+In projects that only perform navigation and sensing, you can expect to add payloads around 10kg with minimal impact on the SCUTTLE motors power demand.  The middle photo shows a recycling-ready SCUTTLE that adds mobility to the recycling bin.  For this type of project with no extra actuators, plan your power levels with the standard SCUTTLE power values and simply run trials to verify battery life.
+
+**Solar Panels** can be integrated in the power budget just like an actuator but with negative power demand values.  The third photo shows a trial from 2020 in Johor Bahru with a solar panel rated for 10 watts and delivering 7 watts back into the battery.  It is possible to connect a solar panel directly into the battery while SCUTTLE is operating to effectively recharge the battery while the robot is running.  The battery then does two jobs: storing power, and also limiting the maximum voltage of the solar panel's output to around 12 volts, so the robot's power bus remains at a steady voltage.  The panel shown is just a consumer brand device found on the online markets, having dimensions close to the SCUTTLE chassis size.  This means the standard SCUTTLE can operate indefinitely with such a setup in a sunny climate.
+
+- ![power ultraviolet actuators](img/power_ultraviolet.jpg)
+- ![recycling bin payload](img/power_payload.jpg)
+- ![solar panel testing](img/power_solar.jpg)

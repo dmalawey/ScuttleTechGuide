@@ -71,5 +71,5 @@ In projects that only perform navigation and sensing, you can expect to add payl
 **Solar Panels** can be integrated in the power budget just like an actuator but with negative power demand values.  The third photo shows a trial from 2020 in Johor Bahru with a solar panel rated for 10 watts and delivering 7 watts back into the battery.  It is possible to connect a solar panel directly into the battery while SCUTTLE is operating to effectively recharge the battery while the robot is running.  The battery then does two jobs: storing power, and also limiting the maximum voltage of the solar panel's output to around 12 volts, so the robot's power bus remains at a steady voltage.  The panel shown is just a consumer brand device found on the online markets, having dimensions close to the SCUTTLE chassis size.  This means the standard SCUTTLE can operate indefinitely with such a setup in a sunny climate.
 
 - ![power ultraviolet actuators](img/power_ultraviolet.jpg)
-- ![recycling bin payload](img/power_payload.jpg)
+- ![recycling bin payload](img/power_payload1.jpg)
 - ![solar panel testing](img/power_solar.jpg)

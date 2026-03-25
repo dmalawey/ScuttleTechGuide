@@ -2,6 +2,12 @@
 
 Tools for SCUTTLE Robot learning & development
 
+Our mobile robot was designed to be implemented in a laboratory of 20 or more students with the necessary tools ready to fit in one tool chest and support the whole lab.  Below, you'll find the toolbox set up for the mobile robotics lab at Texas A&M to support up to 10 teams who can access the box, borrow a crimper or soldering tool, and return it as needed.   The second photo shows the lab space at Fermier hall with several helpers who upgraded the space, so one lab room supports both mobile robotics & industrial robotics lab courses. And the last photo shows the simple set of soldering tools needed to perform most of the electronics soldering on a SCUTTLE Robot.
+
+- ![mxet toolbox photo](img/tools_labTools.jpg)
+- ![scuttle lab team at TAMU](img/tools_team.jpg)
+- ![soldering tools in action](img/tools_soldering.jpg)
+
 ## Build
 
 The tools to build a SCUTTLE Robot from our kit are incredibly simple.  We engineered version 3.0 down to the individual fasteners for assembling the robot with minimal tools.

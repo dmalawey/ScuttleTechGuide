@@ -8,6 +8,7 @@
 * [Navigation](nav)
 * [Wisdom](wisdom)
 * [Sensors](sensors)
+* [Software](software)
 * [BeagleY-AI](beagley-ai)
 * [Curriculum](curriculum)
 * [archives](archive)

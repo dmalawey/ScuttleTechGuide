@@ -72,7 +72,7 @@ These diagrams are designated for building the cables, which is recommended for 
 
 - ![img](img/wiring_signals_cable_i2c.jpg)
 - ![img](img/wiring_motor_cable1.jpg)
-- ![img](img/wiring_signals_cable2.jpg)
+- ![img](img/wiring_signals_cables2.jpg)
 
  
 ## Addons

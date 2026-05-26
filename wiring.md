@@ -18,6 +18,13 @@ The following image shows the routing of signals for PWM on the robot. Then see 
 - ![diagram, wiring signals for i2C](img/wiring_signals_routing1.jpg)
 - ![diagram, wiring signals pinout1.jpg](img/wiring_signals_pinout1.jpg)
 
+## CPU
+Connections to the CPU (raspberry pi) are made at the 40 pin header with two main cables.  Take note of the orientation of pin1 and pin40 in the first diagram.  Based on pin 1 at the top, the i2c cable will plug in with a 5-position dupont connector (having just 4 wires and one position with no connection).  The cable for motor control signals is plugged in with a 6-position dupont housing (or two rows of 3) in the location shown below.  In the second diagram below, the raspberry pi pin designations are noted with the colors of the SCUTTLE cables shown.
+
+- ![diagram pi 1](img/wiring_cpu_pi1.jpg)
+- ![diagram of pi2](img/wiring_cpu_pi2.jpg)
+- ![diagram of pi3](img/wiring_cpu_pi3.jpg)
+
 ## Motor
 
 The following diagrams give motor signals, motor power, motor pinout with images.

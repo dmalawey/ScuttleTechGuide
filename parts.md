@@ -227,3 +227,19 @@ Are you exploring DIN-mounted terminals? Several industrial manufacturers offer 
 - ![linked image](https://s3.amazonaws.com/gc-p/screenshots/pics/cdb815729db6702b5e1b5b5bac6fe121/original.JPG)
 - ![linked image](https://s3.amazonaws.com/gc-p/screenshots/pics/3efcf578150ac3a2f43d1f80227bc9ff/original.jpg)
 - ![linked image](https://s3.amazonaws.com/gc-p/screenshots/pics/05b7263558f07470bd8062300640a54f/original.jpg)
+
+**Body Cover**
+This body cover was created in SOLIDWORKS for SCUTTLE as a printable, lightweight shell-type styling cover for the SCUTTLE Robot v2 and v3  (any chassis up to today). 
+* Download [Body Cover CAD Files](https://grabcad.com/library/body-cover-1)
+
+- ![linked img body cover 1](https://grabcad.com/screenshots/pics/a89ed34e0b6357f1ed7190defc5e0ada/original.png)
+- ![linked img body cover 2](https://grabcad.com/screenshots/pics/d04d11e9cff2761a0845880d56b04910/original.png)
+- ![linked img body cover 3](https://grabcad.com/screenshots/pics/76f32a387d4d911c655d800f1cea956f/original.png)
+
+
+[PRINTING]
+The 3D printing strategy slices the cover into 6 pieces which can fit on any standard printing bed of a desktop 3d printer.  Orient the parts such that overhangs do not exceed 45 degrees.  The pre-made slices offer STL models which are already suitable for no-support printing and no overhangs beyond 45 degrees.
+
+[ASSEMBLY / BONDING]
+If ABS filament is used (recommended), then the pieces are bonded with Multipurpose cement found in hardware stores by Oatey and similar brands.  Use in well-ventilated area.  The cement creates a very strong bond and overflow is permissible, overapplication is stronger than underapplication.
+

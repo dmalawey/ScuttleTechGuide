@@ -51,3 +51,11 @@ Topics in this guide that are unique include setting up the micro SD card for ra
 
 * Download the [Beginners Guide PDF, 3MB](https://github.com/dmalawey/ScuttleTechGuide/blob/7b22038b08c63516247df77d17e402354d57d48e/docs/SCTL_BeginnersGuide.pdf)
 * Download the [beginners attachments](docs/SCTL_Beginners_attachments.zip) to accompany the guide
+
+
+## Videos
+
+SCUTTLE developers have published many videos with project demos, tutorials for hardware & software, and addon designs.  Many of these videos are captured in this [SCUTTLE Playlist on Youtube](https://youtube.com/playlist?list=PLHkrnCQ5sDmdyelgZAIN76-Y_Tug1E4Ug&si=oTuycTaCg-jZ1sUo).
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=0rx4P_HFWHXL-JTy&amp;list=PLHkrnCQ5sDmdyelgZAIN76-Y_Tug1E4Ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
